@@ -1,15 +1,14 @@
 
 #' Build data table output in server
 #'
-#' @param vals reactive values to get data from
+#' @param x reactive values to get data from
 #'
-#' @return
+#' @import DT
+#'
+#' @return data table to print
 #' @export
-#'
-#' @examples
-hsrdef_datatable <- function(vals){
+hsrdef_datatable <- function(x){
   DT::renderDataTable({
-    x = vals$Data
 
     # in data is a column created for using definitions across multiple SAS inputs
     if("in_data" %in% colnames(x)){

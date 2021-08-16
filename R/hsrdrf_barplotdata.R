@@ -1,0 +1,107 @@
+#' Function for reactive data update before plotting
+#'
+#' @param x
+#' @param data
+#' @param code_levels
+#'
+#' @import data.table
+#'
+#' @return bar plot data
+#' @export
+hsrdrf_barplotdata <- function(x,data,code_levels){
+
+
+  if("in_data" %in% colnames(x)){
+    x[in_data==1]
+  }
+
+  # drop columns and add user input values
+  data <- data[,!c("Exclude","Include")]
+  data <- merge.data.table(data,x[,c("Code","Exclude","Include")],
+                           by.x = "code", by.y = "Code")
+
+
+  # include codes: where user input == I ------------------------------------
+  include_sub <- data[Include=="I"]
+  include_sub[,`:=`(all_cnt_low = fifelse(is.na(all_cnt),1,all_cnt),
+                    all_cnt_up = fifelse(is.na(all_cnt),10,all_cnt))]
+
+  include_sub[,`:=`(Include_min = sum(all_cnt_low),
+                    Include_max = sum(all_cnt_up)),
+              by = "_Leaf_"]
+
+  include_sub <- unique(include_sub[,c("_Leaf_","Include_min","Include_max")])
+
+  n_include = nrow(include_sub)
+
+  # exclude codes: where user input == E ------------------------------------
+
+  exclude_sub <- data[Exclude == "E"]
+  exclude_sub[`:=`(all_cnt_low = fifelse(is.na(all_cnt),1,all_cnt),
+                   all_cnt_up = fifelse(is.na(all_cnt),10,all_cnt))]
+
+  # the minimum to exclude is the maximum across the all count lowest values,
+  # since we are assuming this overlaps with the other claim counts in the leaf
+  exclude_sub[,`:=`(Exclude_min = suppressWarnings(max(all_cnt_low)),
+                    Exclude_max = sum(all_cnt_up)),
+              by = "_Leaf_"]
+
+  exclude_sub <- unique(exclude_sub[,c("_Leaf_","Exclude_min","Exclude_max")])
+
+
+  # create output data set  -------------------------------------------------
+
+  # select codes where all_pc is maximum
+  df <- setorder(setDT(data),`_Leaf_`,-all_pc)[,indx:=seq_len(.N),by="_Leaf_"][indx == 1]
+
+  # add included/excluded values
+  df <- merge.data.table(df,include_sub,by="_Leaf_")
+  df <- merge.data.table(df,exclude_sub,by="_Leaf_")
+
+  # replace values with 0
+  cols <- c("Include_min","Include_max","Exclude_min","Exclude_max")
+  for (j in cols) set(df, j=j, value = fifelse(is.na(df[[j]]),0,df[[j]]))
+
+  # control for overlap in Leaf counts for Inclusion/Exclusion
+  df[,`:=`(Exclude_max = min(Exclude_max,leaf_total),
+           Include_max = min(Include_max,leaf_total))]
+
+  # include everything if there is no user Inclusions
+  df[,`:=`(Include_min = fifelse(n_include==0,leaf_total,Include_min),
+           Include_max = fifelse(n_include==0,leaf_total,Include_max))]
+
+  # count inclusions
+  df[,`:=`(P1 = Include_min,
+           G1 = Include_max - P1,
+           E1 = leaf_total - G1 - P1)]
+
+  # count exclusions
+  df[,`:=`(P2 = leaf_total - Exclude_max,
+           G2 = leaf_total - Exclude_min - P2,
+           E3 = leaf_total - G2 - P2)]
+
+  # apply final counts: intersections of these criteria
+  df[,`:=`(Potential = min(P1,P2),
+           DefExclude = max(E1,E3),
+           GreyZone = leaf_total - Potential - DefExclude)]
+
+  df <- df[,c("_Leaf_","code","Potential","GreyZone","DefExclude")]
+
+  df <- melt(df,id.vars=c("_Leaf_","code"),measure.vars = c("Potential","GreyZone","DefExclude"))
+
+  df <- df[,code:=factor(code,levels = code_levels)]
+
+  # add any claim counts for leaf zero, where no important features were included
+  if (0 %in% data$`_Leaf_`){
+    df <- rbindlist(list(df,
+                         data.table(`_Leaf_` = 0,
+                                    code = "-",
+                                    name = "GreyZone",
+                                    value = data$leaf_total[data$`_Leaf_`==0][1])))
+
+    df <- df[,code:=factor(code,levels = c("-",code_levels))]
+  }
+
+  return(df)
+
+}

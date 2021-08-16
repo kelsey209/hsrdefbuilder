@@ -99,9 +99,8 @@ hsrdef_body <- function(){
                        "Add previous inclusion or exclusion list.",
                        "right",options = list(container="body")),
 
-             # actioon buttons: let users download their data
-             column(12,actionButton('downloadData',
-                                    'Save selections')),
+             # action buttons: let users download their data
+             column(12,downloadLink('downloadData','Click here to save definition')),
              bsTooltip("downloadData",
                        "Save your code selections.",
                        "right",options = list(container="body")),
