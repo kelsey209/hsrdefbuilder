@@ -15,6 +15,7 @@ hsrdef_uploaddata <- function(file,old_data){
   switch(ext,
          csv = {ui_input = suppressMessages(fread(file$datapath))},
          validate("Invalid file; please upload a .csv file"))
+
   check_cols <- ifelse(all(c("Code","Exclude","Include") %in% colnames(ui_input)),
                        "Yes","No")
   switch(check_cols,
@@ -31,7 +32,7 @@ hsrdef_uploaddata <- function(file,old_data){
   # join full data
   out_data = merge.data.table(old_data[,!c("Include","Exclude","Labels")],
                               ui_input[,c("Code","Include","Exclude","Labels")],
-                              by = "Code")
+                              by = "Code",all = TRUE,sort = FALSE)
 
   return(out_data)
 

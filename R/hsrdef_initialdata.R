@@ -16,6 +16,12 @@ hsrdef_initialdata <- function(input_data_select){
          csv = {data = suppressMessages(fread(file = input_data_select$datapath))},
          validate("Invalid file: please upload a .csv file."))
 
+  # check data set has valid columns
+  check_columns <- colnames(data) == c("_Leaf_","code","DGNS_DESC","all_pc","prnc_pc",
+                                       "all_cnt","prnc_cnt","leaf_total")
+  switch(any(check_columns < 1),
+         "TRUE" = {validate("Invalid file: column names do not match expected SAS output")})
+
   # create data set based on leaf/group totals
   data_waffle <- unique(data,by=c("_Leaf_","leaf_total"))
   data_waffle[,leaf_pc:=round(leaf_total/sum(leaf_total,na.rm=T)*100)]

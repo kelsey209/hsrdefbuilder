@@ -8,7 +8,7 @@
 #'
 #' @return bar plot data
 #' @export
-hsrdrf_barplotdata <- function(x,data,code_levels){
+hsrdef_barplotdata <- function(x,data,code_levels){
 
 
   if("in_data" %in% colnames(x)){
@@ -37,7 +37,7 @@ hsrdrf_barplotdata <- function(x,data,code_levels){
   # exclude codes: where user input == E ------------------------------------
 
   exclude_sub <- data[Exclude == "E"]
-  exclude_sub[`:=`(all_cnt_low = fifelse(is.na(all_cnt),1,all_cnt),
+  exclude_sub[,`:=`(all_cnt_low = fifelse(is.na(all_cnt),1,all_cnt),
                    all_cnt_up = fifelse(is.na(all_cnt),10,all_cnt))]
 
   # the minimum to exclude is the maximum across the all count lowest values,
@@ -52,44 +52,46 @@ hsrdrf_barplotdata <- function(x,data,code_levels){
   # create output data set  -------------------------------------------------
 
   # select codes where all_pc is maximum
-  df <- setorder(setDT(data),`_Leaf_`,-all_pc)[,indx:=seq_len(.N),by="_Leaf_"][indx == 1]
+  df <- setorder(setDT(data[!is.na(all_pc)]),`_Leaf_`,-all_pc,na.last = TRUE)[,indx:=seq_len(.N),by="_Leaf_"][indx == 1]
 
   # add included/excluded values
-  df <- merge.data.table(df,include_sub,by="_Leaf_")
-  df <- merge.data.table(df,exclude_sub,by="_Leaf_")
+  df <- merge.data.table(df,include_sub,by="_Leaf_",all.x = TRUE)
+  df <- merge.data.table(df,exclude_sub,by="_Leaf_",all.x = TRUE)
 
   # replace values with 0
   cols <- c("Include_min","Include_max","Exclude_min","Exclude_max")
   for (j in cols) set(df, j=j, value = fifelse(is.na(df[[j]]),0,df[[j]]))
 
   # control for overlap in Leaf counts for Inclusion/Exclusion
-  df[,`:=`(Exclude_max = min(Exclude_max,leaf_total),
-           Include_max = min(Include_max,leaf_total))]
+  df[,Exclude_max := apply(.SD, 1, min), .SDcols = c("Exclude_max","leaf_total")]
+  df[,Include_max := apply(.SD, 1, min), .SDcols = c("Include_max","leaf_total")]
 
   # include everything if there is no user Inclusions
-  df[,`:=`(Include_min = fifelse(n_include==0,leaf_total,Include_min),
-           Include_max = fifelse(n_include==0,leaf_total,Include_max))]
+  df[,`:=`(Include_min = fifelse(rep(n_include,nrow(df))==0,leaf_total,Include_min),
+           Include_max = fifelse(rep(n_include,nrow(df))==0,leaf_total,Include_max))]
 
   # count inclusions
-  df[,`:=`(P1 = Include_min,
-           G1 = Include_max - P1,
-           E1 = leaf_total - G1 - P1)]
+  df[,P1 := Include_min]
+  df[,G1 := Include_max - P1]
+  df[,E1 := leaf_total - G1 - P1]
 
   # count exclusions
-  df[,`:=`(P2 = leaf_total - Exclude_max,
-           G2 = leaf_total - Exclude_min - P2,
-           E3 = leaf_total - G2 - P2)]
+  df[,P2 := leaf_total - Exclude_max]
+  df[,G2 := leaf_total - Exclude_min - P2]
+  df[,E3 := leaf_total - G2 - P2]
 
   # apply final counts: intersections of these criteria
-  df[,`:=`(Potential = min(P1,P2),
-           DefExclude = max(E1,E3),
-           GreyZone = leaf_total - Potential - DefExclude)]
+  df[,Potential := apply(.SD, 1, min), .SDcols = c("P1","P2")]
+  df[,DefExclude := apply(.SD, 1, max), .SDcols = c("E1","E3")]
+  df[,GreyZone := leaf_total - Potential - DefExclude]
 
   df <- df[,c("_Leaf_","code","Potential","GreyZone","DefExclude")]
 
-  df <- melt(df,id.vars=c("_Leaf_","code"),measure.vars = c("Potential","GreyZone","DefExclude"))
+  df <- melt(df,id.vars=c("_Leaf_","code"),measure.vars = c("Potential","GreyZone","DefExclude"),variable.name = "name")
 
-  df <- df[,code:=factor(code,levels = code_levels)]
+  df[,code := factor(code,levels = rev(unlist(code_levels)))]
+
+  df[,name := factor(name,levels = c("DefExclude","GreyZone","Potential"))]
 
   # add any claim counts for leaf zero, where no important features were included
   if (0 %in% data$`_Leaf_`){
@@ -99,9 +101,10 @@ hsrdrf_barplotdata <- function(x,data,code_levels){
                                     name = "GreyZone",
                                     value = data$leaf_total[data$`_Leaf_`==0][1])))
 
-    df <- df[,code:=factor(code,levels = c("-",code_levels))]
+    df[,code := factor(code,levels = rev(c("-",unlist(code_levels))))]
   }
 
   return(df)
 
 }
+

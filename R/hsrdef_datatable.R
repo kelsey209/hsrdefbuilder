@@ -8,7 +8,7 @@
 #' @return data table to print
 #' @export
 hsrdef_datatable <- function(x){
-  DT::renderDataTable({
+
 
     # in data is a column created for using definitions across multiple SAS inputs
     if("in_data" %in% colnames(x)){
@@ -17,10 +17,6 @@ hsrdef_datatable <- function(x){
 
     x <- x[,c("Code","Description","Include","Exclude","Labels")]
 
-    DT::datatable(x, escape = FALSE, rownames = FALSE, options = list(
-      pageLength = 20
-    ))
-  }
-  )
+    return(x)
 }
 
