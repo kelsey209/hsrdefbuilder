@@ -1,8 +1,10 @@
 #' Create main body of user interface for hsrdefbuilder app
 #'
 #' @return Input to dashboardBody
-#' @impot DT
-#' @import shinyBS
+#' @importFrom DT dataTableOutput
+#' @importFrom shinyBS bsTooltip
+#' @importFrom graphics box
+#' @importFrom shiny fluidRow column helpText actionButton textInput hr br h3 p h5 plotOutput fileInput downloadLink
 #' @export
 #'
 hsrdef_body <- function(){
@@ -49,17 +51,11 @@ hsrdef_body <- function(){
                                          "Add label to the selected row(s).",
                                          "right",
                                          options = list(container = "body"))
-
-                               )
-                        # fluidRow(
-                        #   column(12,
-                        #
-                        #   )
-                        # )
                       ),
                       #
                       hr(),
-                      column(12,dataTableOutput("mytable"))
+                      column(12,DT::dataTableOutput("mytable"))
+                  )
                   )
   ),
   # create second column: graphs and user actions

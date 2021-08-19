@@ -1,8 +1,8 @@
 #' Function for reactive data update before plotting
 #'
-#' @param x
-#' @param data
-#' @param code_levels
+#' @param x the original SAS upload data
+#' @param data the modified data with Include and Exclude labels
+#' @param code_levels the code levels to include in the plots
 #'
 #' @import data.table
 #'
@@ -10,14 +10,13 @@
 #' @export
 hsrdef_barplotdata <- function(x,data,code_levels){
 
-
   if("in_data" %in% colnames(x)){
     x[in_data==1]
   }
 
   # drop columns and add user input values
   data <- data[,!c("Exclude","Include")]
-  data <- merge.data.table(data,x[,c("Code","Exclude","Include")],
+  data <- data.table::merge.data.table(data,x[,c("Code","Exclude","Include")],
                            by.x = "code", by.y = "Code")
 
 
@@ -107,4 +106,3 @@ hsrdef_barplotdata <- function(x,data,code_levels){
   return(df)
 
 }
-

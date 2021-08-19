@@ -1,9 +1,11 @@
 #' Create side-bar in shiny app ui
 #'
 #' @return side-bar to include in user interface
-#' @export
 #'
-#' @examples
+#' @importFrom shinydashboard dashboardSidebar
+#' @importFrom shiny h3 p br h4 fileInput
+#'
+#' @export
 hsrdef_sidebar <- function(){
   dashboardSidebar(
     h3("Definition builder"),

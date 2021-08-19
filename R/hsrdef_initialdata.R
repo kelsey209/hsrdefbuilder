@@ -4,7 +4,7 @@
 #' @param values vals list from server
 #'
 #' @import data.table
-#' @impot tools
+#' @importFrom tools file_ext
 #'
 #' @return values reactive list with updated data
 #' @export

@@ -4,7 +4,7 @@
 #'
 #' @import data.table
 #'
-#' @return
+#' @return data set to use in second bar chart
 #' @export
 hsrdef_donutdata <- function(df){
 

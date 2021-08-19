@@ -1,9 +1,7 @@
 #' background colour html for user interface
 #'
-#' @return
+#' @return html style
 #' @export
-#'
-#' @examples
 hsrdef_bodystyle <- function(){
   tags$head(tags$style(HTML('
       .content-wrapper {

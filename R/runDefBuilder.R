@@ -1,9 +1,9 @@
 
 #' Run shiny app
 #'
-#' @import shiny
+#' @importFrom shiny shinyApp
 #'
-#' @return
+#' @return run the shiny application
 #' @export
 runDefBuilder <- function(){
   shinyApp(ui = ui, server = server)

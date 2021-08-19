@@ -3,7 +3,7 @@
 #' @param file ui from upload handler
 #' @param old_data current data table with code table
 #'
-#' @import tools
+#' @importFrom tools file_ext
 #' @import data.table
 #'
 #' @return updated data file

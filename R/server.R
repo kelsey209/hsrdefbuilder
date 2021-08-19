@@ -1,12 +1,13 @@
 #' Server function for hsrdefbuilder app
 #'
-#' @param input
-#' @param output
-#' @param session
+#' @param input ui input
+#' @param output plot and table outputs
+#' @param session shiny server session
 #'
-#' @import ggplot2
-#' @import DT
-#' @import tools
+#' @importFrom ggplot2 ggplot aes geom_bar scale_fill_manual labs theme_minimal theme geom_rect theme_void coord_flip
+#' @importFrom DT renderDataTable datatable
+#' @importFrom utils head write.csv
+#' @importFrom shiny reactiveValues observeEvent reactive renderPlot downloadHandler
 #' @import data.table
 #'
 #' @return A shiny server, to be called when running app

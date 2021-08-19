@@ -2,7 +2,7 @@
 #'
 #' @return A shiny user interface
 #'
-#' @import shinydashboard
+#' @importFrom shinydashboard dashboardPage dashboardHeader dashboardSidebar dashboardBody
 #' @export
 #'
 ui <- function(){

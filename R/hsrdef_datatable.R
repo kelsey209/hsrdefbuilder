@@ -3,7 +3,7 @@
 #'
 #' @param x reactive values to get data from
 #'
-#' @import DT
+#' @import data.table
 #'
 #' @return data table to print
 #' @export
