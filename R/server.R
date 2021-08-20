@@ -4,7 +4,7 @@
 #' @param output plot and table outputs
 #' @param session shiny server session
 #'
-#' @importFrom ggplot2 ggplot aes geom_bar scale_fill_manual labs theme_minimal theme geom_rect theme_void coord_flip
+#' @importFrom ggplot2 ggplot aes geom_bar scale_fill_manual labs theme_minimal theme geom_rect theme_void coord_flip element_blank
 #' @importFrom DT renderDataTable datatable
 #' @importFrom utils head write.csv
 #' @importFrom shiny reactiveValues observeEvent reactive renderPlot downloadHandler
