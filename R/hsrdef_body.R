@@ -3,8 +3,8 @@
 #' @return Input to dashboardBody
 #' @importFrom DT dataTableOutput
 #' @importFrom shinyBS bsTooltip
-#' @importFrom graphics box
 #' @importFrom shiny fluidRow column helpText actionButton textInput hr br h3 p h5 plotOutput fileInput downloadLink
+#' @importFrom shinydashboard box
 #' @export
 #'
 hsrdef_body <- function(){
