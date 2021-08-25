@@ -1,4 +1,4 @@
-#' Create inital data sets
+#' Create initial data sets
 #'
 #' @param input_data_select input data from ui
 #' @param values vals list from server
@@ -17,8 +17,8 @@ hsrdef_initialdata <- function(input_data_select){
          validate("Invalid file: please upload a .csv file."))
 
   # check data set has valid columns
-  check_columns <- colnames(data) == c("_Leaf_","code","DGNS_DESC","all_pc","prnc_pc",
-                                       "all_cnt","prnc_cnt","leaf_total")
+  check_columns <- colnames(data) %in% c("_Leaf_","code","DGNS_DESC","all_pc",
+                                         "all_cnt","leaf_total")
   switch(any(check_columns < 1),
          "TRUE" = {validate("Invalid file: column names do not match expected SAS output")})
 

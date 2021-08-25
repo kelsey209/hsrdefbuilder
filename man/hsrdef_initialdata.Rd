@@ -2,7 +2,7 @@
 % Please edit documentation in R/hsrdef_initialdata.R
 \name{hsrdef_initialdata}
 \alias{hsrdef_initialdata}
-\title{Create inital data sets}
+\title{Create initial data sets}
 \usage{
 hsrdef_initialdata(input_data_select)
 }
@@ -15,5 +15,5 @@ hsrdef_initialdata(input_data_select)
 values reactive list with updated data
 }
 \description{
-Create inital data sets
+Create initial data sets
 }

@@ -14,7 +14,7 @@ github.com/kelsey209
 global variables
 
 these are specific to the CMS VRDC tables. If users have different data sources,
-they will have to edit this inputs.
+they will have to edit these inputs.
 /--------------------------------------------------------------------------*/
 %global bene_var gndr_var id_var diag_var dob_var clm_dt_var max_dgns 
 pr_diag_var fs_diag_var vif input_keep_prnc proc_var input_year rand_seed n_max
