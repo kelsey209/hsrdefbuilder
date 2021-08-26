@@ -51,7 +51,7 @@ hsrdef_barplotdata <- function(x,data,code_levels){
   # create output data set  -------------------------------------------------
 
   # select codes where all_pc is maximum
-  df <- setorder(setDT(data[!is.na(all_pc)]),`_Leaf_`,-all_pc,na.last = TRUE)[,indx:=seq_len(.N),by="_Leaf_"][indx == 1]
+  df <- setorder(setDT(data[!is.na(all_pc) & `_Leaf_`!=0]),`_Leaf_`,-all_pc,na.last = TRUE)[,indx:=seq_len(.N),by="_Leaf_"][indx == 1]
 
   # add included/excluded values
   df <- merge.data.table(df,include_sub,by="_Leaf_",all.x = TRUE)

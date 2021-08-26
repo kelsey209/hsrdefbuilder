@@ -76,7 +76,7 @@ hsrdef_body <- function(){
              br(),
              column(12,plotOutput("plot1")),
              br(),
-             h5("Total counts of claims"),
+             h5("Total count of claims"),
              helpText("This shows the approximate proportion of total claims that meet the user's
                       definition. The Maybe category captures diagnosis combinations with masked counts."),
              br(),
