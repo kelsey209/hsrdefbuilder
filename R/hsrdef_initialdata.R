@@ -41,7 +41,7 @@ hsrdef_initialdata <- function(input_data_select){
 
   # get codes that are top-level leaf counts
   code_levels <- data[all_pc == 100]
-  setorder(code_levels,-leaf_total)
+  setorder(code_levels,`_Leaf_`)
   code_levels <- unique(code_levels,by="code")
   code_levels <- as.vector(code_levels[,"code"])
 
