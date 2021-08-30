@@ -103,6 +103,9 @@ hsrdef_barplotdata <- function(x,data,code_levels){
     df[,code := factor(code,levels = rev(c("-",unlist(code_levels))))]
   }
 
+  # remove missing code level counts -- fail safe
+  df[is.na(code)==FALSE]
+
   return(df)
 
 }
