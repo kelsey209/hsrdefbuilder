@@ -110,7 +110,7 @@ server <- function(input,output,session){
 
   output$plot1 = renderPlot({
     if (vals$PlotsActive == TRUE){
-      ggplot(local_df(),aes(y=code,x=value,fill=name)) +
+      ggplot(local_df(),aes(y=Code,x=value,fill=name)) +
         geom_bar(stat="identity",position="stack",colour="black") +
         scale_fill_manual(labels = c("Excluded","Maybe","Included"),
                           values = c('#c5ff7f', '#56b63f','#006b09'))+
@@ -147,10 +147,11 @@ server <- function(input,output,session){
 
   output$downloadData <- downloadHandler(
     filename = function() {
-      paste0("def-", Sys.Date(), ".csv")
+      paste("def-", Sys.Date(), ".csv",sep="")
     },
     content = function(file) {
-      write.csv(vals$Data, file, row.names = FALSE)
+      write.csv(vals$Data[,c("Code","Description","Exclude","Include","Labels")],
+                file, row.names = FALSE, na = "")
     }
   )
 

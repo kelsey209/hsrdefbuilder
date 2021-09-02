@@ -12,17 +12,11 @@ hsrdef_uploaddata <- function(file,old_data){
 
   # validate uploaded files
   ext <- file_ext(file$name)
-  switch(ext,
-         csv = {ui_input = suppressMessages(fread(file$datapath))},
-         validate("Invalid file; please upload a .csv file"))
+  validate(need(ext=="csv","Invalid file: please upload a .csv file."))
+  ui_input = suppressMessages(fread(file$datapath))
 
-  check_cols <- ifelse(all(c("Code","Exclude","Include") %in% colnames(ui_input)),
-                       "Yes","No")
-  switch(check_cols,
-         No = {
-           validate("Invalid file: check column names")
-         }
-  )
+  check_cols <- c("Code","Description","Exclude","Include") %in% colnames(ui_input)
+  validate(need(all(check_cols == 1),"Invalid file: check column names"))
 
   # label current codes if they are in this data set
   ## some times a new uploaded file may contain other codes that do not exist in
@@ -31,8 +25,16 @@ hsrdef_uploaddata <- function(file,old_data){
 
   # join full data
   out_data = merge.data.table(old_data[,!c("Include","Exclude","Labels")],
-                              ui_input[,c("Code","Include","Exclude","Labels")],
-                              by = "Code",all = TRUE,sort = FALSE)
+                              ui_input[,c("Code","Description","Include","Exclude","Labels")],
+                              by = c("Code"),all = TRUE,sort = FALSE)
+
+  # save description from user input data if the code does not exist in this claim set
+  out_data[,Description.x := fifelse(is.na(Description.x),Description.y,Description.x)]
+  out_data <- out_data[,!c("Description.y")]
+  setnames(out_data,"Description.x","Description")
+
+  # set flag where codes were from previously used definition and not this sample
+  out_data[,in_data:=fifelse(is.na(in_data),0,in_data)]
 
   return(out_data)
 

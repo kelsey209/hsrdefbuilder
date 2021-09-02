@@ -11,14 +11,11 @@
 hsrdef_barplotdata <- function(x,data,code_levels){
 
   if("in_data" %in% colnames(x)){
-    x[in_data==1]
+    x <- x[in_data==1]
   }
 
-  # drop columns and add user input values
-  data <- data[,!c("Exclude","Include")]
   data <- data.table::merge.data.table(data,x[,c("Code","Exclude","Include")],
-                           by.x = "code", by.y = "Code")
-
+                           by.x = "Code", by.y = "Code")
 
   # include codes: where user input == I ------------------------------------
   include_sub <- data[Include=="I"]
@@ -46,7 +43,6 @@ hsrdef_barplotdata <- function(x,data,code_levels){
               by = "_Leaf_"]
 
   exclude_sub <- unique(exclude_sub[,c("_Leaf_","Exclude_min","Exclude_max")])
-
 
   # create output data set  -------------------------------------------------
 
@@ -84,27 +80,28 @@ hsrdef_barplotdata <- function(x,data,code_levels){
   df[,DefExclude := apply(.SD, 1, max), .SDcols = c("E1","E3")]
   df[,GreyZone := leaf_total - Potential - DefExclude]
 
-  df <- df[,c("_Leaf_","code","Potential","GreyZone","DefExclude")]
+  df <- df[,c("_Leaf_","Code","Potential","GreyZone","DefExclude")]
 
-  df <- melt(df,id.vars=c("_Leaf_","code"),measure.vars = c("Potential","GreyZone","DefExclude"),variable.name = "name")
+  df <- melt(df,id.vars=c("_Leaf_","Code"),measure.vars = c("Potential","GreyZone","DefExclude"),variable.name = "name")
 
-  df[,code := factor(code,levels = rev(unlist(code_levels)))]
+  df[,Code := factor(Code,levels = rev(unlist(code_levels)))]
 
   df[,name := factor(name,levels = c("DefExclude","GreyZone","Potential"))]
 
   # add any claim counts for leaf zero, where no important features were included
-  if (0 %in% data$`_Leaf_`){
+  # only if this is not a masked count
+  if (0 %in% data$`_Leaf_` && !is.na(data$leaf_total[data$`_Leaf_`==0][1])){
     df <- rbindlist(list(df,
                          data.table(`_Leaf_` = 0,
-                                    code = "-",
+                                    Code = "-",
                                     name = "GreyZone",
                                     value = data$leaf_total[data$`_Leaf_`==0][1])))
 
-    df[,code := factor(code,levels = rev(c("-",unlist(code_levels))))]
+    df[,Code := factor(Code,levels = rev(c("-",unlist(code_levels))))]
   }
 
   # remove missing code level counts -- fail safe
-  df[is.na(code)==FALSE]
+  df <- df[is.na(Code)==FALSE]
 
   return(df)
 
