@@ -1,5 +1,7 @@
 # Health Services Research Definition Builder
 
+Update 2022-10-05: This package is currently under updates and may not work if downloaded using its current version. 
+
 ## Overview 
 
 This package is created for analysts starting a claims-based research project, requiring
