@@ -9,11 +9,41 @@
 #'
 hsrdef_body <- function(){
 
+  # checkbox_script <- '$(document).on("click", "input", function () {
+  #                      var checkboxes = document.getElementsByName("row_selected");
+  #                      var columnselect = document.getElementsByName("column_selected");
+  #                      var checkboxesChecked = [];
+  #                      var checkboxesCheckedCol = [];
+  #                      for (var i=0; i<checkboxes.length; i++) {
+  #                      if (checkboxes[i].checked) {
+  #                      checkboxesChecked.push(checkboxes[i].value);
+  #                      checkboxesCheckedCol.push(columnselect[i].value);
+  #                     }
+  #                     }
+  #                    Shiny.onInputChange("checked_rows",checkboxesChecked);
+  #                    Shiny.onInputChange("checked_cols",checkboxesCheckedCol)})'
+
+  checkbox_script <- '$(document).on("click", "input", function () {
+    var exc_checkboxes = document.getElementsByName("exc_selected");
+    var inc_checkboxes = document.getElementsByName("inc_selected");
+    var excCheckboxesChecked = [];
+    var incCheckboxesChecked = [];
+    for (var i=0; i<exc_checkboxes.length; i++) {
+      if (exc_checkboxes[i].checked) {
+        excCheckboxesChecked.push(exc_checkboxes[i].value);
+      }
+      if (inc_checkboxes[i].checked) {
+        incCheckboxesChecked.push(inc_checkboxes[i].value);
+      }
+    }
+    Shiny.onInputChange("checked_exc_rows",excCheckboxesChecked);
+    Shiny.onInputChange("checked_inc_rows",incCheckboxesChecked)})'
+
   # create set of action buttons and data table
   fluidRow(column(7,
-                  box(width=12,
+                  box(width = 12,
                       helpText("Select rows by clicking on them, then select an action.",
-                               style="text-align:center"),
+                               style = "text-align:center"),
                       fluidRow(
                         column(12,offset = 0,
                                # action button: remove all user selections
@@ -35,7 +65,7 @@ hsrdef_body <- function(){
                                          "Creates an exclusion list from the selected row(s).",
                                          "right",
                                          options = list(container = "body")),
-                               column(2,offset=0.2,
+                               column(2,offset = 0.2,
                                       # action button: add included codes
                                       actionButton("include_codes","Apply inclusions")),
                                bsTooltip("include_codes",
@@ -51,16 +81,17 @@ hsrdef_body <- function(){
                                          "Add label to the selected row(s).",
                                          "right",
                                          options = list(container = "body"))
-                      ),
-                      #
-                      hr(),
-                      column(12,DT::dataTableOutput("mytable"))
-                  )
+                        ),
+                        #
+                        hr(),
+                        column(12,DT::dataTableOutput("mytable"),
+                               tags$script(HTML(checkbox_script)))
+                      )
                   )
   ),
   # create second column: graphs and user actions
   column(5,
-         box(width=12,
+         box(width = 12,
              h3("Claims with selected criteria applied"),
              p("These displayed results should be treated as an approximation.
                Numbers are not reported since these are counts based on a sample of claims."),
@@ -82,7 +113,7 @@ hsrdef_body <- function(){
              br(),
 
              # PLOT output: bar chart
-             column(12,plotOutput("plot2",height=30)),
+             column(12,plotOutput("plot2",height = 30)),
 
              br(),
              br(),
@@ -91,16 +122,18 @@ hsrdef_body <- function(){
              hr(),
 
              # action buttons: let users upload previous data
+             p("Users can upload previously created definitions to apply to the current table."),
              column(12,fileInput("uploadCodes",'Upload selections',multiple = FALSE)),
              bsTooltip("uploadCodes",
-                       "Add previous inclusion or exclusion list.",
-                       "right",options = list(container="body")),
+                       "Add previous inclusion/exclusion list.",
+                       "right",options = list(container = "body")),
 
              # action buttons: let users download their data
+             p("Users can download their developed definitions."),
              column(12,downloadLink('downloadData','Click here to save definition')),
              bsTooltip("downloadData",
                        "Save your code selections.",
-                       "right",options = list(container="body")),
+                       "right",options = list(container = "body")),
              br(),
              br(),
              br()

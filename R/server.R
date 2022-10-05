@@ -31,21 +31,31 @@ server <- function(input,output,session){
     vals$PlotsActive = TRUE
   })
 
+  ## up to here !
+  observeEvent(input$checked_exc_rows,{
+    print(input$checked_exc_rows)})
+
+  observeEvent(input$checked_inc_rows,{
+    print(input$checked_inc_rows)})
 
   # create data table -------------------------------------------------------
 
-  output$mytable <-  DT::renderDataTable({DT::datatable(hsrdef_datatable(vals$Data),
-                                                        escape = FALSE, rownames = FALSE,
-                                                        options = list(pageLength = 20))})
+  output$mytable <- DT::renderDataTable({
+    DT::datatable(hsrdef_datatable(vals$Data),
+                  escape = FALSE,
+                  rownames = FALSE,
+                  options = list(pageLength = 20),
+                  selection = "none")},
+    server = FALSE)
 
   # # apply user criteria -----------------------------------------------------
 
   ## excluded codes
-  observeEvent(input$exclude_codes,{
-    x = vals$Data
-    x$Exclude[input$mytable_rows_selected] = "E"
-    vals$Data = x
-  })
+  # observeEvent(input$exclude_codes,{
+  #   x = vals$Data
+  #   x$Exclude[input$mytable_rows_selected] = "E"
+  #   vals$Data = x
+  # })
 
   ## included codes
   observeEvent(input$include_codes,{
@@ -65,7 +75,7 @@ server <- function(input,output,session){
   ## remove rows
   observeEvent(input$drop_rows,{
     x = vals$Data
-    x = x[!input$mytable_rows_selected,]
+    x$Drop[input$mytable_rows_selected] = TRUE
     vals$Data = x
   })
 
@@ -109,12 +119,12 @@ server <- function(input,output,session){
   # bar chart plot
 
   output$plot1 = renderPlot({
-    if (vals$PlotsActive == TRUE){
-      ggplot(local_df(),aes(y=Code,x=value,fill=name)) +
-        geom_bar(stat="identity",position="stack",colour="black") +
+    if (vals$PlotsActive == TRUE) {
+      ggplot(local_df(),aes(y = Code,x = value,fill = name)) +
+        geom_bar(stat = "identity", position = "stack",colour = "black") +
         scale_fill_manual(labels = c("Excluded","Maybe","Included"),
-                          values = c('#c5ff7f', '#56b63f','#006b09'))+
-        labs(x="",y="",fill="") + theme_minimal() +
+                          values = c('#c5ff7f', '#56b63f','#006b09')) +
+        labs(x = "",y = "",fill = "") + theme_minimal() +
         theme(axis.text.x = element_blank())
     }
   })
@@ -122,9 +132,9 @@ server <- function(input,output,session){
   # donut chart plot
 
   output$plot2 = renderPlot({
-    if (vals$PlotsActive == TRUE){
-      ggplot(local_df_bar(),aes(ymax=ymax,ymin=ymin,xmax=4,xmin=3.5,fill=name)) +
-        geom_rect(colour="black") +
+    if (vals$PlotsActive == TRUE) {
+      ggplot(local_df_bar(),aes(ymax = ymax,ymin = ymin,xmax = 4,xmin = 3.5,fill = name)) +
+        geom_rect(colour = "black") +
         theme_void() +
         coord_flip() +
         scale_fill_manual(labels = c("Excluded","Maybe","Included"),
@@ -147,7 +157,7 @@ server <- function(input,output,session){
 
   output$downloadData <- downloadHandler(
     filename = function() {
-      paste("def-", Sys.Date(), ".csv",sep="")
+      paste("def-", Sys.Date(), ".csv",sep = "")
     },
     content = function(file) {
       write.csv(vals$Data[,c("Code","Description","Exclude","Include","Labels")],
