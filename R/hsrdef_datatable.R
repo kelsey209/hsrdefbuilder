@@ -19,7 +19,7 @@ hsrdef_datatable <- function(x){
     x <- x[Drop == FALSE,]
   }
 
-  x <- x[,c("Code","Description","Include","Exclude","Labels")]
+  x <- x[,c("ID","Code","Description","Include","Exclude","Labels")]
 
   return(x)
 }

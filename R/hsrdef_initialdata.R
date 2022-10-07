@@ -31,8 +31,30 @@ hsrdef_initialdata <- function(input_data_select){
   # create empty columns for user input
   data_table[,`:=`(Exclude = NA, Include = NA, Labels = "", Drop = FALSE)]
 
-  data_table[["Exclude"]] = glue::glue('<input type="checkbox" name="exc_selected" {data_table$Exclude} value="{1:nrow(data_table)}"><br>')
-  data_table[["Include"]] = glue::glue('<input type="checkbox" name="inc_selected" {data_table$Include} value="{1:nrow(data_table)}"><br>')
+  check_box_inp <- checkboxInput(inputId = "SUB",
+                                 label = NULL)
+
+  check_box_exc <- vapply(X = data_table$Code,
+                          FUN = function(x){
+                            c1 <- gsub('id="SUB"',paste0('id="SUB" value="',x,'"'),check_box_inp)
+                            c2 <- gsub('id="SUB"','name="exc_selected"',c1)
+                            return(c2)
+                          },
+                          FUN.VALUE = vector(mode = "character",length = 1))
+
+  check_box_inc <- vapply(X = data_table$Code,
+                          FUN = function(x){
+                            c1 <- gsub('id="SUB"',paste0('id="SUB" value="',x,'"'),check_box_inp)
+                            c2 <- gsub('id="SUB"','name="inc_selected"',c1)
+                            return(c2)
+                          },
+                          FUN.VALUE = vector(mode = "character",length = 1))
+
+  data_table[["Exclude"]] = check_box_exc
+  data_table[["Include"]] = check_box_inc
+
+  data_table[["exclude_track"]] = ""
+  data_table[["include_track"]] = ""
   data_table[["ID"]] = seq(1:nrow(data_table))
 
   # get codes that are top-level leaf counts

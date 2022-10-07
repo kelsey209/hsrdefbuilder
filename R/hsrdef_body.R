@@ -9,35 +9,41 @@
 #'
 hsrdef_body <- function(){
 
-  # checkbox_script <- '$(document).on("click", "input", function () {
-  #                      var checkboxes = document.getElementsByName("row_selected");
-  #                      var columnselect = document.getElementsByName("column_selected");
-  #                      var checkboxesChecked = [];
-  #                      var checkboxesCheckedCol = [];
-  #                      for (var i=0; i<checkboxes.length; i++) {
-  #                      if (checkboxes[i].checked) {
-  #                      checkboxesChecked.push(checkboxes[i].value);
-  #                      checkboxesCheckedCol.push(columnselect[i].value);
-  #                     }
-  #                     }
-  #                    Shiny.onInputChange("checked_rows",checkboxesChecked);
-  #                    Shiny.onInputChange("checked_cols",checkboxesCheckedCol)})'
-
   checkbox_script <- '$(document).on("click", "input", function () {
     var exc_checkboxes = document.getElementsByName("exc_selected");
     var inc_checkboxes = document.getElementsByName("inc_selected");
     var excCheckboxesChecked = [];
+    var excCheckboxesDropped = [];
     var incCheckboxesChecked = [];
+    var incCheckboxesDropped = [];
     for (var i=0; i<exc_checkboxes.length; i++) {
       if (exc_checkboxes[i].checked) {
         excCheckboxesChecked.push(exc_checkboxes[i].value);
-      }
-      if (inc_checkboxes[i].checked) {
+        inc_checkboxes[i].checked = null;
+        incCheckboxesDropped.push(inc_checkboxes[i].value);
+      } else if (inc_checkboxes[i].checked) {
         incCheckboxesChecked.push(inc_checkboxes[i].value);
+        exc_checkboxes[i].checked = null;
+        excCheckboxesDropped.push(exc_checkboxes[i].value);
+      } else {
+        excCheckboxesDropped.push(exc_checkboxes[i].value);
+        incCheckboxesDropped.push(inc_checkboxes[i].value);
       }
     }
+
     Shiny.onInputChange("checked_exc_rows",excCheckboxesChecked);
-    Shiny.onInputChange("checked_inc_rows",incCheckboxesChecked)})'
+    Shiny.onInputChange("unchecked_exc_rows",excCheckboxesDropped);
+    Shiny.onInputChange("checked_inc_rows",incCheckboxesChecked);
+    Shiny.onInputChange("unchecked_inc_rows",incCheckboxesDropped);})'
+
+  check_box_remove <- '$("#clear_codes").on("click", function () {
+      var exc_checkboxes = document.getElementsByName("exc_selected");
+      var inc_checkboxes = document.getElementsByName("inc_selected");
+      for (var i=0; i<exc_checkboxes.length; i++) {
+        exc_checkboxes[i].checked = null;
+        inc_checkboxes[i].checked = null;
+      }
+    });'
 
   # create set of action buttons and data table
   fluidRow(column(7,
@@ -85,7 +91,8 @@ hsrdef_body <- function(){
                         #
                         hr(),
                         column(12,DT::dataTableOutput("mytable"),
-                               tags$script(HTML(checkbox_script)))
+                               tags$script(HTML(checkbox_script)),
+                               tags$script(HTML(check_box_remove)))
                       )
                   )
   ),

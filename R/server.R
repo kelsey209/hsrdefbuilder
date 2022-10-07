@@ -15,7 +15,6 @@
 #'
 server <- function(input,output,session){
 
-
   # set empty list and default data -----------------------------------------
 
   vals = reactiveValues()
@@ -29,14 +28,9 @@ server <- function(input,output,session){
     vals$FullData = outData$FullData
     vals$CodeLevels = outData$CodeLevels
     vals$PlotsActive = TRUE
+    vals$ExcludeCodes = vector(mode = "character")
+    vals$IncludeCodes = vector(mode = "character")
   })
-
-  ## up to here !
-  observeEvent(input$checked_exc_rows,{
-    print(input$checked_exc_rows)})
-
-  observeEvent(input$checked_inc_rows,{
-    print(input$checked_inc_rows)})
 
   # create data table -------------------------------------------------------
 
@@ -51,25 +45,39 @@ server <- function(input,output,session){
   # # apply user criteria -----------------------------------------------------
 
   ## excluded codes
-  # observeEvent(input$exclude_codes,{
-  #   x = vals$Data
-  #   x$Exclude[input$mytable_rows_selected] = "E"
-  #   vals$Data = x
-  # })
+  observeEvent(input$checked_exc_rows,{
+    x = vals$ExcludeCodes
+    x = unique(c(x,input$checked_exc_rows))
+    vals$ExcludeCodes = x
+  })
+
+  ## un select excluded codes
+  observeEvent(input$unchecked_exc_rows,{
+    x = vals$ExcludeCodes
+    x = x[!x %in% input$unchecked_exc_rows]
+    vals$ExcludeCodes = x
+  })
 
   ## included codes
-  observeEvent(input$include_codes,{
-    x = vals$Data
-    x$Include[input$mytable_rows_selected] = "I"
-    vals$Data = x
+  observeEvent(input$checked_inc_rows,{
+    x = vals$IncludeCodes
+    x = unique(c(x,input$checked_inc_rows))
+    vals$IncludeCodes = x
+  })
+
+  ## un select included codes
+  observeEvent(input$unchecked_inc_rows,{
+    x = vals$IncludeCodes
+    x = x[!x %in% input$unchecked_inc_rows]
+    vals$IncludeCodes = x
   })
 
   ## remove criteria
   observeEvent(input$clear_codes,{
-    x = vals$Data
-    x$Include[input$mytable_rows_selected] = ""
-    x$Exclude[input$mytable_rows_selected] = ""
-    vals$Data = x
+
+    vals$ExcludeCodes = vector(mode = "character")
+    vals$IncludeCodes = vector(mode = "character")
+
   })
 
   ## remove rows
@@ -97,8 +105,11 @@ server <- function(input,output,session){
 
   local_df = reactive({
 
-    df = hsrdef_barplotdata(x = vals$Data, data = vals$FullData,
-                            code_levels = vals$CodeLevels)
+    df = hsrdef_barplotdata(x = vals$Data,
+                            data = vals$FullData,
+                            code_levels = vals$CodeLevels,
+                            include_codes = vals$IncludeCodes,
+                            exclude_codes = vals$ExcludeCodes)
 
     df
 
@@ -147,9 +158,12 @@ server <- function(input,output,session){
   # upload saved user codes -------------------------------------------------
   observeEvent(input$uploadCodes,{
     x = vals$Data
+
     outData = hsrdef_uploaddata(file = input$uploadCodes,old_data = x)
 
     vals$Data = outData
+    vals$ExcludeCodes = outData$Code[outData$ExcludeCode == 1]
+    vals$IncludeCodes = outData$Code[outData$IncludeCode == 1]
   }
   )
 
@@ -160,7 +174,10 @@ server <- function(input,output,session){
       paste("def-", Sys.Date(), ".csv",sep = "")
     },
     content = function(file) {
-      write.csv(vals$Data[,c("Code","Description","Exclude","Include","Labels")],
+      x = copy(vals$Data)
+      x[,ExcludeCode := fifelse(x$Code %in% vals$ExcludeCodes,1,0)]
+      x[,IncludeCode := fifelse(x$Code %in% vals$IncludeCodes,1,0)]
+      write.csv(x[,c("Code","Description","ExcludeCode","IncludeCode","Labels")],
                 file, row.names = FALSE, na = "")
     }
   )
