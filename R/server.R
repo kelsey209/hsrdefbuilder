@@ -35,12 +35,14 @@ server <- function(input,output,session){
   # create data table -------------------------------------------------------
 
   output$mytable <- DT::renderDataTable({
-    DT::datatable(hsrdef_datatable(vals$Data),
+    x <- hsrdef_datatable(vals$Data)
+    DT::datatable(x,
                   escape = FALSE,
                   rownames = FALSE,
                   options = list(pageLength = 20),
-                  selection = "none")},
-    server = FALSE)
+                  selection = "multiple")
+  },
+  server = FALSE)
 
   # # apply user criteria -----------------------------------------------------
 
@@ -58,6 +60,24 @@ server <- function(input,output,session){
     vals$ExcludeCodes = x
   })
 
+  ## excluded codes -- button
+  observeEvent(input$exclude_codes,{
+    x = vals$Data
+    y = vals$ExcludeCodes
+    z = vals$IncludeCodes
+    x$Exclude[input$mytable_rows_selected] = gsub(pattern = 'type="checkbox"',
+                                                  replacement = 'type="checkbox" checked="checked"',
+                                                  x = x$Exclude[input$mytable_rows_selected])
+    x$Include[input$mytable_rows_selected] = gsub(pattern = 'checked="checked"',
+                                                  replacement = '',
+                                                  x = x$Include[input$mytable_rows_selected])
+    y = unique(c(y,x$Code[input$mytable_rows_selected]))
+    z = z[!z %in% x$Code[input$mytable_rows_selected]]
+    vals$Data = x
+    vals$ExcludeCodes = y
+    vals$IncludeCodes = z
+  })
+
   ## included codes
   observeEvent(input$checked_inc_rows,{
     x = vals$IncludeCodes
@@ -70,6 +90,24 @@ server <- function(input,output,session){
     x = vals$IncludeCodes
     x = x[!x %in% input$unchecked_inc_rows]
     vals$IncludeCodes = x
+  })
+
+  ## include codes -- button
+  observeEvent(input$include_codes,{
+    x = vals$Data
+    y = vals$IncludeCodes
+    z = vals$ExcludeCodes
+    x$Include[input$mytable_rows_selected] = gsub(pattern = 'type="checkbox"',
+                                                  replacement = 'type="checkbox" checked="checked"',
+                                                  x = x$Include[input$mytable_rows_selected])
+    x$Exclude[input$mytable_rows_selected] = gsub(pattern = 'checked="checked"',
+                                                  replacement = '',
+                                                  x = x$Exclude[input$mytable_rows_selected])
+    y = unique(c(y,x$Code[input$mytable_rows_selected]))
+    z = z[!z %in% x$Code[input$mytable_rows_selected]]
+    vals$Data = x
+    vals$IncludeCodes = y
+    vals$ExcludeCodes = z
   })
 
   ## remove criteria

@@ -58,12 +58,6 @@ hsrdef_body <- function(){
                                          "Clear inclusion/exclusion selection",
                                          "right",
                                          options = list(container = "body")),
-
-                               # action button: remove uninteresting rows
-                               column(2,actionButton("drop_rows","Hide codes")),
-                               bsTooltip("drop_rows","Hide selected row(s) - code not interesting.",
-                                         "right",
-                                         options = list(container = "body")),
                                column(2,
                                       # action button: add excluded codes
                                       actionButton("exclude_codes","Apply exclusions")),
@@ -76,6 +70,11 @@ hsrdef_body <- function(){
                                       actionButton("include_codes","Apply inclusions")),
                                bsTooltip("include_codes",
                                          "Creates an inclusion list from the selected row(s).",
+                                         "right",
+                                         options = list(container = "body")),
+                               # action button: remove uninteresting rows
+                               column(2,actionButton("drop_rows","Hide codes")),
+                               bsTooltip("drop_rows","Hide selected row(s) - code not interesting.",
                                          "right",
                                          options = list(container = "body")),
                                column(2,offset = 0.5,
