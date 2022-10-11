@@ -79,7 +79,11 @@ hsrdef_body <- function(){
                                          options = list(container = "body")),
                                column(2,offset = 0.5,
                                       # let users create preliminary labels
-                                      textInput("label_text","Enter label","",width = '1000px')),
+                                      selectizeInput(inputId = "label_text",
+                                                     "Enter label",
+                                                     width = '1000px',
+                                                     choices = vector(mode = "character"),
+                                                     options = list(create = TRUE))),
                                column(2,
                                       actionButton("label_codes","Create label")),
                                bsTooltip("label_codes",
@@ -129,10 +133,12 @@ hsrdef_body <- function(){
 
              # action buttons: let users upload previous data
              p("Users can upload previously created definitions to apply to the current table."),
-             column(12,fileInput("uploadCodes",'Upload selections',multiple = FALSE)),
+             column(12,fileInput("uploadCodes",'Upload selections',
+                                 multiple = FALSE)),
              bsTooltip("uploadCodes",
                        "Add previous inclusion/exclusion list.",
-                       "right",options = list(container = "body")),
+                       "right",
+                       options = list(container = "body")),
 
              # action buttons: let users download their data
              p("Users can download their developed definitions."),
