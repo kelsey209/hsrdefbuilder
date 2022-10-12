@@ -1,0 +1,657 @@
+_Leaf_,code,DGNS_DESC,all_pc,prnc_pc,all_cnt,prnc_cnt,leaf_total
+1,M480,spinal stenosis,100,47.795088461,3787,1810,3787
+1,M431,spondylolisthesis,64.166886718,27.515183523,2430,1042,3787
+1,I10,essential (primary) hypertension,63.559545815,0,2407,,3787
+1,E785,"hyperlipidemia, unspecified",39.477158701,0,1495,,3787
+1,K219,gastro-esophageal reflux disease without esophagitis,34.301557961,0,1299,,3787
+1,Z798,other long term (current) drug therapy,24.584103512,0,931,,3787
+1,Z878,personal history of other specified conditions,24.478479007,0,927,,3787
+1,M511,"thor, thrclm & lumbosacr intvrt disc disord w radiculopathy",19.250066015,7.8426194877,729,297,3787
+1,M541,radiculopathy,18.642725112,0.5809347769,706,22,3787
+1,G473,sleep apnea,14.708212305,0,557,,3787
+1,F329,"major depressive disorder, single episode, unspecified",14.04805915,0,532,,3787
+1,M199,"osteoarthritis, unspecified site",13.810404014,0,523,,3787
+1,M513,"oth thoracic, thrclm and lumbosacr intvrt disc degeneration",12.991814101,3.2479535252,492,123,3787
+1,D62,acute posthemorrhagic anemia,12.701346712,0,481,,3787
+1,E780,pure hypercholesterolemia,12.64853446,0,479,,3787
+1,Z966,presence of orthopedic joint implants,12.252442567,0,464,,3787
+1,E669,"obesity, unspecified",11.988381304,0,454,,3787
+1,Z981,arthrodesis status,11.24900977,0,426,,3787
+1,M472,other spondylosis with radiculopathy,8.714021653,2.8254555057,330,107,3787
+1,K590,constipation,8.3707420121,0,317,,3787
+1,J459,other and unspecified asthma,7.8954317402,0,299,,3787
+1,M545,low back pain,7.5785582255,0,287,,3787
+1,M478,other spondylosis,7.3673092157,1.795616583,279,68,3787
+1,M512,"oth thoracic, thrclm and lumbosacr intvrt disc displacmnt",7.2088724584,1.6899920782,273,64,3787
+1,G892,"chronic pain, not elsewhere classified",7.1824663322,0,272,,3787
+1,M532,spinal instabilities,6.1790335358,0.4224980195,234,16,3787
+1,Z880,allergy status to penicillin,5.3340374967,0,202,,3787
+1,M713,other bursal cyst,4.9115394772,,186,,3787
+1,Z858,personal history of malig neoplasms of organs and systems,4.8323210985,0,183,,3787
+1,M418,other forms of scoliosis,4.0929495643,0.8185899129,155,31,3787
+1,Z854,personal history of malignant neoplasm of genital organs,3.9873250594,0,151,,3787
+1,Z907,acquired absence of genital organ(s),3.934512807,0,149,,3787
+1,M419,"scoliosis, unspecified",3.4327964088,0.3696857671,130,14,3787
+1,M069,"rheumatoid arthritis, unspecified",3.4063902825,0,129,,3787
+1,G974,accidental pnctr & lac of a nervous system org dur proc,3.221547399,0,122,,3787
+1,M961,"postlaminectomy syndrome, not elsewhere classified",3.1159228941,0.7393715342,118,28,3787
+1,E876,hypokalemia,3.1159228941,0,118,,3787
+1,H919,unspecified hearing loss,2.746237127,0,104,,3787
+1,Z910,"allergy status, oth than to drugs and biological substances",2.6406126221,0,100,,3787
+1,G961,"disorders of meninges, not elsewhere classified",2.1653023501,0,82,,3787
+1,M960,pseudarthrosis after fusion or arthrodesis,1.9804594666,0.8714021653,75,33,3787
+1,K589,irritable bowel syndrome without diarrhea,1.9804594666,0,75,,3787
+1,G891,"acute pain, not elsewhere classified",1.9012410879,,72,,3787
+1,M796,"pain in limb, hand, foot, fingers and toes",1.8748349617,0,71,,3787
+1,G439,"migraine, unspecified",1.5315553208,0,58,,3787
+1,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",1.3731185635,0.4224980195,52,16,3787
+1,Z984,cataract extraction status,1.2674940586,0,48,,3787
+1,M479,"spondylosis, unspecified",1.2410879324,,47,,3787
+1,M402,other and unspecified kyphosis,1.0826511751,,41,,3787
+1,M471,other spondylosis with myelopathy,1.0034327964,0.3960918933,38,15,3787
+1,M430,spondylolysis,0.9242144177,,35,,3787
+1,M129,"arthropathy, unspecified",0.9242144177,0,35,,3787
+1,M412,other idiopathic scoliosis,0.7921837866,,30,,3787
+1,T842,mechanical complication of internal fixation device of bones,0.7657776604,,29,,3787
+1,G834,cauda equina syndrome,0.7657776604,,29,,3787
+1,G960,cerebrospinal fluid leak,0.712965408,0,27,,3787
+1,M485,"collapsed vertebra, not elsewhere classified",0.6865592818,,26,,3787
+1,M469,unspecified inflammatory spondylopathy,0.5281225244,0,20,,3787
+1,S320,fracture of lumbar vertebra,0.4489041458,,17,,3787
+1,M415,other secondary scoliosis,0.4489041458,,17,,3787
+1,G92,toxic encephalopathy,0.4489041458,,17,,3787
+1,M432,fusion of spine,0.4224980195,0,16,,3787
+1,T848,oth complications of internal orthopedic prosth dev/grft,0.3960918933,,15,,3787
+1,Q762,congenital spondylolisthesis,0.3960918933,,15,,3787
+1,M997,connective tiss and disc stenosis of intervertebral foramina,0.3696857671,,14,,3787
+1,M968,"oth intraop and postproc comp and disorders of ms sys, nec",0.3168735147,0,12,,3787
+1,M403,flatback syndrome,0.2904673884,,11,,3787
+1,M963,postlaminectomy kyphosis,,,,,3787
+1,M464,"discitis, unspecified",,,,,3787
+1,A419,"sepsis, unspecified organism",,0,,,3787
+1,T844,"mech comp of internal orth devices, implants and grafts",,,,,3787
+1,T840,mechanical complication of internal joint prosthesis,,,,,3787
+1,M462,osteomyelitis of vertebra,,,,,3787
+1,M468,other specified inflammatory spondylopathies,,,,,3787
+1,M503,other cervical disc degeneration,,,,,3787
+1,M518,"oth thoracic, thoracolum and lumbosacr intvrt disc disorders",,,,,3787
+1,C795,secondary malignant neoplasm of bone and bone marrow,,0,,,3787
+1,M800,age-related osteoporosis with current pathological fracture,,0,,,3787
+1,M844,"pathological fracture, not elsewhere classified",,0,,,3787
+1,Q764,"oth congenital malform of spine, not associated w scoliosis",,0,,,3787
+1,M808,other osteoporosis with current pathological fracture,,,,,3787
+1,G958,other specified diseases of spinal cord,,,,,3787
+1,M435,other recurrent vertebral dislocation,,,,,3787
+1,M438,other specified deforming dorsopathies,,,,,3787
+1,T814,infection following a procedure,,,,,3787
+1,M519,"unsp thoracic, thoracolum and lumbosacr intvrt disc disorder",,0,,,3787
+1,A410,sepsis due to staphylococcus aureus,,,,,3787
+1,M481,ankylosing hyperostosis [forestier],,0,,,3787
+1,S321,fracture of sacrum,,0,,,3787
+1,T856,mechanical comp of internal and external prosth dev/grft,,0,,,3787
+1,M411,juvenile and adolescent idiopathic scoliosis,,,,,3787
+1,M845,pathological fracture in neoplastic disease,,,,,3787
+1,T843,"mechanical complication of bone devices, implants and grafts",,,,,3787
+1,G402,local-rel (focal) symptc epilepsy w complex partial seizures,,0,,,3787
+1,T849,unsp complication of internal orthopedic prosth dev/grft,,0,,,3787
+1,C794,secondary malig neoplasm of and unsp parts of nervous sys,,,,,3787
+1,D166,benign neoplasm of vertebral column,,,,,3787
+1,S220,fracture of thoracic vertebra,,,,,3787
+1,T846,infect/inflm reaction due to internal fixation device,,,,,3787
+1,M966,fx bone following insrt ortho implnt/prosth/bone plt,,0,,,3787
+1,S331,subluxation and dislocation of lumbar vertebra,,0,,,3787
+2,M431,spondylolisthesis,100,65.352112676,710,464,710
+2,I10,essential (primary) hypertension,59.718309859,0,424,,710
+2,K219,gastro-esophageal reflux disease without esophagitis,35.070422535,0,249,,710
+2,E785,"hyperlipidemia, unspecified",34.788732394,0,247,,710
+2,M511,"thor, thrclm & lumbosacr intvrt disc disord w radiculopathy",25.211267606,10.985915493,179,78,710
+2,Z878,personal history of other specified conditions,23.943661972,0,170,,710
+2,Z798,other long term (current) drug therapy,22.253521127,0,158,,710
+2,M541,radiculopathy,15.211267606,,108,,710
+2,M472,other spondylosis with radiculopathy,14.647887324,7.1830985915,104,51,710
+2,F329,"major depressive disorder, single episode, unspecified",14.084507042,0,100,,710
+2,G473,sleep apnea,13.802816901,0,98,,710
+2,E780,pure hypercholesterolemia,12.253521127,0,87,,710
+2,E669,"obesity, unspecified",11.690140845,0,83,,710
+2,M199,"osteoarthritis, unspecified site",11.690140845,0,83,,710
+2,D62,acute posthemorrhagic anemia,11.408450704,0,81,,710
+2,M513,"oth thoracic, thrclm and lumbosacr intvrt disc degeneration",10.281690141,3.2394366197,73,23,710
+2,M478,other spondylosis,9.7183098592,2.676056338,69,19,710
+2,M512,"oth thoracic, thrclm and lumbosacr intvrt disc displacmnt",9.5774647887,3.5211267606,68,25,710
+2,Z966,presence of orthopedic joint implants,9.5774647887,0,68,,710
+2,J459,other and unspecified asthma,8.4507042254,0,60,,710
+2,G892,"chronic pain, not elsewhere classified",7.6056338028,0,54,,710
+2,K590,constipation,6.9014084507,0,49,,710
+2,M545,low back pain,6.1971830986,0,44,,710
+2,Z880,allergy status to penicillin,6.0563380282,0,43,,710
+2,Z858,personal history of malig neoplasms of organs and systems,5.7746478873,0,41,,710
+2,Z981,arthrodesis status,5.7746478873,0,41,,710
+2,M713,other bursal cyst,5.3521126761,,38,,710
+2,M532,spinal instabilities,4.5070422535,,32,,710
+2,Z910,"allergy status, oth than to drugs and biological substances",4.2253521127,0,30,,710
+2,Z907,acquired absence of genital organ(s),4.0845070423,0,29,,710
+2,M069,"rheumatoid arthritis, unspecified",3.9436619718,0,28,,710
+2,M961,"postlaminectomy syndrome, not elsewhere classified",3.8028169014,,27,,710
+2,G974,accidental pnctr & lac of a nervous system org dur proc,3.8028169014,0,27,,710
+2,H919,unspecified hearing loss,2.9577464789,0,21,,710
+2,Z854,personal history of malignant neoplasm of genital organs,2.9577464789,0,21,,710
+2,E876,hypokalemia,2.8169014085,,20,,710
+2,M418,other forms of scoliosis,2.8169014085,,20,,710
+2,G961,"disorders of meninges, not elsewhere classified",2.676056338,,19,,710
+2,M419,"scoliosis, unspecified",2.676056338,0,19,,710
+2,M960,pseudarthrosis after fusion or arthrodesis,2.5352112676,,18,,710
+2,M796,"pain in limb, hand, foot, fingers and toes",2.1126760563,0,15,,710
+2,M479,"spondylosis, unspecified",1.8309859155,,13,,710
+2,G891,"acute pain, not elsewhere classified",1.8309859155,0,13,,710
+2,K589,irritable bowel syndrome without diarrhea,1.8309859155,0,13,,710
+2,G439,"migraine, unspecified",,0,,,710
+2,G834,cauda equina syndrome,,0,,,710
+2,M471,other spondylosis with myelopathy,,,,,710
+2,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",,,,,710
+2,T842,mechanical complication of internal fixation device of bones,,,,,710
+2,Z984,cataract extraction status,,0,,,710
+2,G92,toxic encephalopathy,,0,,,710
+2,M402,other and unspecified kyphosis,,0,,,710
+2,M430,spondylolysis,,,,,710
+2,M968,"oth intraop and postproc comp and disorders of ms sys, nec",,0,,,710
+2,S320,fracture of lumbar vertebra,,,,,710
+2,M432,fusion of spine,,0,,,710
+2,M464,"discitis, unspecified",,0,,,710
+2,M412,other idiopathic scoliosis,,,,,710
+2,M462,osteomyelitis of vertebra,,,,,710
+2,G960,cerebrospinal fluid leak,,0,,,710
+2,M129,"arthropathy, unspecified",,0,,,710
+2,M415,other secondary scoliosis,,0,,,710
+2,M485,"collapsed vertebra, not elsewhere classified",,0,,,710
+2,M503,other cervical disc degeneration,,0,,,710
+2,M966,fx bone following insrt ortho implnt/prosth/bone plt,,,,,710
+2,T843,"mechanical complication of bone devices, implants and grafts",,,,,710
+2,M400,postural kyphosis,,0,,,710
+2,M438,other specified deforming dorsopathies,,0,,,710
+2,M468,other specified inflammatory spondylopathies,,0,,,710
+2,M800,age-related osteoporosis with current pathological fracture,,0,,,710
+2,M844,"pathological fracture, not elsewhere classified",,0,,,710
+2,M997,connective tiss and disc stenosis of intervertebral foramina,,0,,,710
+2,T856,mechanical comp of internal and external prosth dev/grft,,0,,,710
+2,A410,sepsis due to staphylococcus aureus,,,,,710
+2,A415,sepsis due to other gram-negative organisms,,,,,710
+2,S321,fracture of sacrum,,,,,710
+2,T814,infection following a procedure,,,,,710
+2,T848,oth complications of internal orthopedic prosth dev/grft,,,,,710
+2,A419,"sepsis, unspecified organism",,0,,,710
+2,G402,local-rel (focal) symptc epilepsy w complex partial seizures,,0,,,710
+2,M401,other secondary kyphosis,,0,,,710
+2,M469,unspecified inflammatory spondylopathy,,0,,,710
+2,M518,"oth thoracic, thoracolum and lumbosacr intvrt disc disorders",,0,,,710
+2,M846,pathological fracture in other disease,,0,,,710
+2,M963,postlaminectomy kyphosis,,0,,,710
+2,Q762,congenital spondylolisthesis,,0,,,710
+2,Q764,"oth congenital malform of spine, not associated w scoliosis",,0,,,710
+2,T840,mechanical complication of internal joint prosthesis,,0,,,710
+3,M511,"thor, thrclm & lumbosacr intvrt disc disord w radiculopathy",100,85.798816568,169,145,169
+3,I10,essential (primary) hypertension,62.130177515,0,105,,169
+3,E785,"hyperlipidemia, unspecified",38.461538462,0,65,,169
+3,K219,gastro-esophageal reflux disease without esophagitis,29.585798817,0,50,,169
+3,Z798,other long term (current) drug therapy,23.076923077,0,39,,169
+3,M472,other spondylosis with radiculopathy,18.343195266,,31,,169
+3,Z878,personal history of other specified conditions,18.343195266,0,31,,169
+3,E669,"obesity, unspecified",15.976331361,0,27,,169
+3,E780,pure hypercholesterolemia,15.384615385,0,26,,169
+3,F329,"major depressive disorder, single episode, unspecified",15.384615385,0,26,,169
+3,Z981,arthrodesis status,14.792899408,0,25,,169
+3,G473,sleep apnea,12.426035503,0,21,,169
+3,M199,"osteoarthritis, unspecified site",11.24260355,0,19,,169
+3,M512,"oth thoracic, thrclm and lumbosacr intvrt disc displacmnt",10.650887574,,18,,169
+3,D62,acute posthemorrhagic anemia,10.059171598,0,17,,169
+3,J459,other and unspecified asthma,8.875739645,0,15,,169
+3,Z966,presence of orthopedic joint implants,8.2840236686,0,14,,169
+3,M513,"oth thoracic, thrclm and lumbosacr intvrt disc degeneration",7.6923076923,,13,,169
+3,G892,"chronic pain, not elsewhere classified",7.6923076923,0,13,,169
+3,K590,constipation,7.100591716,0,12,,169
+3,M961,"postlaminectomy syndrome, not elsewhere classified",6.5088757396,,11,,169
+3,M478,other spondylosis,,0,,,169
+3,M532,spinal instabilities,,0,,,169
+3,E876,hypokalemia,,0,,,169
+3,G974,accidental pnctr & lac of a nervous system org dur proc,,0,,,169
+3,Z880,allergy status to penicillin,,0,,,169
+3,G891,"acute pain, not elsewhere classified",,0,,,169
+3,M541,radiculopathy,,0,,,169
+3,M545,low back pain,,0,,,169
+3,M960,pseudarthrosis after fusion or arthrodesis,,,,,169
+3,T842,mechanical complication of internal fixation device of bones,,,,,169
+3,Z858,personal history of malig neoplasms of organs and systems,,0,,,169
+3,M069,"rheumatoid arthritis, unspecified",,0,,,169
+3,M713,other bursal cyst,,0,,,169
+3,Z907,acquired absence of genital organ(s),,0,,,169
+3,G961,"disorders of meninges, not elsewhere classified",,0,,,169
+3,K589,irritable bowel syndrome without diarrhea,,0,,,169
+3,Z854,personal history of malignant neoplasm of genital organs,,0,,,169
+3,Z910,"allergy status, oth than to drugs and biological substances",,0,,,169
+3,M418,other forms of scoliosis,,,,,169
+3,H919,unspecified hearing loss,,0,,,169
+3,M419,"scoliosis, unspecified",,0,,,169
+3,M796,"pain in limb, hand, foot, fingers and toes",,0,,,169
+3,M997,connective tiss and disc stenosis of intervertebral foramina,,0,,,169
+3,G402,local-rel (focal) symptc epilepsy w complex partial seizures,,,,,169
+3,M401,other secondary kyphosis,,,,,169
+3,M430,spondylolysis,,,,,169
+3,M469,unspecified inflammatory spondylopathy,,,,,169
+3,G439,"migraine, unspecified",,0,,,169
+3,G834,cauda equina syndrome,,0,,,169
+3,G92,toxic encephalopathy,,0,,,169
+3,G960,cerebrospinal fluid leak,,0,,,169
+3,M129,"arthropathy, unspecified",,0,,,169
+3,M402,other and unspecified kyphosis,,0,,,169
+3,M403,flatback syndrome,,0,,,169
+3,M411,juvenile and adolescent idiopathic scoliosis,,0,,,169
+3,M412,other idiopathic scoliosis,,0,,,169
+3,M413,thoracogenic scoliosis,,0,,,169
+3,M415,other secondary scoliosis,,0,,,169
+3,M479,"spondylosis, unspecified",,0,,,169
+3,M481,ankylosing hyperostosis [forestier],,0,,,169
+3,M485,"collapsed vertebra, not elsewhere classified",,0,,,169
+3,M519,"unsp thoracic, thoracolum and lumbosacr intvrt disc disorder",,0,,,169
+3,T856,mechanical comp of internal and external prosth dev/grft,,0,,,169
+3,Z984,cataract extraction status,,0,,,169
+4,M512,"oth thoracic, thrclm and lumbosacr intvrt disc displacmnt",100,61.971830986,71,44,71
+4,I10,essential (primary) hypertension,64.788732394,0,46,,71
+4,E785,"hyperlipidemia, unspecified",43.661971831,0,31,,71
+4,K219,gastro-esophageal reflux disease without esophagitis,30.985915493,0,22,,71
+4,Z798,other long term (current) drug therapy,22.535211268,0,16,,71
+4,Z878,personal history of other specified conditions,22.535211268,0,16,,71
+4,M478,other spondylosis,16.901408451,,12,,71
+4,M513,"oth thoracic, thrclm and lumbosacr intvrt disc degeneration",16.901408451,,12,,71
+4,M199,"osteoarthritis, unspecified site",15.492957746,0,11,,71
+4,D62,acute posthemorrhagic anemia,,0,,,71
+4,Z981,arthrodesis status,,0,,,71
+4,M472,other spondylosis with radiculopathy,,,,,71
+4,G473,sleep apnea,,0,,,71
+4,Z880,allergy status to penicillin,,0,,,71
+4,E669,"obesity, unspecified",,0,,,71
+4,E780,pure hypercholesterolemia,,0,,,71
+4,M532,spinal instabilities,,,,,71
+4,M541,radiculopathy,,,,,71
+4,F329,"major depressive disorder, single episode, unspecified",,0,,,71
+4,M545,low back pain,,0,,,71
+4,M961,"postlaminectomy syndrome, not elsewhere classified",,,,,71
+4,G892,"chronic pain, not elsewhere classified",,0,,,71
+4,K590,constipation,,0,,,71
+4,M479,"spondylosis, unspecified",,0,,,71
+4,Z966,presence of orthopedic joint implants,,0,,,71
+4,M713,other bursal cyst,,,,,71
+4,Z907,acquired absence of genital organ(s),,0,,,71
+4,G834,cauda equina syndrome,,0,,,71
+4,J459,other and unspecified asthma,,0,,,71
+4,M069,"rheumatoid arthritis, unspecified",,0,,,71
+4,Z910,"allergy status, oth than to drugs and biological substances",,0,,,71
+4,M419,"scoliosis, unspecified",,,,,71
+4,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",,,,,71
+4,M418,other forms of scoliosis,,,,,71
+4,E876,hypokalemia,,0,,,71
+4,G891,"acute pain, not elsewhere classified",,0,,,71
+4,H919,unspecified hearing loss,,0,,,71
+4,Z854,personal history of malignant neoplasm of genital organs,,0,,,71
+4,Z858,personal history of malig neoplasms of organs and systems,,0,,,71
+4,M471,other spondylosis with myelopathy,,,,,71
+4,S331,subluxation and dislocation of lumbar vertebra,,,,,71
+4,T844,"mech comp of internal orth devices, implants and grafts",,,,,71
+4,G961,"disorders of meninges, not elsewhere classified",,0,,,71
+4,M402,other and unspecified kyphosis,,0,,,71
+4,M485,"collapsed vertebra, not elsewhere classified",,0,,,71
+4,M519,"unsp thoracic, thoracolum and lumbosacr intvrt disc disorder",,0,,,71
+4,M968,"oth intraop and postproc comp and disorders of ms sys, nec",,0,,,71
+4,Q762,congenital spondylolisthesis,,0,,,71
+4,S320,fracture of lumbar vertebra,,0,,,71
+4,T842,mechanical complication of internal fixation device of bones,,0,,,71
+5,M472,other spondylosis with radiculopathy,100,82.456140351,57,47,57
+5,I10,essential (primary) hypertension,70.175438596,0,40,,57
+5,E785,"hyperlipidemia, unspecified",35.087719298,0,20,,57
+5,K219,gastro-esophageal reflux disease without esophagitis,33.333333333,0,19,,57
+5,Z798,other long term (current) drug therapy,22.807017544,0,13,,57
+5,Z878,personal history of other specified conditions,21.052631579,0,12,,57
+5,E669,"obesity, unspecified",,0,,,57
+5,G473,sleep apnea,,0,,,57
+5,F329,"major depressive disorder, single episode, unspecified",,0,,,57
+5,Z981,arthrodesis status,,0,,,57
+5,E780,pure hypercholesterolemia,,0,,,57
+5,M513,"oth thoracic, thrclm and lumbosacr intvrt disc degeneration",,,,,57
+5,M478,other spondylosis,,,,,57
+5,D62,acute posthemorrhagic anemia,,0,,,57
+5,M541,radiculopathy,,0,,,57
+5,K590,constipation,,0,,,57
+5,M199,"osteoarthritis, unspecified site",,0,,,57
+5,M419,"scoliosis, unspecified",,0,,,57
+5,M961,"postlaminectomy syndrome, not elsewhere classified",,0,,,57
+5,Z854,personal history of malignant neoplasm of genital organs,,0,,,57
+5,G974,accidental pnctr & lac of a nervous system org dur proc,,0,,,57
+5,H919,unspecified hearing loss,,0,,,57
+5,J459,other and unspecified asthma,,0,,,57
+5,M418,other forms of scoliosis,,0,,,57
+5,M471,other spondylosis with myelopathy,,,,,57
+5,G961,"disorders of meninges, not elsewhere classified",,0,,,57
+5,M532,spinal instabilities,,0,,,57
+5,M545,low back pain,,0,,,57
+5,M713,other bursal cyst,,0,,,57
+5,M968,"oth intraop and postproc comp and disorders of ms sys, nec",,0,,,57
+5,Z907,acquired absence of genital organ(s),,0,,,57
+5,Z984,cataract extraction status,,0,,,57
+5,C795,secondary malignant neoplasm of bone and bone marrow,,,,,57
+5,K264,chronic or unspecified duodenal ulcer with hemorrhage,,,,,57
+5,M411,juvenile and adolescent idiopathic scoliosis,,,,,57
+5,M960,pseudarthrosis after fusion or arthrodesis,,,,,57
+5,S331,subluxation and dislocation of lumbar vertebra,,,,,57
+5,T842,mechanical complication of internal fixation device of bones,,,,,57
+5,G439,"migraine, unspecified",,0,,,57
+5,G960,cerebrospinal fluid leak,,0,,,57
+5,M402,other and unspecified kyphosis,,0,,,57
+5,M403,flatback syndrome,,0,,,57
+5,M430,spondylolysis,,0,,,57
+5,M462,osteomyelitis of vertebra,,0,,,57
+5,M479,"spondylosis, unspecified",,0,,,57
+5,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",,0,,,57
+5,M796,"pain in limb, hand, foot, fingers and toes",,0,,,57
+5,M845,pathological fracture in neoplastic disease,,0,,,57
+5,T848,oth complications of internal orthopedic prosth dev/grft,,0,,,57
+5,Z858,personal history of malig neoplasms of organs and systems,,0,,,57
+5,Z880,allergy status to penicillin,,0,,,57
+5,Z910,"allergy status, oth than to drugs and biological substances",,0,,,57
+6,M513,"oth thoracic, thrclm and lumbosacr intvrt disc degeneration",100,70,60,42,60
+6,I10,essential (primary) hypertension,58.333333333,0,35,,60
+6,E785,"hyperlipidemia, unspecified",33.333333333,0,20,,60
+6,K219,gastro-esophageal reflux disease without esophagitis,31.666666667,0,19,,60
+6,Z878,personal history of other specified conditions,26.666666667,0,16,,60
+6,D62,acute posthemorrhagic anemia,23.333333333,0,14,,60
+6,M478,other spondylosis,18.333333333,,11,,60
+6,G473,sleep apnea,,0,,,60
+6,M199,"osteoarthritis, unspecified site",,0,,,60
+6,Z981,arthrodesis status,,0,,,60
+6,Z966,presence of orthopedic joint implants,,0,,,60
+6,E780,pure hypercholesterolemia,,0,,,60
+6,F329,"major depressive disorder, single episode, unspecified",,0,,,60
+6,M545,low back pain,,0,,,60
+6,Z798,other long term (current) drug therapy,,0,,,60
+6,M960,pseudarthrosis after fusion or arthrodesis,,,,,60
+6,G892,"chronic pain, not elsewhere classified",,0,,,60
+6,J459,other and unspecified asthma,,0,,,60
+6,K590,constipation,,0,,,60
+6,E669,"obesity, unspecified",,0,,,60
+6,M532,spinal instabilities,,0,,,60
+6,M419,"scoliosis, unspecified",,,,,60
+6,H919,unspecified hearing loss,,0,,,60
+6,M418,other forms of scoliosis,,0,,,60
+6,M961,"postlaminectomy syndrome, not elsewhere classified",,0,,,60
+6,Z907,acquired absence of genital organ(s),,0,,,60
+6,M464,"discitis, unspecified",,,,,60
+6,T842,mechanical complication of internal fixation device of bones,,,,,60
+6,E876,hypokalemia,,0,,,60
+6,G891,"acute pain, not elsewhere classified",,0,,,60
+6,G92,toxic encephalopathy,,0,,,60
+6,M069,"rheumatoid arthritis, unspecified",,0,,,60
+6,M479,"spondylosis, unspecified",,0,,,60
+6,M541,radiculopathy,,0,,,60
+6,Z880,allergy status to penicillin,,0,,,60
+6,M462,osteomyelitis of vertebra,,,,,60
+6,T844,"mech comp of internal orth devices, implants and grafts",,,,,60
+6,T848,oth complications of internal orthopedic prosth dev/grft,,,,,60
+6,A419,"sepsis, unspecified organism",,0,,,60
+6,G439,"migraine, unspecified",,0,,,60
+6,G974,accidental pnctr & lac of a nervous system org dur proc,,0,,,60
+6,K589,irritable bowel syndrome without diarrhea,,0,,,60
+6,M430,spondylolysis,,0,,,60
+6,M963,postlaminectomy kyphosis,,0,,,60
+6,T814,infection following a procedure,,0,,,60
+6,T840,mechanical complication of internal joint prosthesis,,0,,,60
+6,Z854,personal history of malignant neoplasm of genital organs,,0,,,60
+6,Z910,"allergy status, oth than to drugs and biological substances",,0,,,60
+7,M960,pseudarthrosis after fusion or arthrodesis,100,81.481481481,27,22,27
+7,E785,"hyperlipidemia, unspecified",48.148148148,0,13,,27
+7,I10,essential (primary) hypertension,48.148148148,0,13,,27
+7,K219,gastro-esophageal reflux disease without esophagitis,,0,,,27
+7,F329,"major depressive disorder, single episode, unspecified",,0,,,27
+7,M541,radiculopathy,,0,,,27
+7,G473,sleep apnea,,0,,,27
+7,T840,mechanical complication of internal joint prosthesis,,,,,27
+7,D62,acute posthemorrhagic anemia,,0,,,27
+7,E780,pure hypercholesterolemia,,0,,,27
+7,Z858,personal history of malig neoplasms of organs and systems,,0,,,27
+7,Z907,acquired absence of genital organ(s),,0,,,27
+7,Z966,presence of orthopedic joint implants,,0,,,27
+7,Z981,arthrodesis status,,0,,,27
+7,T842,mechanical complication of internal fixation device of bones,,,,,27
+7,J459,other and unspecified asthma,,0,,,27
+7,Z878,personal history of other specified conditions,,0,,,27
+7,E669,"obesity, unspecified",,0,,,27
+7,G439,"migraine, unspecified",,0,,,27
+7,G892,"chronic pain, not elsewhere classified",,0,,,27
+7,K589,irritable bowel syndrome without diarrhea,,0,,,27
+7,M199,"osteoarthritis, unspecified site",,0,,,27
+7,M419,"scoliosis, unspecified",,0,,,27
+7,M462,osteomyelitis of vertebra,,0,,,27
+7,T848,oth complications of internal orthopedic prosth dev/grft,,0,,,27
+7,Z798,other long term (current) drug therapy,,0,,,27
+7,M963,postlaminectomy kyphosis,,,,,27
+7,Q764,"oth congenital malform of spine, not associated w scoliosis",,,,,27
+7,T843,"mechanical complication of bone devices, implants and grafts",,,,,27
+7,H919,unspecified hearing loss,,0,,,27
+7,M069,"rheumatoid arthritis, unspecified",,0,,,27
+7,M471,other spondylosis with myelopathy,,0,,,27
+7,M478,other spondylosis,,0,,,27
+7,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",,0,,,27
+7,M532,spinal instabilities,,0,,,27
+7,M545,low back pain,,0,,,27
+7,M961,"postlaminectomy syndrome, not elsewhere classified",,0,,,27
+7,T844,"mech comp of internal orth devices, implants and grafts",,0,,,27
+7,Z880,allergy status to penicillin,,0,,,27
+8,M478,other spondylosis,100,80.64516129,31,25,31
+8,I10,essential (primary) hypertension,61.290322581,0,19,,31
+8,E785,"hyperlipidemia, unspecified",45.161290323,0,14,,31
+8,K219,gastro-esophageal reflux disease without esophagitis,38.709677419,0,12,,31
+8,G473,sleep apnea,,0,,,31
+8,Z798,other long term (current) drug therapy,,0,,,31
+8,K590,constipation,,0,,,31
+8,Z878,personal history of other specified conditions,,0,,,31
+8,M199,"osteoarthritis, unspecified site",,0,,,31
+8,Z981,arthrodesis status,,0,,,31
+8,M464,"discitis, unspecified",,,,,31
+8,D62,acute posthemorrhagic anemia,,0,,,31
+8,E669,"obesity, unspecified",,0,,,31
+8,E780,pure hypercholesterolemia,,0,,,31
+8,M545,low back pain,,0,,,31
+8,M462,osteomyelitis of vertebra,,,,,31
+8,E876,hypokalemia,,0,,,31
+8,G439,"migraine, unspecified",,0,,,31
+8,F329,"major depressive disorder, single episode, unspecified",,0,,,31
+8,G891,"acute pain, not elsewhere classified",,0,,,31
+8,G892,"chronic pain, not elsewhere classified",,0,,,31
+8,Z854,personal history of malignant neoplasm of genital organs,,0,,,31
+8,Z880,allergy status to penicillin,,0,,,31
+8,Z966,presence of orthopedic joint implants,,0,,,31
+8,A419,"sepsis, unspecified organism",,,,,31
+8,C795,secondary malignant neoplasm of bone and bone marrow,,,,,31
+8,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",,,,,31
+8,T842,mechanical complication of internal fixation device of bones,,,,,31
+8,G974,accidental pnctr & lac of a nervous system org dur proc,,0,,,31
+8,J459,other and unspecified asthma,,0,,,31
+8,M402,other and unspecified kyphosis,,0,,,31
+8,M419,"scoliosis, unspecified",,0,,,31
+8,M479,"spondylosis, unspecified",,0,,,31
+8,M541,radiculopathy,,0,,,31
+8,M713,other bursal cyst,,0,,,31
+8,M796,"pain in limb, hand, foot, fingers and toes",,0,,,31
+8,T856,mechanical comp of internal and external prosth dev/grft,,0,,,31
+8,Z907,acquired absence of genital organ(s),,0,,,31
+8,Z910,"allergy status, oth than to drugs and biological substances",,0,,,31
+8,Z984,cataract extraction status,,0,,,31
+9,M541,radiculopathy,100,,19,,19
+9,I10,essential (primary) hypertension,68.421052632,0,13,,19
+9,E785,"hyperlipidemia, unspecified",,0,,,19
+9,K219,gastro-esophageal reflux disease without esophagitis,,0,,,19
+9,F329,"major depressive disorder, single episode, unspecified",,0,,,19
+9,M545,low back pain,,0,,,19
+9,Z798,other long term (current) drug therapy,,0,,,19
+9,D62,acute posthemorrhagic anemia,,0,,,19
+9,E669,"obesity, unspecified",,0,,,19
+9,E780,pure hypercholesterolemia,,0,,,19
+9,M199,"osteoarthritis, unspecified site",,0,,,19
+9,T840,mechanical complication of internal joint prosthesis,,,,,19
+9,M479,"spondylosis, unspecified",,,,,19
+9,T842,mechanical complication of internal fixation device of bones,,,,,19
+9,G473,sleep apnea,,0,,,19
+9,G892,"chronic pain, not elsewhere classified",,0,,,19
+9,J459,other and unspecified asthma,,0,,,19
+9,Z878,personal history of other specified conditions,,0,,,19
+9,Z907,acquired absence of genital organ(s),,0,,,19
+9,Z910,"allergy status, oth than to drugs and biological substances",,0,,,19
+9,Z981,arthrodesis status,,0,,,19
+9,M412,other idiopathic scoliosis,,,,,19
+9,M462,osteomyelitis of vertebra,,,,,19
+9,M888,osteitis deformans of other bones,,,,,19
+9,M961,"postlaminectomy syndrome, not elsewhere classified",,,,,19
+9,T843,"mechanical complication of bone devices, implants and grafts",,,,,19
+9,G439,"migraine, unspecified",,0,,,19
+9,M069,"rheumatoid arthritis, unspecified",,0,,,19
+9,M418,other forms of scoliosis,,0,,,19
+9,M419,"scoliosis, unspecified",,0,,,19
+9,M464,"discitis, unspecified",,0,,,19
+9,M808,other osteoporosis with current pathological fracture,,0,,,19
+9,S320,fracture of lumbar vertebra,,0,,,19
+9,Z880,allergy status to penicillin,,0,,,19
+9,Z966,presence of orthopedic joint implants,,0,,,19
+10,I10,essential (primary) hypertension,100,0,49,,49
+10,K219,gastro-esophageal reflux disease without esophagitis,51.020408163,0,25,,49
+10,E785,"hyperlipidemia, unspecified",48.979591837,0,24,,49
+10,G473,sleep apnea,26.530612245,0,13,,49
+10,Z798,other long term (current) drug therapy,26.530612245,0,13,,49
+10,F329,"major depressive disorder, single episode, unspecified",22.448979592,0,11,,49
+10,Z878,personal history of other specified conditions,22.448979592,0,11,,49
+10,Z981,arthrodesis status,22.448979592,0,11,,49
+10,S320,fracture of lumbar vertebra,,,,,49
+10,M464,"discitis, unspecified",,,,,49
+10,T842,mechanical complication of internal fixation device of bones,,,,,49
+10,M462,osteomyelitis of vertebra,,,,,49
+10,M402,other and unspecified kyphosis,,,,,49
+10,D62,acute posthemorrhagic anemia,,0,,,49
+10,J459,other and unspecified asthma,,0,,,49
+10,M199,"osteoarthritis, unspecified site",,0,,,49
+10,E669,"obesity, unspecified",,0,,,49
+10,K590,constipation,,0,,,49
+10,M418,other forms of scoliosis,,,,,49
+10,M485,"collapsed vertebra, not elsewhere classified",,,,,49
+10,M961,"postlaminectomy syndrome, not elsewhere classified",,,,,49
+10,T848,oth complications of internal orthopedic prosth dev/grft,,,,,49
+10,E780,pure hypercholesterolemia,,0,,,49
+10,E876,hypokalemia,,0,,,49
+10,G892,"chronic pain, not elsewhere classified",,0,,,49
+10,M545,low back pain,,0,,,49
+10,Z966,presence of orthopedic joint implants,,0,,,49
+10,M479,"spondylosis, unspecified",,,,,49
+10,G439,"migraine, unspecified",,0,,,49
+10,M419,"scoliosis, unspecified",,0,,,49
+10,M532,spinal instabilities,,,,,49
+10,M400,postural kyphosis,,,,,49
+10,M800,age-related osteoporosis with current pathological fracture,,,,,49
+10,S331,subluxation and dislocation of lumbar vertebra,,,,,49
+10,G891,"acute pain, not elsewhere classified",,0,,,49
+10,G92,toxic encephalopathy,,0,,,49
+10,H919,unspecified hearing loss,,0,,,49
+10,M069,"rheumatoid arthritis, unspecified",,0,,,49
+10,Z854,personal history of malignant neoplasm of genital organs,,0,,,49
+10,Z880,allergy status to penicillin,,0,,,49
+10,Z907,acquired absence of genital organ(s),,0,,,49
+10,Z910,"allergy status, oth than to drugs and biological substances",,0,,,49
+10,A409,"streptococcal sepsis, unspecified",,,,,49
+10,A418,other specified sepsis,,,,,49
+10,M403,flatback syndrome,,,,,49
+10,M413,thoracogenic scoliosis,,,,,49
+10,M430,spondylolysis,,,,,49
+10,M438,other specified deforming dorsopathies,,,,,49
+10,M463,infection of intervertebral disc (pyogenic),,,,,49
+10,M808,other osteoporosis with current pathological fracture,,,,,49
+10,M846,pathological fracture in other disease,,,,,49
+10,Q762,congenital spondylolisthesis,,,,,49
+10,S220,fracture of thoracic vertebra,,,,,49
+10,T849,unsp complication of internal orthopedic prosth dev/grft,,,,,49
+10,T856,mechanical comp of internal and external prosth dev/grft,,,,,49
+10,G974,accidental pnctr & lac of a nervous system org dur proc,,0,,,49
+10,M401,other secondary kyphosis,,0,,,49
+10,M469,unspecified inflammatory spondylopathy,,0,,,49
+10,M471,other spondylosis with myelopathy,,0,,,49
+10,M518,"oth thoracic, thoracolum and lumbosacr intvrt disc disorders",,0,,,49
+10,M968,"oth intraop and postproc comp and disorders of ms sys, nec",,0,,,49
+10,S321,fracture of sacrum,,0,,,49
+10,T814,infection following a procedure,,0,,,49
+11,Z981,arthrodesis status,,0,,,
+11,M800,age-related osteoporosis with current pathological fracture,,,,,
+11,T848,oth complications of internal orthopedic prosth dev/grft,,,,,
+11,D62,acute posthemorrhagic anemia,,0,,,
+11,M545,low back pain,,0,,,
+11,Z910,"allergy status, oth than to drugs and biological substances",,0,,,
+12,M462,osteomyelitis of vertebra,,,,,
+12,M464,"discitis, unspecified",,0,,,
+12,E785,"hyperlipidemia, unspecified",,0,,,
+12,G473,sleep apnea,,0,,,
+12,Z878,personal history of other specified conditions,,0,,,
+12,D62,acute posthemorrhagic anemia,,0,,,
+12,E669,"obesity, unspecified",,0,,,
+12,E780,pure hypercholesterolemia,,0,,,
+12,F329,"major depressive disorder, single episode, unspecified",,0,,,
+12,G891,"acute pain, not elsewhere classified",,0,,,
+12,K219,gastro-esophageal reflux disease without esophagitis,,0,,,
+12,K590,constipation,,0,,,
+12,M199,"osteoarthritis, unspecified site",,0,,,
+12,M796,"pain in limb, hand, foot, fingers and toes",,0,,,
+13,D62,acute posthemorrhagic anemia,,0,,,
+13,E785,"hyperlipidemia, unspecified",,0,,,
+13,M481,ankylosing hyperostosis [forestier],,0,,,
+13,M402,other and unspecified kyphosis,,,,,
+13,M432,fusion of spine,,,,,
+13,M844,"pathological fracture, not elsewhere classified",,,,,
+13,S220,fracture of thoracic vertebra,,,,,
+13,E669,"obesity, unspecified",,0,,,
+13,E876,hypokalemia,,0,,,
+13,G439,"migraine, unspecified",,0,,,
+13,G473,sleep apnea,,0,,,
+13,G92,toxic encephalopathy,,0,,,
+13,K219,gastro-esophageal reflux disease without esophagitis,,0,,,
+13,M479,"spondylosis, unspecified",,0,,,
+13,Z798,other long term (current) drug therapy,,0,,,
+14,G892,"chronic pain, not elsewhere classified",,0,,,
+14,Z878,personal history of other specified conditions,,0,,,
+14,M418,other forms of scoliosis,,,,,
+14,M961,"postlaminectomy syndrome, not elsewhere classified",,,,,
+14,G473,sleep apnea,,0,,,
+14,K219,gastro-esophageal reflux disease without esophagitis,,0,,,
+14,K590,constipation,,0,,,
+14,M545,low back pain,,0,,,
+14,Z880,allergy status to penicillin,,0,,,
+16,S320,fracture of lumbar vertebra,,,,,
+16,G473,sleep apnea,,0,,,
+16,K590,constipation,,0,,,
+16,M796,"pain in limb, hand, foot, fingers and toes",,0,,,
+16,S331,subluxation and dislocation of lumbar vertebra,,0,,,
+17,E785,"hyperlipidemia, unspecified",,0,,,
+17,K219,gastro-esophageal reflux disease without esophagitis,,0,,,
+17,K590,constipation,,0,,,
+17,Z878,personal history of other specified conditions,,0,,,
+17,M430,spondylolysis,,,,,
+17,M471,other spondylosis with myelopathy,,,,,
+17,M519,"unsp thoracic, thoracolum and lumbosacr intvrt disc disorder",,,,,
+17,M845,pathological fracture in neoplastic disease,,,,,
+17,C795,secondary malignant neoplasm of bone and bone marrow,,0,,,
+17,J459,other and unspecified asthma,,0,,,
+17,M419,"scoliosis, unspecified",,0,,,
+17,M485,"collapsed vertebra, not elsewhere classified",,0,,,
+17,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",,0,,,
+17,M532,spinal instabilities,,0,,,
+17,M545,low back pain,,0,,,
+17,Z854,personal history of malignant neoplasm of genital organs,,0,,,
+17,Z880,allergy status to penicillin,,0,,,
+20,M418,other forms of scoliosis,,,,,
+20,Z798,other long term (current) drug therapy,,0,,,
+20,Z907,acquired absence of genital organ(s),,0,,,
+20,Z984,cataract extraction status,,0,,,
+33,M510,"thoracic, thrclm and lumbosacr intvrt disc disord w myelpath",,,,,
+33,G834,cauda equina syndrome,,0,,,
+45,M845,pathological fracture in neoplastic disease,,,,,
+45,C795,secondary malignant neoplasm of bone and bone marrow,,0,,,
+45,M485,"collapsed vertebra, not elsewhere classified",,0,,,

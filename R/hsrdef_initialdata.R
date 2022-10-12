@@ -1,15 +1,17 @@
 #' Create initial data sets
 #'
 #' @param input_data_select input data from ui
-#' @param values vals list from server
+#' @param load_data use default data or not
 #'
 #' @import data.table
 #' @importFrom tools file_ext
+#' @importFrom utils data
 #'
 #' @return values reactive list with updated data
 #' @export
-hsrdef_initialdata <- function(input_data_select){
+hsrdef_initialdata <- function(input_data_select,load_data = TRUE){
 
+  if (load_data == TRUE) {
   ## upload data
   ext <- file_ext(input_data_select$name)
   validate(need(ext == "csv","Invalid file: please upload a .csv file."))
@@ -20,6 +22,10 @@ hsrdef_initialdata <- function(input_data_select){
                      "all_cnt","leaf_total") %in% colnames(data)
 
   validate(need(all(check_columns == 1),"Invalid file: column names do not match expected SAS output"))
+
+  } else {
+    data = data.table(input_data_select)
+  }
 
   # create data set for table visual
   data_table <- data

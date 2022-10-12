@@ -1,0 +1,836 @@
+_Leaf_,code,DGNS_DESC,all_pc,all_cnt,leaf_total
+0,,,,,407
+1,N390,"urinary tract infection, site not specified",100,1019,1019
+1,I10,essential (primary) hypertension,30.520117763,311,1019
+1,Z798,other long term (current) drug therapy,15.505397448,158,1019
+1,E119,type 2 diabetes mellitus without complications,12.365063788,126,1019
+1,Z878,personal history of other specified conditions,7.7526987242,79,1019
+1,F039,unspecified dementia,6.0843964671,62,1019
+1,E780,pure hypercholesterolemia,5.0049067713,51,1019
+1,E860,dehydration,4.3179587831,44,1019
+1,Z867,personal history of diseases of the circulatory system,4.3179587831,44,1019
+1,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,3.3366045142,34,1019
+1,N179,"acute kidney failure, unspecified",3.1403336605,32,1019
+1,N183,"chronic kidney disease, stage 3 (moderate)",3.1403336605,32,1019
+1,Z874,personal history of diseases of genitourinary system,2.9440628067,30,1019
+1,R319,"hematuria, unspecified",2.8459273798,29,1019
+1,R109,unspecified abdominal pain,2.4533856722,25,1019
+1,R339,"retention of urine, unspecified",2.4533856722,25,1019
+1,R538,other malaise and fatigue,2.4533856722,25,1019
+1,R531,weakness,2.3552502453,24,1019
+1,R418,oth symptoms and signs w cognitive functions and awareness,2.0608439647,21,1019
+1,R55,syncope and collapse,2.0608439647,21,1019
+1,R112,"nausea with vomiting, unspecified",1.9627085378,20,1019
+1,E559,"vitamin d deficiency, unspecified",1.766437684,18,1019
+1,R42,dizziness and giddiness,1.766437684,18,1019
+1,Z885,allergy status to narcotic agent status,1.766437684,18,1019
+1,R197,"diarrhea, unspecified",1.6683022571,17,1019
+1,R300,dysuria,1.6683022571,17,1019
+1,F172,nicotine dependence,1.5701668302,16,1019
+1,R32,unspecified urinary incontinence,1.2757605496,13,1019
+1,R350,frequency of micturition,1.2757605496,13,1019
+1,R410,"disorientation, unspecified",1.2757605496,13,1019
+1,N401,enlarged prostate with lower urinary tract symptoms,1.0794896958,11,1019
+1,R110,nausea,1.0794896958,11,1019
+1,R51,headache,1.0794896958,11,1019
+1,D728,other specified disorders of white blood cells,,,1019
+1,R509,"fever, unspecified",,,1019
+1,R829,other and unspecified abnormal findings in urine,,,1019
+1,A419,"sepsis, unspecified organism",,,1019
+1,K529,"noninfective gastroenteritis and colitis, unspecified",,,1019
+1,R101,pain localized to upper abdomen,,,1019
+1,R103,pain localized to other parts of lower abdomen,,,1019
+1,R111,vomiting,,,1019
+1,I959,"hypotension, unspecified",,,1019
+1,S008,superficial injury of other parts of head,,,1019
+1,N184,"chronic kidney disease, stage 4 (severe)",,,1019
+1,R108,other abdominal pain,,,1019
+1,R338,other retention of urine,,,1019
+1,F209,"schizophrenia, unspecified",,,1019
+1,N394,other specified urinary incontinence,,,1019
+1,R102,pelvic and perineal pain,,,1019
+1,R809,"proteinuria, unspecified",,,1019
+1,Z940,kidney transplant status,,,1019
+1,G459,"transient cerebral ischemic attack, unspecified",,,1019
+1,N200,calculus of kidney,,,1019
+1,R351,nocturia,,,1019
+1,R391,other difficulties with micturition,,,1019
+1,Z000,encounter for general adult medical examination,,,1019
+1,N12,"tubulo-interstitial nephritis, not spcf as acute or chronic",,,1019
+1,R312,other microscopic hematuria,,,1019
+1,R798,other specified abnormal findings of blood chemistry,,,1019
+1,N300,acute cystitis,,,1019
+1,R310,gross hematuria,,,1019
+1,Z018,encounter for other specified special examinations,,,1019
+1,Z125,encounter for screening for malignant neoplasm of prostate,,,1019
+1,K802,calculus of gallbladder without cholecystitis,,,1019
+1,N201,calculus of ureter,,,1019
+1,N309,"cystitis, unspecified",,,1019
+1,R309,"painful micturition, unspecified",,,1019
+1,R399,unsp symptoms and signs involving the genitourinary system,,,1019
+2,R300,dysuria,100,205,205
+2,I10,essential (primary) hypertension,13.170731707,27,205
+2,R350,frequency of micturition,7.8048780488,16,205
+2,Z798,other long term (current) drug therapy,,,205
+2,E119,type 2 diabetes mellitus without complications,,,205
+2,R319,"hematuria, unspecified",,,205
+2,R829,other and unspecified abnormal findings in urine,,,205
+2,R109,unspecified abdominal pain,,,205
+2,R538,other malaise and fatigue,,,205
+2,Z878,personal history of other specified conditions,,,205
+2,R391,other difficulties with micturition,,,205
+2,E559,"vitamin d deficiency, unspecified",,,205
+2,N183,"chronic kidney disease, stage 3 (moderate)",,,205
+2,N300,acute cystitis,,,205
+2,R103,pain localized to other parts of lower abdomen,,,205
+2,R42,dizziness and giddiness,,,205
+2,R531,weakness,,,205
+2,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,205
+2,N394,other specified urinary incontinence,,,205
+2,R339,"retention of urine, unspecified",,,205
+2,R509,"fever, unspecified",,,205
+2,Z000,encounter for general adult medical examination,,,205
+2,Z867,personal history of diseases of the circulatory system,,,205
+2,Z874,personal history of diseases of genitourinary system,,,205
+2,N179,"acute kidney failure, unspecified",,,205
+2,N200,calculus of kidney,,,205
+2,N309,"cystitis, unspecified",,,205
+2,R101,pain localized to upper abdomen,,,205
+2,R102,pelvic and perineal pain,,,205
+2,R110,nausea,,,205
+2,R309,"painful micturition, unspecified",,,205
+2,R310,gross hematuria,,,205
+2,R351,nocturia,,,205
+2,R51,headache,,,205
+2,D728,other specified disorders of white blood cells,,,205
+2,E780,pure hypercholesterolemia,,,205
+2,F039,unspecified dementia,,,205
+2,I959,"hypotension, unspecified",,,205
+2,K529,"noninfective gastroenteritis and colitis, unspecified",,,205
+2,K802,calculus of gallbladder without cholecystitis,,,205
+2,N12,"tubulo-interstitial nephritis, not spcf as acute or chronic",,,205
+2,N201,calculus of ureter,,,205
+2,N210,calculus in bladder,,,205
+2,R312,other microscopic hematuria,,,205
+2,R32,unspecified urinary incontinence,,,205
+2,R418,oth symptoms and signs w cognitive functions and awareness,,,205
+2,R798,other specified abnormal findings of blood chemistry,,,205
+2,Z885,allergy status to narcotic agent status,,,205
+3,R829,other and unspecified abnormal findings in urine,100,114,114
+3,I10,essential (primary) hypertension,27.192982456,31,114
+3,E119,type 2 diabetes mellitus without complications,11.403508772,13,114
+3,Z018,encounter for other specified special examinations,11.403508772,13,114
+3,Z798,other long term (current) drug therapy,11.403508772,13,114
+3,E559,"vitamin d deficiency, unspecified",,,114
+3,R350,frequency of micturition,,,114
+3,E780,pure hypercholesterolemia,,,114
+3,R112,"nausea with vomiting, unspecified",,,114
+3,F039,unspecified dementia,,,114
+3,N183,"chronic kidney disease, stage 3 (moderate)",,,114
+3,N200,calculus of kidney,,,114
+3,R109,unspecified abdominal pain,,,114
+3,F172,nicotine dependence,,,114
+3,N300,acute cystitis,,,114
+3,R197,"diarrhea, unspecified",,,114
+3,R319,"hematuria, unspecified",,,114
+3,R32,unspecified urinary incontinence,,,114
+3,R531,weakness,,,114
+3,Z874,personal history of diseases of genitourinary system,,,114
+3,D728,other specified disorders of white blood cells,,,114
+3,E860,dehydration,,,114
+3,G459,"transient cerebral ischemic attack, unspecified",,,114
+3,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,114
+3,N184,"chronic kidney disease, stage 4 (severe)",,,114
+3,R101,pain localized to upper abdomen,,,114
+3,R339,"retention of urine, unspecified",,,114
+3,R391,other difficulties with micturition,,,114
+3,R410,"disorientation, unspecified",,,114
+3,R418,oth symptoms and signs w cognitive functions and awareness,,,114
+3,R42,dizziness and giddiness,,,114
+3,R509,"fever, unspecified",,,114
+3,R55,syncope and collapse,,,114
+3,R798,other specified abnormal findings of blood chemistry,,,114
+3,Z125,encounter for screening for malignant neoplasm of prostate,,,114
+3,Z867,personal history of diseases of the circulatory system,,,114
+3,K802,calculus of gallbladder without cholecystitis,,,114
+3,N132,hydronephrosis with renal and ureteral calculous obstruction,,,114
+3,N201,calculus of ureter,,,114
+3,N394,other specified urinary incontinence,,,114
+3,R103,pain localized to other parts of lower abdomen,,,114
+3,R309,"painful micturition, unspecified",,,114
+3,R351,nocturia,,,114
+3,R538,other malaise and fatigue,,,114
+3,Z000,encounter for general adult medical examination,,,114
+3,Z940,kidney transplant status,,,114
+3,Z944,liver transplant status,,,114
+4,N300,acute cystitis,100,103,103
+4,I10,essential (primary) hypertension,30.097087379,31,103
+4,Z798,other long term (current) drug therapy,16.504854369,17,103
+4,E119,type 2 diabetes mellitus without complications,14.563106796,15,103
+4,Z878,personal history of other specified conditions,,,103
+4,E780,pure hypercholesterolemia,,,103
+4,R531,weakness,,,103
+4,Z867,personal history of diseases of the circulatory system,,,103
+4,F039,unspecified dementia,,,103
+4,R42,dizziness and giddiness,,,103
+4,E860,dehydration,,,103
+4,R418,oth symptoms and signs w cognitive functions and awareness,,,103
+4,D728,other specified disorders of white blood cells,,,103
+4,E559,"vitamin d deficiency, unspecified",,,103
+4,F172,nicotine dependence,,,103
+4,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,103
+4,R108,other abdominal pain,,,103
+4,R103,pain localized to other parts of lower abdomen,,,103
+4,R338,other retention of urine,,,103
+4,R339,"retention of urine, unspecified",,,103
+4,R399,unsp symptoms and signs involving the genitourinary system,,,103
+4,R410,"disorientation, unspecified",,,103
+4,R538,other malaise and fatigue,,,103
+4,K802,calculus of gallbladder without cholecystitis,,,103
+4,N179,"acute kidney failure, unspecified",,,103
+4,N183,"chronic kidney disease, stage 3 (moderate)",,,103
+4,N200,calculus of kidney,,,103
+4,N394,other specified urinary incontinence,,,103
+4,N401,enlarged prostate with lower urinary tract symptoms,,,103
+4,R101,pain localized to upper abdomen,,,103
+4,R102,pelvic and perineal pain,,,103
+4,R109,unspecified abdominal pain,,,103
+4,R112,"nausea with vomiting, unspecified",,,103
+4,R309,"painful micturition, unspecified",,,103
+4,R319,"hematuria, unspecified",,,103
+4,R32,unspecified urinary incontinence,,,103
+4,R509,"fever, unspecified",,,103
+4,R55,syncope and collapse,,,103
+4,R809,"proteinuria, unspecified",,,103
+4,S008,superficial injury of other parts of head,,,103
+4,Z874,personal history of diseases of genitourinary system,,,103
+4,Z885,allergy status to narcotic agent status,,,103
+4,Z940,kidney transplant status,,,103
+5,I10,essential (primary) hypertension,100,1351,1351
+5,Z798,other long term (current) drug therapy,27.979274611,378,1351
+5,E119,type 2 diabetes mellitus without complications,24.648408586,333,1351
+5,Z878,personal history of other specified conditions,13.989637306,189,1351
+5,E780,pure hypercholesterolemia,9.8445595855,133,1351
+5,Z867,personal history of diseases of the circulatory system,8.8823094004,120,1351
+5,F039,unspecified dementia,5.3293856403,72,1351
+5,R531,weakness,5.2553663953,71,1351
+5,R42,dizziness and giddiness,5.1813471503,70,1351
+5,E559,"vitamin d deficiency, unspecified",4.6632124352,63,1351
+5,F172,nicotine dependence,4.5151739452,61,1351
+5,R538,other malaise and fatigue,3.9970392302,54,1351
+5,E860,dehydration,3.5529237602,48,1351
+5,R109,unspecified abdominal pain,3.5529237602,48,1351
+5,R55,syncope and collapse,3.5529237602,48,1351
+5,Z018,encounter for other specified special examinations,3.1828275352,43,1351
+5,Z000,encounter for general adult medical examination,2.9607698001,40,1351
+5,Z885,allergy status to narcotic agent status,2.8867505551,39,1351
+5,R51,headache,2.7387120651,37,1351
+5,Z874,personal history of diseases of genitourinary system,2.7387120651,37,1351
+5,R197,"diarrhea, unspecified",2.5166543301,34,1351
+5,Z125,encounter for screening for malignant neoplasm of prostate,2.4426350851,33,1351
+5,R112,"nausea with vomiting, unspecified",2.2945965951,31,1351
+5,R110,nausea,2.2205773501,30,1351
+5,R418,oth symptoms and signs w cognitive functions and awareness,2.2205773501,30,1351
+5,N179,"acute kidney failure, unspecified",2.1465581051,29,1351
+5,N183,"chronic kidney disease, stage 3 (moderate)",2.1465581051,29,1351
+5,R319,"hematuria, unspecified",2.0725388601,28,1351
+5,R101,pain localized to upper abdomen,1.8504811251,25,1351
+5,R103,pain localized to other parts of lower abdomen,1.7764618801,24,1351
+5,R339,"retention of urine, unspecified",1.4803849001,20,1351
+5,R350,frequency of micturition,1.4803849001,20,1351
+5,K529,"noninfective gastroenteritis and colitis, unspecified",1.3323464101,18,1351
+5,R809,"proteinuria, unspecified",1.3323464101,18,1351
+5,D728,other specified disorders of white blood cells,1.2583271651,17,1351
+5,R509,"fever, unspecified",1.2583271651,17,1351
+5,I959,"hypotension, unspecified",1.1102886751,15,1351
+5,N200,calculus of kidney,1.0362694301,14,1351
+5,R798,other specified abnormal findings of blood chemistry,1.0362694301,14,1351
+5,R108,other abdominal pain,0.88823094,12,1351
+5,G459,"transient cerebral ischemic attack, unspecified",0.814211695,11,1351
+5,N132,hydronephrosis with renal and ureteral calculous obstruction,0.814211695,11,1351
+5,N184,"chronic kidney disease, stage 4 (severe)",0.814211695,11,1351
+5,N401,enlarged prostate with lower urinary tract symptoms,0.814211695,11,1351
+5,R410,"disorientation, unspecified",0.814211695,11,1351
+5,R111,vomiting,,,1351
+5,K802,calculus of gallbladder without cholecystitis,,,1351
+5,R32,unspecified urinary incontinence,,,1351
+5,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,1351
+5,Z940,kidney transplant status,,,1351
+5,N12,"tubulo-interstitial nephritis, not spcf as acute or chronic",,,1351
+5,N201,calculus of ureter,,,1351
+5,N309,"cystitis, unspecified",,,1351
+5,R312,other microscopic hematuria,,,1351
+5,R351,nocturia,,,1351
+5,F209,"schizophrenia, unspecified",,,1351
+5,N10,acute tubulo-interstitial nephritis,,,1351
+5,N394,other specified urinary incontinence,,,1351
+5,R338,other retention of urine,,,1351
+5,S008,superficial injury of other parts of head,,,1351
+5,A419,"sepsis, unspecified organism",,,1351
+5,R310,gross hematuria,,,1351
+5,N210,calculus in bladder,,,1351
+5,R102,pelvic and perineal pain,,,1351
+5,R391,other difficulties with micturition,,,1351
+5,R508,other specified fever,,,1351
+5,R309,"painful micturition, unspecified",,,1351
+5,R399,unsp symptoms and signs involving the genitourinary system,,,1351
+6,R350,frequency of micturition,100,105,105
+6,E119,type 2 diabetes mellitus without complications,,,105
+6,R538,other malaise and fatigue,,,105
+6,N401,enlarged prostate with lower urinary tract symptoms,,,105
+6,Z798,other long term (current) drug therapy,,,105
+6,R351,nocturia,,,105
+6,R391,other difficulties with micturition,,,105
+6,R531,weakness,,,105
+6,Z018,encounter for other specified special examinations,,,105
+6,Z125,encounter for screening for malignant neoplasm of prostate,,,105
+6,D728,other specified disorders of white blood cells,,,105
+6,E780,pure hypercholesterolemia,,,105
+6,N394,other specified urinary incontinence,,,105
+6,R103,pain localized to other parts of lower abdomen,,,105
+6,R109,unspecified abdominal pain,,,105
+6,R309,"painful micturition, unspecified",,,105
+6,Z867,personal history of diseases of the circulatory system,,,105
+6,Z874,personal history of diseases of genitourinary system,,,105
+6,E559,"vitamin d deficiency, unspecified",,,105
+6,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,105
+6,N183,"chronic kidney disease, stage 3 (moderate)",,,105
+6,N184,"chronic kidney disease, stage 4 (severe)",,,105
+6,N200,calculus of kidney,,,105
+6,N309,"cystitis, unspecified",,,105
+6,R310,gross hematuria,,,105
+6,R319,"hematuria, unspecified",,,105
+6,R32,unspecified urinary incontinence,,,105
+6,R339,"retention of urine, unspecified",,,105
+6,R410,"disorientation, unspecified",,,105
+6,R418,oth symptoms and signs w cognitive functions and awareness,,,105
+6,R42,dizziness and giddiness,,,105
+6,R55,syncope and collapse,,,105
+6,Z878,personal history of other specified conditions,,,105
+6,Z940,kidney transplant status,,,105
+7,R319,"hematuria, unspecified",100,78,78
+7,Z798,other long term (current) drug therapy,15.384615385,12,78
+7,E119,type 2 diabetes mellitus without complications,,,78
+7,N183,"chronic kidney disease, stage 3 (moderate)",,,78
+7,R339,"retention of urine, unspecified",,,78
+7,Z867,personal history of diseases of the circulatory system,,,78
+7,Z878,personal history of other specified conditions,,,78
+7,F039,unspecified dementia,,,78
+7,F172,nicotine dependence,,,78
+7,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,78
+7,N179,"acute kidney failure, unspecified",,,78
+7,N200,calculus of kidney,,,78
+7,R109,unspecified abdominal pain,,,78
+7,Z874,personal history of diseases of genitourinary system,,,78
+7,D728,other specified disorders of white blood cells,,,78
+7,E559,"vitamin d deficiency, unspecified",,,78
+7,E780,pure hypercholesterolemia,,,78
+7,E860,dehydration,,,78
+7,N184,"chronic kidney disease, stage 4 (severe)",,,78
+7,N401,enlarged prostate with lower urinary tract symptoms,,,78
+7,R103,pain localized to other parts of lower abdomen,,,78
+7,R32,unspecified urinary incontinence,,,78
+7,R509,"fever, unspecified",,,78
+7,Z018,encounter for other specified special examinations,,,78
+7,R197,"diarrhea, unspecified",,,78
+7,R338,other retention of urine,,,78
+7,R351,nocturia,,,78
+7,R42,dizziness and giddiness,,,78
+7,R531,weakness,,,78
+7,R538,other malaise and fatigue,,,78
+7,R809,"proteinuria, unspecified",,,78
+7,Z940,kidney transplant status,,,78
+8,E119,type 2 diabetes mellitus without complications,100,206,206
+8,Z798,other long term (current) drug therapy,27.184466019,56,206
+8,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,16.990291262,35,206
+8,N183,"chronic kidney disease, stage 3 (moderate)",13.59223301,28,206
+8,Z878,personal history of other specified conditions,10.194174757,21,206
+8,Z867,personal history of diseases of the circulatory system,9.7087378641,20,206
+8,E559,"vitamin d deficiency, unspecified",6.7961165049,14,206
+8,N179,"acute kidney failure, unspecified",5.8252427184,12,206
+8,E780,pure hypercholesterolemia,5.3398058252,11,206
+8,F039,unspecified dementia,5.3398058252,11,206
+8,R197,"diarrhea, unspecified",,,206
+8,R538,other malaise and fatigue,,,206
+8,N184,"chronic kidney disease, stage 4 (severe)",,,206
+8,R531,weakness,,,206
+8,F172,nicotine dependence,,,206
+8,R112,"nausea with vomiting, unspecified",,,206
+8,R42,dizziness and giddiness,,,206
+8,R51,headache,,,206
+8,R55,syncope and collapse,,,206
+8,Z000,encounter for general adult medical examination,,,206
+8,R109,unspecified abdominal pain,,,206
+8,E860,dehydration,,,206
+8,R339,"retention of urine, unspecified",,,206
+8,R418,oth symptoms and signs w cognitive functions and awareness,,,206
+8,R509,"fever, unspecified",,,206
+8,R798,other specified abnormal findings of blood chemistry,,,206
+8,Z018,encounter for other specified special examinations,,,206
+8,Z874,personal history of diseases of genitourinary system,,,206
+8,A419,"sepsis, unspecified organism",,,206
+8,D728,other specified disorders of white blood cells,,,206
+8,I959,"hypotension, unspecified",,,206
+8,N200,calculus of kidney,,,206
+8,N401,enlarged prostate with lower urinary tract symptoms,,,206
+8,R103,pain localized to other parts of lower abdomen,,,206
+8,R108,other abdominal pain,,,206
+8,R310,gross hematuria,,,206
+8,R410,"disorientation, unspecified",,,206
+8,Z125,encounter for screening for malignant neoplasm of prostate,,,206
+8,Z885,allergy status to narcotic agent status,,,206
+8,Z940,kidney transplant status,,,206
+8,K802,calculus of gallbladder without cholecystitis,,,206
+8,N201,calculus of ureter,,,206
+8,R101,pain localized to upper abdomen,,,206
+8,R110,nausea,,,206
+8,R809,"proteinuria, unspecified",,,206
+8,S008,superficial injury of other parts of head,,,206
+8,F209,"schizophrenia, unspecified",,,206
+8,G459,"transient cerebral ischemic attack, unspecified",,,206
+8,N309,"cystitis, unspecified",,,206
+8,N394,other specified urinary incontinence,,,206
+8,R102,pelvic and perineal pain,,,206
+8,R32,unspecified urinary incontinence,,,206
+8,R508,other specified fever,,,206
+8,Z944,liver transplant status,,,206
+9,R531,weakness,100,72,72
+9,R42,dizziness and giddiness,16.666666667,12,72
+9,Z798,other long term (current) drug therapy,15.277777778,11,72
+9,Z878,personal history of other specified conditions,,,72
+9,E860,dehydration,,,72
+9,R538,other malaise and fatigue,,,72
+9,F039,unspecified dementia,,,72
+9,F172,nicotine dependence,,,72
+9,R418,oth symptoms and signs w cognitive functions and awareness,,,72
+9,Z867,personal history of diseases of the circulatory system,,,72
+9,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,72
+9,R103,pain localized to other parts of lower abdomen,,,72
+9,R110,nausea,,,72
+9,R112,"nausea with vomiting, unspecified",,,72
+9,R410,"disorientation, unspecified",,,72
+9,R51,headache,,,72
+9,R55,syncope and collapse,,,72
+9,E780,pure hypercholesterolemia,,,72
+9,R197,"diarrhea, unspecified",,,72
+9,A419,"sepsis, unspecified organism",,,72
+9,D728,other specified disorders of white blood cells,,,72
+9,I959,"hypotension, unspecified",,,72
+9,N179,"acute kidney failure, unspecified",,,72
+9,N183,"chronic kidney disease, stage 3 (moderate)",,,72
+9,N184,"chronic kidney disease, stage 4 (severe)",,,72
+9,N309,"cystitis, unspecified",,,72
+9,R32,unspecified urinary incontinence,,,72
+9,R509,"fever, unspecified",,,72
+9,R798,other specified abnormal findings of blood chemistry,,,72
+9,S008,superficial injury of other parts of head,,,72
+9,Z874,personal history of diseases of genitourinary system,,,72
+9,Z885,allergy status to narcotic agent status,,,72
+10,Z798,other long term (current) drug therapy,100,240,240
+10,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,12.916666667,31,240
+10,N183,"chronic kidney disease, stage 3 (moderate)",10.416666667,25,240
+10,Z878,personal history of other specified conditions,9.5833333333,23,240
+10,Z867,personal history of diseases of the circulatory system,7.5,18,240
+10,Z940,kidney transplant status,6.6666666667,16,240
+10,E780,pure hypercholesterolemia,6.25,15,240
+10,F039,unspecified dementia,6.25,15,240
+10,R538,other malaise and fatigue,5.4166666667,13,240
+10,Z874,personal history of diseases of genitourinary system,5,12,240
+10,R55,syncope and collapse,4.5833333333,11,240
+10,E559,"vitamin d deficiency, unspecified",,,240
+10,R42,dizziness and giddiness,,,240
+10,F172,nicotine dependence,,,240
+10,I959,"hypotension, unspecified",,,240
+10,N179,"acute kidney failure, unspecified",,,240
+10,R112,"nausea with vomiting, unspecified",,,240
+10,E860,dehydration,,,240
+10,N200,calculus of kidney,,,240
+10,R197,"diarrhea, unspecified",,,240
+10,R509,"fever, unspecified",,,240
+10,N184,"chronic kidney disease, stage 4 (severe)",,,240
+10,N401,enlarged prostate with lower urinary tract symptoms,,,240
+10,R101,pain localized to upper abdomen,,,240
+10,R109,unspecified abdominal pain,,,240
+10,R110,nausea,,,240
+10,R410,"disorientation, unspecified",,,240
+10,R798,other specified abnormal findings of blood chemistry,,,240
+10,Z018,encounter for other specified special examinations,,,240
+10,Z885,allergy status to narcotic agent status,,,240
+10,R103,pain localized to other parts of lower abdomen,,,240
+10,R351,nocturia,,,240
+10,R391,other difficulties with micturition,,,240
+10,R51,headache,,,240
+10,Z944,liver transplant status,,,240
+10,N201,calculus of ureter,,,240
+10,R108,other abdominal pain,,,240
+10,R310,gross hematuria,,,240
+10,R418,oth symptoms and signs w cognitive functions and awareness,,,240
+10,S008,superficial injury of other parts of head,,,240
+10,D728,other specified disorders of white blood cells,,,240
+10,K529,"noninfective gastroenteritis and colitis, unspecified",,,240
+10,K802,calculus of gallbladder without cholecystitis,,,240
+10,N10,acute tubulo-interstitial nephritis,,,240
+10,N309,"cystitis, unspecified",,,240
+10,R312,other microscopic hematuria,,,240
+10,R809,"proteinuria, unspecified",,,240
+10,Z000,encounter for general adult medical examination,,,240
+10,A419,"sepsis, unspecified organism",,,240
+10,G459,"transient cerebral ischemic attack, unspecified",,,240
+10,N210,calculus in bladder,,,240
+10,R102,pelvic and perineal pain,,,240
+10,R111,vomiting,,,240
+10,R32,unspecified urinary incontinence,,,240
+10,R338,other retention of urine,,,240
+10,R339,"retention of urine, unspecified",,,240
+10,Z125,encounter for screening for malignant neoplasm of prostate,,,240
+11,Z018,encounter for other specified special examinations,100,115,115
+11,E559,"vitamin d deficiency, unspecified",,,115
+11,N200,calculus of kidney,,,115
+11,N183,"chronic kidney disease, stage 3 (moderate)",,,115
+11,R32,unspecified urinary incontinence,,,115
+11,K802,calculus of gallbladder without cholecystitis,,,115
+11,N201,calculus of ureter,,,115
+11,N394,other specified urinary incontinence,,,115
+11,N401,enlarged prostate with lower urinary tract symptoms,,,115
+11,R102,pelvic and perineal pain,,,115
+11,R399,unsp symptoms and signs involving the genitourinary system,,,115
+11,Z867,personal history of diseases of the circulatory system,,,115
+12,Z878,personal history of other specified conditions,100,61,61
+12,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,22.950819672,14,61
+12,N183,"chronic kidney disease, stage 3 (moderate)",,,61
+12,N184,"chronic kidney disease, stage 4 (severe)",,,61
+12,R110,nausea,,,61
+12,D728,other specified disorders of white blood cells,,,61
+12,E860,dehydration,,,61
+12,I959,"hypotension, unspecified",,,61
+12,R101,pain localized to upper abdomen,,,61
+12,R109,unspecified abdominal pain,,,61
+12,R197,"diarrhea, unspecified",,,61
+12,R509,"fever, unspecified",,,61
+12,R55,syncope and collapse,,,61
+12,Z867,personal history of diseases of the circulatory system,,,61
+12,R418,oth symptoms and signs w cognitive functions and awareness,,,61
+12,R42,dizziness and giddiness,,,61
+12,R51,headache,,,61
+12,S008,superficial injury of other parts of head,,,61
+12,A419,"sepsis, unspecified organism",,,61
+12,E559,"vitamin d deficiency, unspecified",,,61
+12,E780,pure hypercholesterolemia,,,61
+12,F039,unspecified dementia,,,61
+12,K802,calculus of gallbladder without cholecystitis,,,61
+12,N132,hydronephrosis with renal and ureteral calculous obstruction,,,61
+12,N179,"acute kidney failure, unspecified",,,61
+12,N200,calculus of kidney,,,61
+12,N201,calculus of ureter,,,61
+12,N309,"cystitis, unspecified",,,61
+12,N401,enlarged prostate with lower urinary tract symptoms,,,61
+12,R103,pain localized to other parts of lower abdomen,,,61
+12,R112,"nausea with vomiting, unspecified",,,61
+12,R338,other retention of urine,,,61
+12,R339,"retention of urine, unspecified",,,61
+12,R538,other malaise and fatigue,,,61
+12,R798,other specified abnormal findings of blood chemistry,,,61
+12,Z874,personal history of diseases of genitourinary system,,,61
+13,E860,dehydration,100,29,29
+13,R197,"diarrhea, unspecified",,,29
+13,R538,other malaise and fatigue,,,29
+13,A419,"sepsis, unspecified organism",,,29
+13,R55,syncope and collapse,,,29
+13,F039,unspecified dementia,,,29
+13,I959,"hypotension, unspecified",,,29
+13,N179,"acute kidney failure, unspecified",,,29
+13,R112,"nausea with vomiting, unspecified",,,29
+13,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,29
+13,K529,"noninfective gastroenteritis and colitis, unspecified",,,29
+13,R109,unspecified abdominal pain,,,29
+13,R110,nausea,,,29
+13,R111,vomiting,,,29
+13,R42,dizziness and giddiness,,,29
+13,R509,"fever, unspecified",,,29
+13,R51,headache,,,29
+13,F172,nicotine dependence,,,29
+13,R108,other abdominal pain,,,29
+13,R339,"retention of urine, unspecified",,,29
+13,R418,oth symptoms and signs w cognitive functions and awareness,,,29
+13,Z125,encounter for screening for malignant neoplasm of prostate,,,29
+13,Z867,personal history of diseases of the circulatory system,,,29
+13,Z885,allergy status to narcotic agent status,,,29
+14,R418,oth symptoms and signs w cognitive functions and awareness,100,29,29
+14,R538,other malaise and fatigue,,,29
+14,R109,unspecified abdominal pain,,,29
+14,Z874,personal history of diseases of genitourinary system,,,29
+14,E559,"vitamin d deficiency, unspecified",,,29
+14,E780,pure hypercholesterolemia,,,29
+14,F172,nicotine dependence,,,29
+14,G459,"transient cerebral ischemic attack, unspecified",,,29
+14,N179,"acute kidney failure, unspecified",,,29
+14,N183,"chronic kidney disease, stage 3 (moderate)",,,29
+14,N309,"cystitis, unspecified",,,29
+14,R51,headache,,,29
+14,R798,other specified abnormal findings of blood chemistry,,,29
+14,Z867,personal history of diseases of the circulatory system,,,29
+15,N183,"chronic kidney disease, stage 3 (moderate)",100,113,113
+15,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,39.82300885,45,113
+15,E559,"vitamin d deficiency, unspecified",,,113
+15,R809,"proteinuria, unspecified",,,113
+15,N179,"acute kidney failure, unspecified",,,113
+15,F172,nicotine dependence,,,113
+15,Z867,personal history of diseases of the circulatory system,,,113
+15,D728,other specified disorders of white blood cells,,,113
+15,E780,pure hypercholesterolemia,,,113
+15,N184,"chronic kidney disease, stage 4 (severe)",,,113
+15,R112,"nausea with vomiting, unspecified",,,113
+15,R55,syncope and collapse,,,113
+15,F039,unspecified dementia,,,113
+15,I959,"hypotension, unspecified",,,113
+15,N210,calculus in bladder,,,113
+15,N309,"cystitis, unspecified",,,113
+15,R101,pain localized to upper abdomen,,,113
+15,R32,unspecified urinary incontinence,,,113
+15,R509,"fever, unspecified",,,113
+15,R51,headache,,,113
+15,R538,other malaise and fatigue,,,113
+15,Z000,encounter for general adult medical examination,,,113
+15,Z125,encounter for screening for malignant neoplasm of prostate,,,113
+15,Z885,allergy status to narcotic agent status,,,113
+15,Z940,kidney transplant status,,,113
+16,R109,unspecified abdominal pain,100,49,49
+16,E559,"vitamin d deficiency, unspecified",,,49
+16,F172,nicotine dependence,,,49
+16,R110,nausea,,,49
+16,R112,"nausea with vomiting, unspecified",,,49
+16,R538,other malaise and fatigue,,,49
+16,R197,"diarrhea, unspecified",,,49
+16,R339,"retention of urine, unspecified",,,49
+16,R509,"fever, unspecified",,,49
+16,Z000,encounter for general adult medical examination,,,49
+16,Z867,personal history of diseases of the circulatory system,,,49
+16,F039,unspecified dementia,,,49
+16,K529,"noninfective gastroenteritis and colitis, unspecified",,,49
+16,R103,pain localized to other parts of lower abdomen,,,49
+16,R111,vomiting,,,49
+16,R32,unspecified urinary incontinence,,,49
+16,R391,other difficulties with micturition,,,49
+16,R42,dizziness and giddiness,,,49
+16,R798,other specified abnormal findings of blood chemistry,,,49
+16,R809,"proteinuria, unspecified",,,49
+16,Z885,allergy status to narcotic agent status,,,49
+17,Z874,personal history of diseases of genitourinary system,100,25,25
+17,N201,calculus of ureter,,,25
+17,N309,"cystitis, unspecified",,,25
+17,K802,calculus of gallbladder without cholecystitis,,,25
+17,N132,hydronephrosis with renal and ureteral calculous obstruction,,,25
+17,N200,calculus of kidney,,,25
+17,N394,other specified urinary incontinence,,,25
+17,R103,pain localized to other parts of lower abdomen,,,25
+17,R112,"nausea with vomiting, unspecified",,,25
+17,R312,other microscopic hematuria,,,25
+17,R339,"retention of urine, unspecified",,,25
+18,R103,pain localized to other parts of lower abdomen,100,31,31
+18,R110,nausea,,,31
+18,R42,dizziness and giddiness,,,31
+18,R538,other malaise and fatigue,,,31
+18,R101,pain localized to upper abdomen,,,31
+18,R102,pelvic and perineal pain,,,31
+18,R197,"diarrhea, unspecified",,,31
+18,R509,"fever, unspecified",,,31
+18,R51,headache,,,31
+19,R42,dizziness and giddiness,100,37,37
+19,E780,pure hypercholesterolemia,,,37
+19,F039,unspecified dementia,,,37
+19,R538,other malaise and fatigue,,,37
+19,R110,nausea,,,37
+19,R112,"nausea with vomiting, unspecified",,,37
+19,R51,headache,,,37
+19,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,37
+19,F172,nicotine dependence,,,37
+19,G459,"transient cerebral ischemic attack, unspecified",,,37
+19,I959,"hypotension, unspecified",,,37
+19,R197,"diarrhea, unspecified",,,37
+19,R32,unspecified urinary incontinence,,,37
+19,R391,other difficulties with micturition,,,37
+19,R410,"disorientation, unspecified",,,37
+19,R509,"fever, unspecified",,,37
+19,R55,syncope and collapse,,,37
+19,R798,other specified abnormal findings of blood chemistry,,,37
+19,Z000,encounter for general adult medical examination,,,37
+20,E559,"vitamin d deficiency, unspecified",100,51,51
+20,R538,other malaise and fatigue,21.568627451,11,51
+20,E780,pure hypercholesterolemia,,,51
+20,Z000,encounter for general adult medical examination,,,51
+20,Z125,encounter for screening for malignant neoplasm of prostate,,,51
+20,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,51
+20,N184,"chronic kidney disease, stage 4 (severe)",,,51
+20,N401,enlarged prostate with lower urinary tract symptoms,,,51
+20,R351,nocturia,,,51
+20,R798,other specified abnormal findings of blood chemistry,,,51
+20,R310,gross hematuria,,,51
+20,R809,"proteinuria, unspecified",,,51
+21,R112,"nausea with vomiting, unspecified",100,16,16
+21,R101,pain localized to upper abdomen,,,16
+21,R197,"diarrhea, unspecified",,,16
+21,E780,pure hypercholesterolemia,,,16
+21,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,16
+21,N179,"acute kidney failure, unspecified",,,16
+21,N210,calculus in bladder,,,16
+21,R108,other abdominal pain,,,16
+21,R111,vomiting,,,16
+21,R32,unspecified urinary incontinence,,,16
+21,R509,"fever, unspecified",,,16
+21,R51,headache,,,16
+21,R798,other specified abnormal findings of blood chemistry,,,16
+21,Z867,personal history of diseases of the circulatory system,,,16
+21,Z885,allergy status to narcotic agent status,,,16
+22,R509,"fever, unspecified",100,21,21
+22,F039,unspecified dementia,,,21
+22,N401,enlarged prostate with lower urinary tract symptoms,,,21
+22,R197,"diarrhea, unspecified",,,21
+22,R51,headache,,,21
+22,R538,other malaise and fatigue,,,21
+23,R391,other difficulties with micturition,100,26,26
+23,E780,pure hypercholesterolemia,,,26
+23,N401,enlarged prostate with lower urinary tract symptoms,,,26
+23,R312,other microscopic hematuria,,,26
+23,R32,unspecified urinary incontinence,,,26
+23,R410,"disorientation, unspecified",,,26
+23,R538,other malaise and fatigue,,,26
+24,Z000,encounter for general adult medical examination,100,39,39
+24,R538,other malaise and fatigue,,,39
+24,E780,pure hypercholesterolemia,,,39
+24,Z125,encounter for screening for malignant neoplasm of prostate,,,39
+24,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,,,39
+24,N184,"chronic kidney disease, stage 4 (severe)",,,39
+24,N200,calculus of kidney,,,39
+24,N401,enlarged prostate with lower urinary tract symptoms,,,39
+24,R399,unsp symptoms and signs involving the genitourinary system,,,39
+24,Z867,personal history of diseases of the circulatory system,,,39
+25,R339,"retention of urine, unspecified",100,25,25
+25,F039,unspecified dementia,,,25
+25,F172,nicotine dependence,,,25
+25,R32,unspecified urinary incontinence,,,25
+25,Z885,allergy status to narcotic agent status,,,25
+26,R410,"disorientation, unspecified",100,30,30
+26,Z867,personal history of diseases of the circulatory system,,,30
+26,R32,unspecified urinary incontinence,,,30
+26,S008,superficial injury of other parts of head,,,30
+27,E780,pure hypercholesterolemia,100,27,27
+27,Z125,encounter for screening for malignant neoplasm of prostate,,,27
+27,R101,pain localized to upper abdomen,,,27
+27,D728,other specified disorders of white blood cells,,,27
+27,K802,calculus of gallbladder without cholecystitis,,,27
+27,N394,other specified urinary incontinence,,,27
+27,N401,enlarged prostate with lower urinary tract symptoms,,,27
+27,R108,other abdominal pain,,,27
+27,R197,"diarrhea, unspecified",,,27
+27,R312,other microscopic hematuria,,,27
+27,R798,other specified abnormal findings of blood chemistry,,,27
+27,S008,superficial injury of other parts of head,,,27
+28,Z940,kidney transplant status,100,14,14
+28,R312,other microscopic hematuria,,,14
+28,R538,other malaise and fatigue,,,14
+29,R538,other malaise and fatigue,100,28,28
+29,D728,other specified disorders of white blood cells,,,28
+29,F039,unspecified dementia,,,28
+29,F172,nicotine dependence,,,28
+29,N309,"cystitis, unspecified",,,28
+29,R110,nausea,,,28
+29,Z125,encounter for screening for malignant neoplasm of prostate,,,28
+30,I129,hypertensive chronic kidney disease w stg 1-4/unsp chr kdny,100,27,27
+30,N184,"chronic kidney disease, stage 4 (severe)",,,27
+30,N179,"acute kidney failure, unspecified",,,27
+30,N394,other specified urinary incontinence,,,27
+30,F039,unspecified dementia,,,27
+30,F172,nicotine dependence,,,27
+30,G459,"transient cerebral ischemic attack, unspecified",,,27
+30,R51,headache,,,27
+30,Z867,personal history of diseases of the circulatory system,,,27
+30,Z944,liver transplant status,,,27
+31,N179,"acute kidney failure, unspecified",,,
+31,I959,"hypotension, unspecified",,,
+31,N184,"chronic kidney disease, stage 4 (severe)",,,
+31,R798,other specified abnormal findings of blood chemistry,,,
+32,N401,enlarged prostate with lower urinary tract symptoms,100,18,18
+32,R312,other microscopic hematuria,,,18
+32,R338,other retention of urine,,,18
+32,N210,calculus in bladder,,,18
+32,R399,unsp symptoms and signs involving the genitourinary system,,,18
+32,Z125,encounter for screening for malignant neoplasm of prostate,,,18
+33,N184,"chronic kidney disease, stage 4 (severe)",100,20,20
+33,R809,"proteinuria, unspecified",,,20
+33,R351,nocturia,,,20
+34,R55,syncope and collapse,100,16,16
+34,D728,other specified disorders of white blood cells,,,16
+34,F172,nicotine dependence,,,16
+34,G459,"transient cerebral ischemic attack, unspecified",,,16
+34,R111,vomiting,,,16
+34,R197,"diarrhea, unspecified",,,16
+35,R312,other microscopic hematuria,100,22,22
+35,N394,other specified urinary incontinence,,,22
+36,R809,"proteinuria, unspecified",,,
+36,D728,other specified disorders of white blood cells,,,
+37,D728,other specified disorders of white blood cells,,,
+37,N200,calculus of kidney,,,
+37,R798,other specified abnormal findings of blood chemistry,,,
+38,F039,unspecified dementia,100,13,13
+38,N309,"cystitis, unspecified",,,13
+38,R798,other specified abnormal findings of blood chemistry,,,13
+38,S008,superficial injury of other parts of head,,,13
+38,Z867,personal history of diseases of the circulatory system,,,13
+39,I959,"hypotension, unspecified",,,
+40,N200,calculus of kidney,100,16,16
+40,N201,calculus of ureter,,,16
+40,R310,gross hematuria,,,16
+41,N309,"cystitis, unspecified",,,
+42,N132,hydronephrosis with renal and ureteral calculous obstruction,,,
+42,F172,nicotine dependence,,,
+43,R399,unsp symptoms and signs involving the genitourinary system,100,12,12
+43,R32,unspecified urinary incontinence,,,12
+44,R32,unspecified urinary incontinence,100,15,15
+45,Z125,encounter for screening for malignant neoplasm of prostate,,,
+45,R197,"diarrhea, unspecified",,,
+46,N394,other specified urinary incontinence,,,
+47,Z867,personal history of diseases of the circulatory system,100,18,18
+47,F172,nicotine dependence,,,18
+47,R108,other abdominal pain,,,18
+47,R110,nausea,,,18
+47,R197,"diarrhea, unspecified",,,18
+48,R108,other abdominal pain,,,
+48,R197,"diarrhea, unspecified",,,
+48,F172,nicotine dependence,,,
+48,R51,headache,,,
+48,Z885,allergy status to narcotic agent status,,,
+49,S008,superficial injury of other parts of head,,,
+49,R51,headache,,,
+50,N201,calculus of ureter,,,
+51,Z885,allergy status to narcotic agent status,,,
+51,R51,headache,,,
+52,R102,pelvic and perineal pain,,,
+53,R101,pain localized to upper abdomen,100,12,12
+53,R110,nausea,,,12
+53,F172,nicotine dependence,,,12
+53,K802,calculus of gallbladder without cholecystitis,,,12
+53,R111,vomiting,,,12
+54,R310,gross hematuria,,,
+55,R309,"painful micturition, unspecified",,,
+56,K529,"noninfective gastroenteritis and colitis, unspecified",,,
+56,F172,nicotine dependence,,,
+56,R197,"diarrhea, unspecified",,,
+57,R197,"diarrhea, unspecified",,,
+57,R111,vomiting,,,
+57,R110,nausea,,,
+57,R51,headache,,,
+58,R110,nausea,,,
+58,R51,headache,,,
+59,R51,headache,,,
+60,R111,vomiting,,,
+61,R798,other specified abnormal findings of blood chemistry,,,
+62,R338,other retention of urine,,,
+63,K802,calculus of gallbladder without cholecystitis,,,
+64,F172,nicotine dependence,,,
+65,Z944,liver transplant status,,,
+66,G459,"transient cerebral ischemic attack, unspecified",,,
+68,R508,other specified fever,,,
+69,N12,"tubulo-interstitial nephritis, not spcf as acute or chronic",,,
+70,A419,"sepsis, unspecified organism",,,
+71,R351,nocturia,,,
+73,N210,calculus in bladder,,,

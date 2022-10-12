@@ -10,9 +10,7 @@
 #'
 #' @return bar plot data
 #' @export
-hsrdef_barplotdata <- function(x,data,code_levels,
-                               include_codes,
-                               exclude_codes){
+hsrdef_barplotdata <- function(x,data,code_levels,include_codes,exclude_codes){
 
   if ("in_data" %in% colnames(x)) {
     x <- x[in_data == 1]

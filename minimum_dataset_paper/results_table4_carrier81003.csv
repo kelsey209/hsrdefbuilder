@@ -1,0 +1,982 @@
+_Leaf_,code,DGNS_DESC,all_pc,all_cnt,leaf_total
+0,,,,,416
+1,N390,"urinary tract infection, site not specified",100,809,809
+1,I10,essential (primary) hypertension,11.619283066,94,809
+1,R300,dysuria,7.4165636588,60,809
+1,R350,frequency of micturition,6.0568603214,49,809
+1,N401,enlarged prostate with lower urinary tract symptoms,4.5735475896,37,809
+1,R391,other difficulties with micturition,3.955500618,32,809
+1,E785,"hyperlipidemia, unspecified",3.7082818294,30,809
+1,N394,other specified urinary incontinence,3.5846724351,29,809
+1,R339,"retention of urine, unspecified",2.9666254635,24,809
+1,E559,"vitamin d deficiency, unspecified",2.8430160692,23,809
+1,E039,"hypothyroidism, unspecified",2.7194066749,22,809
+1,R319,"hematuria, unspecified",2.7194066749,22,809
+1,N200,calculus of kidney,2.2249690977,18,809
+1,R351,nocturia,2.1013597033,17,809
+1,C61,malignant neoplasm of prostate,1.977750309,16,809
+1,E782,mixed hyperlipidemia,1.977750309,16,809
+1,Z798,other long term (current) drug therapy,1.977750309,16,809
+1,R312,other microscopic hematuria,1.8541409147,15,809
+1,R972,elevated prostate specific antigen [psa],1.8541409147,15,809
+1,N183,"chronic kidney disease, stage 3 (moderate)",1.7305315204,14,809
+1,R32,unspecified urinary incontinence,1.7305315204,14,809
+1,N400,enlarged prostate without lower urinary tract symptoms,1.6069221261,13,809
+1,Z000,encounter for general adult medical examination,1.6069221261,13,809
+1,E780,pure hypercholesterolemia,1.4833127318,12,809
+1,N952,postmenopausal atrophic vaginitis,1.4833127318,12,809
+1,Z682,"body mass index (bmi) 20-29, adult",1.4833127318,12,809
+1,N328,other specified disorders of bladder,1.3597033375,11,809
+1,N393,stress incontinence (female) (male),1.3597033375,11,809
+1,R538,other malaise and fatigue,1.3597033375,11,809
+1,N281,"cyst of kidney, acquired",,,809
+1,N811,cystocele,,,809
+1,R311,benign essential microscopic hematuria,,,809
+1,R730,abnormal glucose,,,809
+1,N302,other chronic cystitis,,,809
+1,Z874,personal history of diseases of genitourinary system,,,809
+1,E538,deficiency of other specified b group vitamins,,,809
+1,N300,acute cystitis,,,809
+1,R109,unspecified abdominal pain,,,809
+1,R310,gross hematuria,,,809
+1,R829,other and unspecified abnormal findings in urine,,,809
+1,R338,other retention of urine,,,809
+1,E291,testicular hypofunction,,,809
+1,N359,"urethral stricture, unspecified",,,809
+1,N529,"male erectile dysfunction, unspecified",,,809
+1,R103,pain localized to other parts of lower abdomen,,,809
+1,R399,unsp symptoms and signs involving the genitourinary system,,,809
+1,Z855,personal history of malignant neoplasm of urinary tract,,,809
+1,E784,other hyperlipidemia,,,809
+1,N760,acute vaginitis,,,809
+1,C679,"malignant neoplasm of bladder, unspecified",,,809
+1,N133,other and unspecified hydronephrosis,,,809
+1,N138,other obstructive and reflux uropathy,,,809
+1,N320,bladder-neck obstruction,,,809
+1,Q610,congenital renal cyst,,,809
+1,R309,"painful micturition, unspecified",,,809
+1,R398,other symptoms and signs involving the genitourinary system,,,809
+1,R739,"hyperglycemia, unspecified",,,809
+1,R809,"proteinuria, unspecified",,,809
+1,Z125,encounter for screening for malignant neoplasm of prostate,,,809
+1,C672,malignant neoplasm of lateral wall of bladder,,,809
+1,N309,"cystitis, unspecified",,,809
+1,N520,vasculogenic erectile dysfunction,,,809
+1,R799,"abnormal finding of blood chemistry, unspecified",,,809
+1,Z014,encounter for gynecological examination,,,809
+1,Z121,encntr screen for malignant neoplasm of intestinal tract,,,809
+1,C641,"malignant neoplasm of right kidney, except renal pelvis",,,809
+1,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,809
+1,E079,"disorder of thyroid, unspecified",,,809
+1,N201,calculus of ureter,,,809
+1,N202,calculus of kidney with calculus of ureter,,,809
+1,N301,interstitial cystitis (chronic),,,809
+1,R358,other polyuria,,,809
+1,Z136,encounter for screening for cardiovascular disorders,,,809
+1,Z138,encounter for screening for oth diseases and disorders,,,809
+1,Z854,personal history of malignant neoplasm of genital organs,,,809
+2,N401,enlarged prostate with lower urinary tract symptoms,100,450,450
+2,R351,nocturia,23.111111111,104,450
+2,R391,other difficulties with micturition,19.777777778,89,450
+2,R972,elevated prostate specific antigen [psa],19.555555556,88,450
+2,R350,frequency of micturition,13.333333333,60,450
+2,N529,"male erectile dysfunction, unspecified",8.2222222222,37,450
+2,C61,malignant neoplasm of prostate,7.1111111111,32,450
+2,N200,calculus of kidney,6.4444444444,29,450
+2,N138,other obstructive and reflux uropathy,6,27,450
+2,R339,"retention of urine, unspecified",5.7777777778,26,450
+2,R310,gross hematuria,5.3333333333,24,450
+2,R312,other microscopic hematuria,5.3333333333,24,450
+2,I10,essential (primary) hypertension,4.6666666667,21,450
+2,E291,testicular hypofunction,4.2222222222,19,450
+2,N520,vasculogenic erectile dysfunction,3.7777777778,17,450
+2,N328,other specified disorders of bladder,3.5555555556,16,450
+2,N394,other specified urinary incontinence,3.1111111111,14,450
+2,R319,"hematuria, unspecified",3.1111111111,14,450
+2,N281,"cyst of kidney, acquired",2.8888888889,13,450
+2,E785,"hyperlipidemia, unspecified",2.6666666667,12,450
+2,N528,other male erectile dysfunction,,,450
+2,C679,"malignant neoplasm of bladder, unspecified",,,450
+2,R338,other retention of urine,,,450
+2,E559,"vitamin d deficiency, unspecified",,,450
+2,N400,enlarged prostate without lower urinary tract symptoms,,,450
+2,Z000,encounter for general adult medical examination,,,450
+2,Z874,personal history of diseases of genitourinary system,,,450
+2,R300,dysuria,,,450
+2,Z125,encounter for screening for malignant neoplasm of prostate,,,450
+2,N320,bladder-neck obstruction,,,450
+2,R311,benign essential microscopic hematuria,,,450
+2,Z682,"body mass index (bmi) 20-29, adult",,,450
+2,Z855,personal history of malignant neoplasm of urinary tract,,,450
+2,N133,other and unspecified hydronephrosis,,,450
+2,N183,"chronic kidney disease, stage 3 (moderate)",,,450
+2,Q610,congenital renal cyst,,,450
+2,R538,other malaise and fatigue,,,450
+2,Z121,encntr screen for malignant neoplasm of intestinal tract,,,450
+2,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,450
+2,N201,calculus of ureter,,,450
+2,N419,"inflammatory disease of prostate, unspecified",,,450
+2,E039,"hypothyroidism, unspecified",,,450
+2,E780,pure hypercholesterolemia,,,450
+2,E782,mixed hyperlipidemia,,,450
+2,N202,calculus of kidney with calculus of ureter,,,450
+2,N300,acute cystitis,,,450
+2,N359,"urethral stricture, unspecified",,,450
+2,N402,nodular prostate without lower urinary tract symptoms,,,450
+2,R103,pain localized to other parts of lower abdomen,,,450
+2,R399,unsp symptoms and signs involving the genitourinary system,,,450
+2,R739,"hyperglycemia, unspecified",,,450
+2,E784,other hyperlipidemia,,,450
+2,R398,other symptoms and signs involving the genitourinary system,,,450
+2,R730,abnormal glucose,,,450
+2,R809,"proteinuria, unspecified",,,450
+2,R829,other and unspecified abnormal findings in urine,,,450
+2,Z136,encounter for screening for cardiovascular disorders,,,450
+2,Z138,encounter for screening for oth diseases and disorders,,,450
+2,Z139,"encounter for screening, unspecified",,,450
+2,Z798,other long term (current) drug therapy,,,450
+2,Z804,family history of malignant neoplasm of genital organs,,,450
+2,Z854,personal history of malignant neoplasm of genital organs,,,450
+3,R350,frequency of micturition,100,267,267
+3,R351,nocturia,16.479400749,44,267
+3,R391,other difficulties with micturition,15.730337079,42,267
+3,N394,other specified urinary incontinence,10.861423221,29,267
+3,I10,essential (primary) hypertension,10.486891386,28,267
+3,R312,other microscopic hematuria,7.1161048689,19,267
+3,C61,malignant neoplasm of prostate,6.3670411985,17,267
+3,E782,mixed hyperlipidemia,4.4943820225,12,267
+3,N300,acute cystitis,4.1198501873,11,267
+3,R300,dysuria,4.1198501873,11,267
+3,E785,"hyperlipidemia, unspecified",,,267
+3,R538,other malaise and fatigue,,,267
+3,Z798,other long term (current) drug therapy,,,267
+3,E039,"hypothyroidism, unspecified",,,267
+3,N400,enlarged prostate without lower urinary tract symptoms,,,267
+3,R972,elevated prostate specific antigen [psa],,,267
+3,E559,"vitamin d deficiency, unspecified",,,267
+3,Z000,encounter for general adult medical examination,,,267
+3,Z874,personal history of diseases of genitourinary system,,,267
+3,N328,other specified disorders of bladder,,,267
+3,R829,other and unspecified abnormal findings in urine,,,267
+3,Z854,personal history of malignant neoplasm of genital organs,,,267
+3,E780,pure hypercholesterolemia,,,267
+3,N393,stress incontinence (female) (male),,,267
+3,N520,vasculogenic erectile dysfunction,,,267
+3,N811,cystocele,,,267
+3,R319,"hematuria, unspecified",,,267
+3,Z125,encounter for screening for malignant neoplasm of prostate,,,267
+3,E538,deficiency of other specified b group vitamins,,,267
+3,N200,calculus of kidney,,,267
+3,N952,postmenopausal atrophic vaginitis,,,267
+3,R103,pain localized to other parts of lower abdomen,,,267
+3,R32,unspecified urinary incontinence,,,267
+3,R339,"retention of urine, unspecified",,,267
+3,R730,abnormal glucose,,,267
+3,Z682,"body mass index (bmi) 20-29, adult",,,267
+3,C679,"malignant neoplasm of bladder, unspecified",,,267
+3,E079,"disorder of thyroid, unspecified",,,267
+3,E784,other hyperlipidemia,,,267
+3,N281,"cyst of kidney, acquired",,,267
+3,N301,interstitial cystitis (chronic),,,267
+3,N302,other chronic cystitis,,,267
+3,N309,"cystitis, unspecified",,,267
+3,N419,"inflammatory disease of prostate, unspecified",,,267
+3,N523,post-surgical erectile dysfunction,,,267
+3,R399,unsp symptoms and signs involving the genitourinary system,,,267
+3,R739,"hyperglycemia, unspecified",,,267
+3,R799,"abnormal finding of blood chemistry, unspecified",,,267
+3,R809,"proteinuria, unspecified",,,267
+3,Z855,personal history of malignant neoplasm of urinary tract,,,267
+3,N183,"chronic kidney disease, stage 3 (moderate)",,,267
+3,N320,bladder-neck obstruction,,,267
+3,N359,"urethral stricture, unspecified",,,267
+3,N529,"male erectile dysfunction, unspecified",,,267
+3,R109,unspecified abdominal pain,,,267
+3,R311,benign essential microscopic hematuria,,,267
+3,Z014,encounter for gynecological examination,,,267
+3,Z121,encntr screen for malignant neoplasm of intestinal tract,,,267
+3,Z138,encounter for screening for oth diseases and disorders,,,267
+3,Z139,"encounter for screening, unspecified",,,267
+3,Z804,family history of malignant neoplasm of genital organs,,,267
+4,R300,dysuria,100,203,203
+4,I10,essential (primary) hypertension,13.300492611,27,203
+4,E785,"hyperlipidemia, unspecified",5.9113300493,12,203
+4,E039,"hypothyroidism, unspecified",,,203
+4,N300,acute cystitis,,,203
+4,E559,"vitamin d deficiency, unspecified",,,203
+4,R319,"hematuria, unspecified",,,203
+4,R391,other difficulties with micturition,,,203
+4,N952,postmenopausal atrophic vaginitis,,,203
+4,R538,other malaise and fatigue,,,203
+4,Z000,encounter for general adult medical examination,,,203
+4,E782,mixed hyperlipidemia,,,203
+4,R312,other microscopic hematuria,,,203
+4,Z682,"body mass index (bmi) 20-29, adult",,,203
+4,C61,malignant neoplasm of prostate,,,203
+4,E784,other hyperlipidemia,,,203
+4,N400,enlarged prostate without lower urinary tract symptoms,,,203
+4,Z874,personal history of diseases of genitourinary system,,,203
+4,E291,testicular hypofunction,,,203
+4,E780,pure hypercholesterolemia,,,203
+4,N302,other chronic cystitis,,,203
+4,N309,"cystitis, unspecified",,,203
+4,R103,pain localized to other parts of lower abdomen,,,203
+4,R109,unspecified abdominal pain,,,203
+4,R309,"painful micturition, unspecified",,,203
+4,R310,gross hematuria,,,203
+4,R339,"retention of urine, unspecified",,,203
+4,R351,nocturia,,,203
+4,R730,abnormal glucose,,,203
+4,R829,other and unspecified abnormal findings in urine,,,203
+4,R972,elevated prostate specific antigen [psa],,,203
+4,Z798,other long term (current) drug therapy,,,203
+4,Z854,personal history of malignant neoplasm of genital organs,,,203
+4,E079,"disorder of thyroid, unspecified",,,203
+4,E538,deficiency of other specified b group vitamins,,,203
+4,N200,calculus of kidney,,,203
+4,N301,interstitial cystitis (chronic),,,203
+4,N328,other specified disorders of bladder,,,203
+4,N393,stress incontinence (female) (male),,,203
+4,N394,other specified urinary incontinence,,,203
+4,N419,"inflammatory disease of prostate, unspecified",,,203
+4,R358,other polyuria,,,203
+4,R398,other symptoms and signs involving the genitourinary system,,,203
+4,R399,unsp symptoms and signs involving the genitourinary system,,,203
+4,R739,"hyperglycemia, unspecified",,,203
+4,R809,"proteinuria, unspecified",,,203
+4,Z014,encounter for gynecological examination,,,203
+4,Z121,encntr screen for malignant neoplasm of intestinal tract,,,203
+4,Z124,encounter for screening for malignant neoplasm of cervix,,,203
+4,Z125,encounter for screening for malignant neoplasm of prostate,,,203
+4,Z138,encounter for screening for oth diseases and disorders,,,203
+5,Z000,encounter for general adult medical examination,100,314,314
+5,I10,essential (primary) hypertension,44.585987261,140,314
+5,E785,"hyperlipidemia, unspecified",23.885350318,75,314
+5,E780,pure hypercholesterolemia,14.968152866,47,314
+5,E782,mixed hyperlipidemia,14.968152866,47,314
+5,E559,"vitamin d deficiency, unspecified",14.012738854,44,314
+5,E039,"hypothyroidism, unspecified",12.420382166,39,314
+5,Z125,encounter for screening for malignant neoplasm of prostate,12.101910828,38,314
+5,Z121,encntr screen for malignant neoplasm of intestinal tract,8.9171974522,28,314
+5,Z798,other long term (current) drug therapy,8.2802547771,26,314
+5,R538,other malaise and fatigue,7.9617834395,25,314
+5,R730,abnormal glucose,7.0063694268,22,314
+5,Z138,encounter for screening for oth diseases and disorders,4.4585987261,14,314
+5,Z682,"body mass index (bmi) 20-29, adult",3.821656051,12,314
+5,Z136,encounter for screening for cardiovascular disorders,,,314
+5,N183,"chronic kidney disease, stage 3 (moderate)",,,314
+5,N400,enlarged prostate without lower urinary tract symptoms,,,314
+5,E291,testicular hypofunction,,,314
+5,R739,"hyperglycemia, unspecified",,,314
+5,E538,deficiency of other specified b group vitamins,,,314
+5,R312,other microscopic hematuria,,,314
+5,R799,"abnormal finding of blood chemistry, unspecified",,,314
+5,R829,other and unspecified abnormal findings in urine,,,314
+5,R972,elevated prostate specific antigen [psa],,,314
+5,Z124,encounter for screening for malignant neoplasm of cervix,,,314
+5,C61,malignant neoplasm of prostate,,,314
+5,E784,other hyperlipidemia,,,314
+5,Z139,"encounter for screening, unspecified",,,314
+5,N529,"male erectile dysfunction, unspecified",,,314
+5,R311,benign essential microscopic hematuria,,,314
+5,R351,nocturia,,,314
+5,R809,"proteinuria, unspecified",,,314
+5,Z014,encounter for gynecological examination,,,314
+5,Z854,personal history of malignant neoplasm of genital organs,,,314
+5,E079,"disorder of thyroid, unspecified",,,314
+5,N419,"inflammatory disease of prostate, unspecified",,,314
+5,N528,other male erectile dysfunction,,,314
+5,N760,acute vaginitis,,,314
+5,R103,pain localized to other parts of lower abdomen,,,314
+5,R109,unspecified abdominal pain,,,314
+5,R309,"painful micturition, unspecified",,,314
+5,R319,"hematuria, unspecified",,,314
+5,R32,unspecified urinary incontinence,,,314
+5,R391,other difficulties with micturition,,,314
+5,R398,other symptoms and signs involving the genitourinary system,,,314
+5,Z874,personal history of diseases of genitourinary system,,,314
+6,C61,malignant neoplasm of prostate,100,219,219
+6,R972,elevated prostate specific antigen [psa],8.6757990868,19,219
+6,R351,nocturia,8.2191780822,18,219
+6,N529,"male erectile dysfunction, unspecified",7.7625570776,17,219
+6,N523,post-surgical erectile dysfunction,7.3059360731,16,219
+6,I10,essential (primary) hypertension,5.9360730594,13,219
+6,N393,stress incontinence (female) (male),5.4794520548,12,219
+6,R391,other difficulties with micturition,5.4794520548,12,219
+6,R310,gross hematuria,,,219
+6,E559,"vitamin d deficiency, unspecified",,,219
+6,E782,mixed hyperlipidemia,,,219
+6,N133,other and unspecified hydronephrosis,,,219
+6,N400,enlarged prostate without lower urinary tract symptoms,,,219
+6,R32,unspecified urinary incontinence,,,219
+6,R339,"retention of urine, unspecified",,,219
+6,C679,"malignant neoplasm of bladder, unspecified",,,219
+6,E039,"hypothyroidism, unspecified",,,219
+6,R312,other microscopic hematuria,,,219
+6,N183,"chronic kidney disease, stage 3 (moderate)",,,219
+6,N200,calculus of kidney,,,219
+6,N320,bladder-neck obstruction,,,219
+6,N359,"urethral stricture, unspecified",,,219
+6,R319,"hematuria, unspecified",,,219
+6,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,219
+6,E291,testicular hypofunction,,,219
+6,E785,"hyperlipidemia, unspecified",,,219
+6,N520,vasculogenic erectile dysfunction,,,219
+6,N528,other male erectile dysfunction,,,219
+6,R399,unsp symptoms and signs involving the genitourinary system,,,219
+6,Z798,other long term (current) drug therapy,,,219
+6,E780,pure hypercholesterolemia,,,219
+6,N328,other specified disorders of bladder,,,219
+6,N394,other specified urinary incontinence,,,219
+6,R311,benign essential microscopic hematuria,,,219
+6,Z854,personal history of malignant neoplasm of genital organs,,,219
+6,Z874,personal history of diseases of genitourinary system,,,219
+6,N138,other obstructive and reflux uropathy,,,219
+6,N281,"cyst of kidney, acquired",,,219
+6,N300,acute cystitis,,,219
+6,N301,interstitial cystitis (chronic),,,219
+6,N309,"cystitis, unspecified",,,219
+6,R103,pain localized to other parts of lower abdomen,,,219
+6,R109,unspecified abdominal pain,,,219
+6,R338,other retention of urine,,,219
+6,R538,other malaise and fatigue,,,219
+6,R730,abnormal glucose,,,219
+6,R809,"proteinuria, unspecified",,,219
+6,Z125,encounter for screening for malignant neoplasm of prostate,,,219
+6,Z138,encounter for screening for oth diseases and disorders,,,219
+6,Z804,family history of malignant neoplasm of genital organs,,,219
+7,R972,elevated prostate specific antigen [psa],100,113,113
+7,N400,enlarged prostate without lower urinary tract symptoms,23.008849558,26,113
+7,R351,nocturia,,,113
+7,N529,"male erectile dysfunction, unspecified",,,113
+7,I10,essential (primary) hypertension,,,113
+7,R310,gross hematuria,,,113
+7,R391,other difficulties with micturition,,,113
+7,E039,"hypothyroidism, unspecified",,,113
+7,E291,testicular hypofunction,,,113
+7,E785,"hyperlipidemia, unspecified",,,113
+7,N320,bladder-neck obstruction,,,113
+7,N402,nodular prostate without lower urinary tract symptoms,,,113
+7,Q610,congenital renal cyst,,,113
+7,R103,pain localized to other parts of lower abdomen,,,113
+7,R312,other microscopic hematuria,,,113
+7,Z798,other long term (current) drug therapy,,,113
+7,Z804,family history of malignant neoplasm of genital organs,,,113
+7,E780,pure hypercholesterolemia,,,113
+7,E782,mixed hyperlipidemia,,,113
+7,N200,calculus of kidney,,,113
+7,N419,"inflammatory disease of prostate, unspecified",,,113
+7,N528,other male erectile dysfunction,,,113
+7,R311,benign essential microscopic hematuria,,,113
+7,R319,"hematuria, unspecified",,,113
+7,R339,"retention of urine, unspecified",,,113
+7,R730,abnormal glucose,,,113
+7,R809,"proteinuria, unspecified",,,113
+7,R829,other and unspecified abnormal findings in urine,,,113
+7,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,113
+7,C672,malignant neoplasm of lateral wall of bladder,,,113
+7,C679,"malignant neoplasm of bladder, unspecified",,,113
+7,E079,"disorder of thyroid, unspecified",,,113
+7,E559,"vitamin d deficiency, unspecified",,,113
+7,E784,other hyperlipidemia,,,113
+7,N133,other and unspecified hydronephrosis,,,113
+7,N202,calculus of kidney with calculus of ureter,,,113
+7,N281,"cyst of kidney, acquired",,,113
+7,N359,"urethral stricture, unspecified",,,113
+7,N393,stress incontinence (female) (male),,,113
+7,N394,other specified urinary incontinence,,,113
+7,N520,vasculogenic erectile dysfunction,,,113
+7,R338,other retention of urine,,,113
+7,R398,other symptoms and signs involving the genitourinary system,,,113
+7,R538,other malaise and fatigue,,,113
+7,R739,"hyperglycemia, unspecified",,,113
+7,R799,"abnormal finding of blood chemistry, unspecified",,,113
+7,Z125,encounter for screening for malignant neoplasm of prostate,,,113
+7,Z682,"body mass index (bmi) 20-29, adult",,,113
+7,Z854,personal history of malignant neoplasm of genital organs,,,113
+8,E559,"vitamin d deficiency, unspecified",100,193,193
+8,I10,essential (primary) hypertension,54.404145078,105,193
+8,E785,"hyperlipidemia, unspecified",27.979274611,54,193
+8,E039,"hypothyroidism, unspecified",21.243523316,41,193
+8,E782,mixed hyperlipidemia,15.544041451,30,193
+8,E780,pure hypercholesterolemia,15.025906736,29,193
+8,R538,other malaise and fatigue,14.507772021,28,193
+8,R730,abnormal glucose,11.917098446,23,193
+8,Z798,other long term (current) drug therapy,11.917098446,23,193
+8,E538,deficiency of other specified b group vitamins,6.7357512953,13,193
+8,N183,"chronic kidney disease, stage 3 (moderate)",6.7357512953,13,193
+8,E784,other hyperlipidemia,5.6994818653,11,193
+8,N400,enlarged prostate without lower urinary tract symptoms,5.6994818653,11,193
+8,R809,"proteinuria, unspecified",,,193
+8,Z121,encntr screen for malignant neoplasm of intestinal tract,,,193
+8,R319,"hematuria, unspecified",,,193
+8,R799,"abnormal finding of blood chemistry, unspecified",,,193
+8,Z138,encounter for screening for oth diseases and disorders,,,193
+8,E291,testicular hypofunction,,,193
+8,Z125,encounter for screening for malignant neoplasm of prostate,,,193
+8,N300,acute cystitis,,,193
+8,R829,other and unspecified abnormal findings in urine,,,193
+8,Z874,personal history of diseases of genitourinary system,,,193
+8,N200,calculus of kidney,,,193
+8,R351,nocturia,,,193
+8,R358,other polyuria,,,193
+8,R391,other difficulties with micturition,,,193
+8,Z014,encounter for gynecological examination,,,193
+8,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,193
+8,C679,"malignant neoplasm of bladder, unspecified",,,193
+8,N281,"cyst of kidney, acquired",,,193
+8,N301,interstitial cystitis (chronic),,,193
+8,N328,other specified disorders of bladder,,,193
+8,N393,stress incontinence (female) (male),,,193
+8,N394,other specified urinary incontinence,,,193
+8,N419,"inflammatory disease of prostate, unspecified",,,193
+8,N528,other male erectile dysfunction,,,193
+8,N952,postmenopausal atrophic vaginitis,,,193
+8,R109,unspecified abdominal pain,,,193
+8,R310,gross hematuria,,,193
+8,R312,other microscopic hematuria,,,193
+8,R399,unsp symptoms and signs involving the genitourinary system,,,193
+8,Z124,encounter for screening for malignant neoplasm of cervix,,,193
+8,Z136,encounter for screening for cardiovascular disorders,,,193
+9,R312,other microscopic hematuria,100,87,87
+9,N200,calculus of kidney,,,87
+9,I10,essential (primary) hypertension,,,87
+9,N394,other specified urinary incontinence,,,87
+9,N400,enlarged prostate without lower urinary tract symptoms,,,87
+9,R391,other difficulties with micturition,,,87
+9,Z874,personal history of diseases of genitourinary system,,,87
+9,N281,"cyst of kidney, acquired",,,87
+9,E785,"hyperlipidemia, unspecified",,,87
+9,N328,other specified disorders of bladder,,,87
+9,N393,stress incontinence (female) (male),,,87
+9,R310,gross hematuria,,,87
+9,R351,nocturia,,,87
+9,R809,"proteinuria, unspecified",,,87
+9,N300,acute cystitis,,,87
+9,N529,"male erectile dysfunction, unspecified",,,87
+9,R109,unspecified abdominal pain,,,87
+9,R319,"hematuria, unspecified",,,87
+9,R399,unsp symptoms and signs involving the genitourinary system,,,87
+9,C679,"malignant neoplasm of bladder, unspecified",,,87
+9,E039,"hypothyroidism, unspecified",,,87
+9,E780,pure hypercholesterolemia,,,87
+9,E782,mixed hyperlipidemia,,,87
+9,N183,"chronic kidney disease, stage 3 (moderate)",,,87
+9,N301,interstitial cystitis (chronic),,,87
+9,N302,other chronic cystitis,,,87
+9,N309,"cystitis, unspecified",,,87
+9,N320,bladder-neck obstruction,,,87
+9,N359,"urethral stricture, unspecified",,,87
+9,N528,other male erectile dysfunction,,,87
+9,N760,acute vaginitis,,,87
+9,N952,postmenopausal atrophic vaginitis,,,87
+9,R32,unspecified urinary incontinence,,,87
+9,R339,"retention of urine, unspecified",,,87
+9,R358,other polyuria,,,87
+9,R398,other symptoms and signs involving the genitourinary system,,,87
+9,R730,abnormal glucose,,,87
+9,R739,"hyperglycemia, unspecified",,,87
+9,R829,other and unspecified abnormal findings in urine,,,87
+9,Z121,encntr screen for malignant neoplasm of intestinal tract,,,87
+9,Z125,encounter for screening for malignant neoplasm of prostate,,,87
+9,Z138,encounter for screening for oth diseases and disorders,,,87
+9,Z798,other long term (current) drug therapy,,,87
+9,Z855,personal history of malignant neoplasm of urinary tract,,,87
+10,I10,essential (primary) hypertension,100,594,594
+10,E785,"hyperlipidemia, unspecified",26.767676768,159,594
+10,E039,"hypothyroidism, unspecified",13.636363636,81,594
+10,E782,mixed hyperlipidemia,11.616161616,69,594
+10,E780,pure hypercholesterolemia,11.111111111,66,594
+10,Z798,other long term (current) drug therapy,8.2491582492,49,594
+10,R730,abnormal glucose,7.7441077441,46,594
+10,Z125,encounter for screening for malignant neoplasm of prostate,6.734006734,40,594
+10,R538,other malaise and fatigue,5.8922558923,35,594
+10,N183,"chronic kidney disease, stage 3 (moderate)",5.3872053872,32,594
+10,N400,enlarged prostate without lower urinary tract symptoms,3.8720538721,23,594
+10,E784,other hyperlipidemia,2.6936026936,16,594
+10,R319,"hematuria, unspecified",2.3569023569,14,594
+10,R809,"proteinuria, unspecified",2.3569023569,14,594
+10,R739,"hyperglycemia, unspecified",2.0202020202,12,594
+10,R829,other and unspecified abnormal findings in urine,,,594
+10,Z121,encntr screen for malignant neoplasm of intestinal tract,,,594
+10,E538,deficiency of other specified b group vitamins,,,594
+10,Z682,"body mass index (bmi) 20-29, adult",,,594
+10,R109,unspecified abdominal pain,,,594
+10,R351,nocturia,,,594
+10,N300,acute cystitis,,,594
+10,N529,"male erectile dysfunction, unspecified",,,594
+10,E291,testicular hypofunction,,,594
+10,R358,other polyuria,,,594
+10,R399,unsp symptoms and signs involving the genitourinary system,,,594
+10,Z138,encounter for screening for oth diseases and disorders,,,594
+10,Z874,personal history of diseases of genitourinary system,,,594
+10,E079,"disorder of thyroid, unspecified",,,594
+10,N200,calculus of kidney,,,594
+10,N394,other specified urinary incontinence,,,594
+10,N419,"inflammatory disease of prostate, unspecified",,,594
+10,N952,postmenopausal atrophic vaginitis,,,594
+10,R103,pain localized to other parts of lower abdomen,,,594
+10,R391,other difficulties with micturition,,,594
+10,Z136,encounter for screening for cardiovascular disorders,,,594
+10,Z139,"encounter for screening, unspecified",,,594
+10,N281,"cyst of kidney, acquired",,,594
+10,N309,"cystitis, unspecified",,,594
+10,R32,unspecified urinary incontinence,,,594
+10,R398,other symptoms and signs involving the genitourinary system,,,594
+10,Z124,encounter for screening for malignant neoplasm of cervix,,,594
+10,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,594
+10,C679,"malignant neoplasm of bladder, unspecified",,,594
+10,N133,other and unspecified hydronephrosis,,,594
+10,N201,calculus of ureter,,,594
+10,N302,other chronic cystitis,,,594
+10,N328,other specified disorders of bladder,,,594
+10,N393,stress incontinence (female) (male),,,594
+10,N520,vasculogenic erectile dysfunction,,,594
+10,N528,other male erectile dysfunction,,,594
+10,R310,gross hematuria,,,594
+10,R311,benign essential microscopic hematuria,,,594
+10,R338,other retention of urine,,,594
+10,R799,"abnormal finding of blood chemistry, unspecified",,,594
+10,Z854,personal history of malignant neoplasm of genital organs,,,594
+10,Z855,personal history of malignant neoplasm of urinary tract,,,594
+11,N400,enlarged prostate without lower urinary tract symptoms,100,91,91
+11,R351,nocturia,13.186813187,12,91
+11,R391,other difficulties with micturition,,,91
+11,E785,"hyperlipidemia, unspecified",,,91
+11,R339,"retention of urine, unspecified",,,91
+11,E291,testicular hypofunction,,,91
+11,N200,calculus of kidney,,,91
+11,N529,"male erectile dysfunction, unspecified",,,91
+11,R310,gross hematuria,,,91
+11,E039,"hypothyroidism, unspecified",,,91
+11,N183,"chronic kidney disease, stage 3 (moderate)",,,91
+11,N328,other specified disorders of bladder,,,91
+11,N394,other specified urinary incontinence,,,91
+11,R311,benign essential microscopic hematuria,,,91
+11,R319,"hematuria, unspecified",,,91
+11,R730,abnormal glucose,,,91
+11,Z804,family history of malignant neoplasm of genital organs,,,91
+11,Z855,personal history of malignant neoplasm of urinary tract,,,91
+11,Z874,personal history of diseases of genitourinary system,,,91
+11,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,91
+11,C679,"malignant neoplasm of bladder, unspecified",,,91
+11,E780,pure hypercholesterolemia,,,91
+11,E782,mixed hyperlipidemia,,,91
+11,N320,bladder-neck obstruction,,,91
+11,N520,vasculogenic erectile dysfunction,,,91
+11,R109,unspecified abdominal pain,,,91
+11,R399,unsp symptoms and signs involving the genitourinary system,,,91
+11,R538,other malaise and fatigue,,,91
+11,C674,malignant neoplasm of posterior wall of bladder,,,91
+11,N281,"cyst of kidney, acquired",,,91
+11,N302,other chronic cystitis,,,91
+11,N402,nodular prostate without lower urinary tract symptoms,,,91
+11,N419,"inflammatory disease of prostate, unspecified",,,91
+11,R739,"hyperglycemia, unspecified",,,91
+11,R799,"abnormal finding of blood chemistry, unspecified",,,91
+11,R829,other and unspecified abnormal findings in urine,,,91
+11,Z121,encntr screen for malignant neoplasm of intestinal tract,,,91
+11,Z798,other long term (current) drug therapy,,,91
+12,R391,other difficulties with micturition,100,75,75
+12,N394,other specified urinary incontinence,22.666666667,17,75
+12,R351,nocturia,18.666666667,14,75
+12,N952,postmenopausal atrophic vaginitis,,,75
+12,N393,stress incontinence (female) (male),,,75
+12,N811,cystocele,,,75
+12,N281,"cyst of kidney, acquired",,,75
+12,N302,other chronic cystitis,,,75
+12,N328,other specified disorders of bladder,,,75
+12,R319,"hematuria, unspecified",,,75
+12,R32,unspecified urinary incontinence,,,75
+12,R339,"retention of urine, unspecified",,,75
+12,Z874,personal history of diseases of genitourinary system,,,75
+12,N200,calculus of kidney,,,75
+12,N300,acute cystitis,,,75
+12,N359,"urethral stricture, unspecified",,,75
+12,N528,other male erectile dysfunction,,,75
+12,N529,"male erectile dysfunction, unspecified",,,75
+12,C679,"malignant neoplasm of bladder, unspecified",,,75
+12,E785,"hyperlipidemia, unspecified",,,75
+12,N133,other and unspecified hydronephrosis,,,75
+12,N138,other obstructive and reflux uropathy,,,75
+12,N301,interstitial cystitis (chronic),,,75
+12,N309,"cystitis, unspecified",,,75
+12,R109,unspecified abdominal pain,,,75
+12,R309,"painful micturition, unspecified",,,75
+12,R310,gross hematuria,,,75
+12,R311,benign essential microscopic hematuria,,,75
+12,R398,other symptoms and signs involving the genitourinary system,,,75
+12,R399,unsp symptoms and signs involving the genitourinary system,,,75
+12,Z121,encntr screen for malignant neoplasm of intestinal tract,,,75
+12,Z139,"encounter for screening, unspecified",,,75
+12,Z682,"body mass index (bmi) 20-29, adult",,,75
+12,Z854,personal history of malignant neoplasm of genital organs,,,75
+12,Z855,personal history of malignant neoplasm of urinary tract,,,75
+13,N200,calculus of kidney,100,75,75
+13,N201,calculus of ureter,,,75
+13,N281,"cyst of kidney, acquired",,,75
+13,R319,"hematuria, unspecified",,,75
+13,R310,gross hematuria,,,75
+13,Z874,personal history of diseases of genitourinary system,,,75
+13,N328,other specified disorders of bladder,,,75
+13,R109,unspecified abdominal pain,,,75
+13,R351,nocturia,,,75
+13,N300,acute cystitis,,,75
+13,N302,other chronic cystitis,,,75
+13,Z854,personal history of malignant neoplasm of genital organs,,,75
+13,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,75
+13,E079,"disorder of thyroid, unspecified",,,75
+13,E785,"hyperlipidemia, unspecified",,,75
+13,N133,other and unspecified hydronephrosis,,,75
+13,N183,"chronic kidney disease, stage 3 (moderate)",,,75
+13,N320,bladder-neck obstruction,,,75
+13,N393,stress incontinence (female) (male),,,75
+13,N394,other specified urinary incontinence,,,75
+13,N402,nodular prostate without lower urinary tract symptoms,,,75
+13,N419,"inflammatory disease of prostate, unspecified",,,75
+13,N520,vasculogenic erectile dysfunction,,,75
+13,N528,other male erectile dysfunction,,,75
+13,N952,postmenopausal atrophic vaginitis,,,75
+13,Q610,congenital renal cyst,,,75
+13,R311,benign essential microscopic hematuria,,,75
+13,R338,other retention of urine,,,75
+13,R339,"retention of urine, unspecified",,,75
+13,R829,other and unspecified abnormal findings in urine,,,75
+13,Z125,encounter for screening for malignant neoplasm of prostate,,,75
+13,Z855,personal history of malignant neoplasm of urinary tract,,,75
+14,N394,other specified urinary incontinence,100,64,64
+14,N328,other specified disorders of bladder,,,64
+14,R351,nocturia,,,64
+14,N393,stress incontinence (female) (male),,,64
+14,N811,cystocele,,,64
+14,N302,other chronic cystitis,,,64
+14,N952,postmenopausal atrophic vaginitis,,,64
+14,R829,other and unspecified abnormal findings in urine,,,64
+14,Z874,personal history of diseases of genitourinary system,,,64
+14,E784,other hyperlipidemia,,,64
+14,N133,other and unspecified hydronephrosis,,,64
+14,N281,"cyst of kidney, acquired",,,64
+14,N300,acute cystitis,,,64
+14,N320,bladder-neck obstruction,,,64
+14,R311,benign essential microscopic hematuria,,,64
+14,R32,unspecified urinary incontinence,,,64
+14,R338,other retention of urine,,,64
+14,R339,"retention of urine, unspecified",,,64
+14,R538,other malaise and fatigue,,,64
+14,Z124,encounter for screening for malignant neoplasm of cervix,,,64
+15,N300,acute cystitis,100,64,64
+15,N952,postmenopausal atrophic vaginitis,,,64
+15,E039,"hypothyroidism, unspecified",,,64
+15,N183,"chronic kidney disease, stage 3 (moderate)",,,64
+15,N760,acute vaginitis,,,64
+15,R109,unspecified abdominal pain,,,64
+15,R319,"hematuria, unspecified",,,64
+15,R32,unspecified urinary incontinence,,,64
+15,R351,nocturia,,,64
+15,R398,other symptoms and signs involving the genitourinary system,,,64
+15,R399,unsp symptoms and signs involving the genitourinary system,,,64
+15,R538,other malaise and fatigue,,,64
+15,R730,abnormal glucose,,,64
+15,Z121,encntr screen for malignant neoplasm of intestinal tract,,,64
+15,Z124,encounter for screening for malignant neoplasm of cervix,,,64
+15,Z138,encounter for screening for oth diseases and disorders,,,64
+15,Z682,"body mass index (bmi) 20-29, adult",,,64
+15,Z874,personal history of diseases of genitourinary system,,,64
+16,R319,"hematuria, unspecified",100,56,56
+16,R109,unspecified abdominal pain,,,56
+16,N328,other specified disorders of bladder,,,56
+16,N393,stress incontinence (female) (male),,,56
+16,Z798,other long term (current) drug therapy,,,56
+16,C679,"malignant neoplasm of bladder, unspecified",,,56
+16,E039,"hypothyroidism, unspecified",,,56
+16,N183,"chronic kidney disease, stage 3 (moderate)",,,56
+16,N301,interstitial cystitis (chronic),,,56
+16,N309,"cystitis, unspecified",,,56
+16,N760,acute vaginitis,,,56
+16,R310,gross hematuria,,,56
+16,R338,other retention of urine,,,56
+16,R351,nocturia,,,56
+16,R399,unsp symptoms and signs involving the genitourinary system,,,56
+16,R739,"hyperglycemia, unspecified",,,56
+16,R809,"proteinuria, unspecified",,,56
+16,Z874,personal history of diseases of genitourinary system,,,56
+17,Z798,other long term (current) drug therapy,100,117,117
+17,E785,"hyperlipidemia, unspecified",10.256410256,12,117
+17,E782,mixed hyperlipidemia,,,117
+17,E039,"hypothyroidism, unspecified",,,117
+17,R538,other malaise and fatigue,,,117
+17,Z125,encounter for screening for malignant neoplasm of prostate,,,117
+17,E780,pure hypercholesterolemia,,,117
+17,E538,deficiency of other specified b group vitamins,,,117
+17,N183,"chronic kidney disease, stage 3 (moderate)",,,117
+17,N419,"inflammatory disease of prostate, unspecified",,,117
+17,R109,unspecified abdominal pain,,,117
+17,R32,unspecified urinary incontinence,,,117
+17,R739,"hyperglycemia, unspecified",,,117
+17,R829,other and unspecified abnormal findings in urine,,,117
+17,Z121,encntr screen for malignant neoplasm of intestinal tract,,,117
+17,Z136,encounter for screening for cardiovascular disorders,,,117
+17,Z138,encounter for screening for oth diseases and disorders,,,117
+18,E785,"hyperlipidemia, unspecified",100,82,82
+18,E039,"hypothyroidism, unspecified",13.414634146,11,82
+18,R538,other malaise and fatigue,,,82
+18,R730,abnormal glucose,,,82
+18,N183,"chronic kidney disease, stage 3 (moderate)",,,82
+18,Z125,encounter for screening for malignant neoplasm of prostate,,,82
+18,R739,"hyperglycemia, unspecified",,,82
+18,E079,"disorder of thyroid, unspecified",,,82
+18,E538,deficiency of other specified b group vitamins,,,82
+18,R109,unspecified abdominal pain,,,82
+18,R351,nocturia,,,82
+18,R809,"proteinuria, unspecified",,,82
+18,R829,other and unspecified abnormal findings in urine,,,82
+18,E780,pure hypercholesterolemia,,,82
+18,E784,other hyperlipidemia,,,82
+18,N328,other specified disorders of bladder,,,82
+18,N419,"inflammatory disease of prostate, unspecified",,,82
+18,N520,vasculogenic erectile dysfunction,,,82
+18,R103,pain localized to other parts of lower abdomen,,,82
+18,R399,unsp symptoms and signs involving the genitourinary system,,,82
+18,R799,"abnormal finding of blood chemistry, unspecified",,,82
+18,Z121,encntr screen for malignant neoplasm of intestinal tract,,,82
+18,Z138,encounter for screening for oth diseases and disorders,,,82
+18,Z804,family history of malignant neoplasm of genital organs,,,82
+18,Z854,personal history of malignant neoplasm of genital organs,,,82
+19,N183,"chronic kidney disease, stage 3 (moderate)",100,52,52
+19,E039,"hypothyroidism, unspecified",,,52
+19,E780,pure hypercholesterolemia,,,52
+19,R809,"proteinuria, unspecified",,,52
+19,R339,"retention of urine, unspecified",,,52
+19,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,52
+19,C679,"malignant neoplasm of bladder, unspecified",,,52
+19,E782,mixed hyperlipidemia,,,52
+19,N281,"cyst of kidney, acquired",,,52
+19,R103,pain localized to other parts of lower abdomen,,,52
+19,Z125,encounter for screening for malignant neoplasm of prostate,,,52
+20,R310,gross hematuria,100,32,32
+20,R339,"retention of urine, unspecified",,,32
+20,Z855,personal history of malignant neoplasm of urinary tract,,,32
+20,E039,"hypothyroidism, unspecified",,,32
+20,N133,other and unspecified hydronephrosis,,,32
+20,N201,calculus of ureter,,,32
+20,N281,"cyst of kidney, acquired",,,32
+20,N320,bladder-neck obstruction,,,32
+20,N328,other specified disorders of bladder,,,32
+20,N359,"urethral stricture, unspecified",,,32
+20,R103,pain localized to other parts of lower abdomen,,,32
+20,R351,nocturia,,,32
+20,R829,other and unspecified abnormal findings in urine,,,32
+20,Z682,"body mass index (bmi) 20-29, adult",,,32
+20,Z854,personal history of malignant neoplasm of genital organs,,,32
+21,R829,other and unspecified abnormal findings in urine,100,26,26
+21,E780,pure hypercholesterolemia,,,26
+21,N133,other and unspecified hydronephrosis,,,26
+21,N201,calculus of ureter,,,26
+21,N302,other chronic cystitis,,,26
+21,N320,bladder-neck obstruction,,,26
+21,N952,postmenopausal atrophic vaginitis,,,26
+21,R32,unspecified urinary incontinence,,,26
+21,R739,"hyperglycemia, unspecified",,,26
+21,R799,"abnormal finding of blood chemistry, unspecified",,,26
+21,Z682,"body mass index (bmi) 20-29, adult",,,26
+21,Z855,personal history of malignant neoplasm of urinary tract,,,26
+21,Z874,personal history of diseases of genitourinary system,,,26
+22,C679,"malignant neoplasm of bladder, unspecified",100,39,39
+22,Z855,personal history of malignant neoplasm of urinary tract,,,39
+22,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,39
+22,N133,other and unspecified hydronephrosis,,,39
+22,N328,other specified disorders of bladder,,,39
+22,R32,unspecified urinary incontinence,,,39
+22,Z125,encounter for screening for malignant neoplasm of prostate,,,39
+22,Z854,personal history of malignant neoplasm of genital organs,,,39
+23,Z874,personal history of diseases of genitourinary system,100,28,28
+23,N393,stress incontinence (female) (male),,,28
+23,N952,postmenopausal atrophic vaginitis,,,28
+23,R339,"retention of urine, unspecified",,,28
+23,C641,"malignant neoplasm of right kidney, except renal pelvis",,,28
+23,N133,other and unspecified hydronephrosis,,,28
+23,N320,bladder-neck obstruction,,,28
+23,N523,post-surgical erectile dysfunction,,,28
+23,N811,cystocele,,,28
+23,R109,unspecified abdominal pain,,,28
+23,R311,benign essential microscopic hematuria,,,28
+23,Z854,personal history of malignant neoplasm of genital organs,,,28
+23,Z855,personal history of malignant neoplasm of urinary tract,,,28
+24,Z125,encounter for screening for malignant neoplasm of prostate,100,14,14
+24,E780,pure hypercholesterolemia,,,14
+24,E782,mixed hyperlipidemia,,,14
+24,E784,other hyperlipidemia,,,14
+24,N529,"male erectile dysfunction, unspecified",,,14
+24,R739,"hyperglycemia, unspecified",,,14
+24,Z136,encounter for screening for cardiovascular disorders,,,14
+25,E039,"hypothyroidism, unspecified",100,22,22
+25,R538,other malaise and fatigue,,,22
+25,E782,mixed hyperlipidemia,,,22
+25,E784,other hyperlipidemia,,,22
+25,R109,unspecified abdominal pain,,,22
+25,R730,abnormal glucose,,,22
+25,E291,testicular hypofunction,,,22
+25,E780,pure hypercholesterolemia,,,22
+25,N309,"cystitis, unspecified",,,22
+25,N393,stress incontinence (female) (male),,,22
+25,R739,"hyperglycemia, unspecified",,,22
+25,R799,"abnormal finding of blood chemistry, unspecified",,,22
+26,E780,pure hypercholesterolemia,100,30,30
+26,R730,abnormal glucose,,,30
+26,R809,"proteinuria, unspecified",,,30
+26,E538,deficiency of other specified b group vitamins,,,30
+26,E782,mixed hyperlipidemia,,,30
+26,N309,"cystitis, unspecified",,,30
+26,N402,nodular prostate without lower urinary tract symptoms,,,30
+26,R103,pain localized to other parts of lower abdomen,,,30
+26,R109,unspecified abdominal pain,,,30
+26,R32,unspecified urinary incontinence,,,30
+26,R538,other malaise and fatigue,,,30
+26,R799,"abnormal finding of blood chemistry, unspecified",,,30
+26,Z138,encounter for screening for oth diseases and disorders,,,30
+26,Z682,"body mass index (bmi) 20-29, adult",,,30
+27,E782,mixed hyperlipidemia,100,29,29
+27,R538,other malaise and fatigue,,,29
+27,R730,abnormal glucose,,,29
+27,E079,"disorder of thyroid, unspecified",,,29
+27,R109,unspecified abdominal pain,,,29
+27,R739,"hyperglycemia, unspecified",,,29
+27,Z121,encntr screen for malignant neoplasm of intestinal tract,,,29
+27,Z682,"body mass index (bmi) 20-29, adult",,,29
+28,R339,"retention of urine, unspecified",100,23,23
+28,N320,bladder-neck obstruction,,,23
+28,C641,"malignant neoplasm of right kidney, except renal pelvis",,,23
+28,N301,interstitial cystitis (chronic),,,23
+28,N302,other chronic cystitis,,,23
+28,R311,benign essential microscopic hematuria,,,23
+28,R32,unspecified urinary incontinence,,,23
+29,R109,unspecified abdominal pain,100,38,38
+29,R103,pain localized to other parts of lower abdomen,,,38
+29,E538,deficiency of other specified b group vitamins,,,38
+29,N302,other chronic cystitis,,,38
+29,N811,cystocele,,,38
+29,N952,postmenopausal atrophic vaginitis,,,38
+29,Z682,"body mass index (bmi) 20-29, adult",,,38
+30,R351,nocturia,100,19,19
+30,N952,postmenopausal atrophic vaginitis,,,19
+30,R538,other malaise and fatigue,,,19
+30,Z854,personal history of malignant neoplasm of genital organs,,,19
+30,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,19
+30,E291,testicular hypofunction,,,19
+30,E784,other hyperlipidemia,,,19
+30,N281,"cyst of kidney, acquired",,,19
+30,N302,other chronic cystitis,,,19
+30,N320,bladder-neck obstruction,,,19
+30,N328,other specified disorders of bladder,,,19
+30,N393,stress incontinence (female) (male),,,19
+30,N520,vasculogenic erectile dysfunction,,,19
+30,N529,"male erectile dysfunction, unspecified",,,19
+30,R311,benign essential microscopic hematuria,,,19
+30,R730,abnormal glucose,,,19
+30,Z136,encounter for screening for cardiovascular disorders,,,19
+30,Z139,"encounter for screening, unspecified",,,19
+30,Z855,personal history of malignant neoplasm of urinary tract,,,19
+31,N328,other specified disorders of bladder,100,19,19
+31,N302,other chronic cystitis,,,19
+31,N419,"inflammatory disease of prostate, unspecified",,,19
+31,R311,benign essential microscopic hematuria,,,19
+31,R32,unspecified urinary incontinence,,,19
+31,R538,other malaise and fatigue,,,19
+31,Z854,personal history of malignant neoplasm of genital organs,,,19
+32,R399,unsp symptoms and signs involving the genitourinary system,100,20,20
+32,N760,acute vaginitis,,,20
+32,Z682,"body mass index (bmi) 20-29, adult",,,20
+33,Z855,personal history of malignant neoplasm of urinary tract,100,21,21
+33,Z854,personal history of malignant neoplasm of genital organs,,,21
+33,N133,other and unspecified hydronephrosis,,,21
+33,N302,other chronic cystitis,,,21
+33,N529,"male erectile dysfunction, unspecified",,,21
+34,R809,"proteinuria, unspecified",,,
+34,Z136,encounter for screening for cardiovascular disorders,,,
+34,Z138,encounter for screening for oth diseases and disorders,,,
+35,R32,unspecified urinary incontinence,100,21,21
+36,R538,other malaise and fatigue,100,25,25
+36,E784,other hyperlipidemia,,,25
+36,R730,abnormal glucose,,,25
+36,Z136,encounter for screening for cardiovascular disorders,,,25
+36,Z138,encounter for screening for oth diseases and disorders,,,25
+37,Z854,personal history of malignant neoplasm of genital organs,100,15,15
+37,N393,stress incontinence (female) (male),,,15
+37,E291,testicular hypofunction,,,15
+37,N529,"male erectile dysfunction, unspecified",,,15
+38,N529,"male erectile dysfunction, unspecified",,,
+38,E291,testicular hypofunction,,,
+38,N402,nodular prostate without lower urinary tract symptoms,,,
+39,R730,abnormal glucose,,,
+39,E538,deficiency of other specified b group vitamins,,,
+39,E784,other hyperlipidemia,,,
+39,R358,other polyuria,,,
+39,Z139,"encounter for screening, unspecified",,,
+40,Z014,encounter for gynecological examination,100,17,17
+40,Z121,encntr screen for malignant neoplasm of intestinal tract,,,17
+40,Z138,encounter for screening for oth diseases and disorders,,,17
+40,Z124,encounter for screening for malignant neoplasm of cervix,,,17
+40,N952,postmenopausal atrophic vaginitis,,,17
+41,R103,pain localized to other parts of lower abdomen,100,20,20
+41,N309,"cystitis, unspecified",,,20
+41,Z121,encntr screen for malignant neoplasm of intestinal tract,,,20
+42,N302,other chronic cystitis,100,12,12
+42,N281,"cyst of kidney, acquired",,,12
+42,N301,interstitial cystitis (chronic),,,12
+43,N811,cystocele,100,12,12
+43,N952,postmenopausal atrophic vaginitis,,,12
+43,N201,calculus of ureter,,,12
+43,N309,"cystitis, unspecified",,,12
+43,N393,stress incontinence (female) (male),,,12
+43,R338,other retention of urine,,,12
+44,R311,benign essential microscopic hematuria,,,
+44,N281,"cyst of kidney, acquired",,,
+44,N359,"urethral stricture, unspecified",,,
+45,E291,testicular hypofunction,,,
+45,N528,other male erectile dysfunction,,,
+45,E784,other hyperlipidemia,,,
+45,N520,vasculogenic erectile dysfunction,,,
+46,C674,malignant neoplasm of posterior wall of bladder,,,
+47,R309,"painful micturition, unspecified",,,
+47,N309,"cystitis, unspecified",,,
+48,N301,interstitial cystitis (chronic),,,
+48,Q610,congenital renal cyst,,,
+48,R338,other retention of urine,,,
+49,E784,other hyperlipidemia,,,
+49,R799,"abnormal finding of blood chemistry, unspecified",,,
+50,N281,"cyst of kidney, acquired",,,
+50,N393,stress incontinence (female) (male),,,
+51,C672,malignant neoplasm of lateral wall of bladder,,,
+51,Z139,"encounter for screening, unspecified",,,
+52,N393,stress incontinence (female) (male),,,
+53,N201,calculus of ureter,100,11,11
+53,N133,other and unspecified hydronephrosis,,,11
+54,N309,"cystitis, unspecified",,,
+55,E538,deficiency of other specified b group vitamins,,,
+56,N133,other and unspecified hydronephrosis,,,
+57,C641,"malignant neoplasm of right kidney, except renal pelvis",,,
+58,Z682,"body mass index (bmi) 20-29, adult",,,
+59,N402,nodular prostate without lower urinary tract symptoms,,,
+60,N760,acute vaginitis,,,
+61,N202,calculus of kidney with calculus of ureter,,,
+62,R398,other symptoms and signs involving the genitourinary system,,,
+63,Z124,encounter for screening for malignant neoplasm of cervix,,,
+63,N952,postmenopausal atrophic vaginitis,,,
+63,Z121,encntr screen for malignant neoplasm of intestinal tract,,,
+63,Z138,encounter for screening for oth diseases and disorders,,,
+65,C649,"malignant neoplasm of unsp kidney, except renal pelvis",,,
+67,R739,"hyperglycemia, unspecified",,,
+67,Z139,"encounter for screening, unspecified",,,
+68,N419,"inflammatory disease of prostate, unspecified",,,
+69,N952,postmenopausal atrophic vaginitis,,,
+70,Z138,encounter for screening for oth diseases and disorders,,,
+70,Z139,"encounter for screening, unspecified",,,
+73,E079,"disorder of thyroid, unspecified",,,
+74,N320,bladder-neck obstruction,,,
+74,N359,"urethral stricture, unspecified",,,
+75,R338,other retention of urine,,,
+78,R358,other polyuria,,,
+80,Q610,congenital renal cyst,,,
+81,Z139,"encounter for screening, unspecified",,,
+82,N359,"urethral stricture, unspecified",,,
+83,Z804,family history of malignant neoplasm of genital organs,,,

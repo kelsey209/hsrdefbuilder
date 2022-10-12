@@ -1,0 +1,618 @@
+_Leaf_,code,DGNS_DESC,all_pc,prnc_pc,all_cnt,prnc_cnt,leaf_total
+0,M170,bilateral primary osteoarthritis of knee,,,,,69
+0,T840,mechanical complication of internal joint prosthesis,,,,,69
+0,M000,staphylococcal arthritis and polyarthritis,,,,,69
+0,R298,oth symptoms and signs involving the nervous and ms systems,,,,,69
+0,M751,"rotator cuff tear or rupture, not specified as traumatic",,,,,69
+0,M190,primary osteoarthritis of other joints,,,,,69
+0,M100,idiopathic gout,,,,,69
+0,M220,recurrent dislocation of patella,,,,,69
+0,S434,sprain of shoulder joint,,,,,69
+0,M161,unilateral primary osteoarthritis of hip,,,,,69
+0,M199,"osteoarthritis, unspecified site",,,,,69
+0,M219,unspecified acquired deformity of limb and hand,,,,,69
+0,M256,"stiffness of joint, not elsewhere classified",,,,,69
+0,M870,idiopathic aseptic necrosis of bone,,,,,69
+0,M898,other specified disorders of bone,,,,,69
+0,S818,open wound of lower leg,,,,,69
+0,T814,infection following a procedure,,,,,69
+0,T846,infect/inflm reaction due to internal fixation device,,,,,69
+0,L031,cellulitis and acute lymphangitis of other parts of limb,,,,,69
+0,L089,"local infection of the skin and subcutaneous tissue, unsp",,,,,69
+0,L905,scar conditions and fibrosis of skin,,,,,69
+0,M131,"monoarthritis, not elsewhere classified",,,,,69
+0,M138,other specified arthritis,,,,,69
+0,M218,other specified acquired deformities of limbs,,,,,69
+0,M253,other instability of joint,,,,,69
+0,M753,calcific tendinitis of shoulder,,,,,69
+0,M765,patellar tendinitis,,,,,69
+0,M798,other specified soft tissue disorders,,,,,69
+0,M893,hypertrophy of bone,,,,,69
+0,M968,"oth intraop and postproc comp and disorders of ms sys, nec",,,,,69
+0,Q686,discoid meniscus,,,,,69
+0,R788,"finding of oth substances, not normally found in blood",,,,,69
+0,S839,sprain of unspecified site of knee,,,,,69
+0,T857,infect/inflm reaction due to oth internal prosth dev/grft,,,,,69
+0,T858,"oth complications of internal prosth dev/grft, nec",,,,,69
+0,Z000,encounter for general adult medical examination,,,,,69
+0,Z471,aftercare following joint replacement surgery,,,,,69
+0,M668,spontaneous rupture of other tendons,,0,,,69
+0,S724,fracture of lower end of femur,,0,,,69
+0,S834,sprain of collateral ligament of knee,,0,,,69
+1,S832,"tear of meniscus, current injury",100,76.128016789,1906,1451,1906
+1,M224,chondromalacia patellae,29.853095488,4.5645330535,569,87,1906
+1,M171,unilateral primary osteoarthritis of knee,29.223504722,7.8174186779,557,149,1906
+1,M942,chondromalacia,27.911857293,3.3053515215,532,63,1906
+1,M658,other synovitis and tenosynovitis,7.3976915005,0.5771248688,141,11,1906
+1,M234,loose body in knee,7.240293809,,138,,1906
+1,M675,plica syndrome,6.8730325289,0.7345225603,131,14,1906
+1,M255,pain in joint,6.5582371459,1.6264428122,125,31,1906
+1,M122,villonodular synovitis (pigmented),3.9874081847,,76,,1906
+1,M673,transient synovitis,3.6726128017,,70,,1906
+1,M239,unspecified internal derangement of knee,1.888772298,,36,,1906
+1,M232,derangement of meniscus due to old tear or injury,1.6789087093,,32,,1906
+1,S833,"tear of articular cartilage of knee, current",1.4690451207,,28,,1906
+1,M659,"synovitis and tenosynovitis, unspecified",1.3641133263,,26,,1906
+1,M179,"osteoarthritis of knee, unspecified",1.3116474292,,25,,1906
+1,M678,other specified disorders of synovium and tendon,1.259181532,,24,,1906
+1,S835,sprain of cruciate ligament of knee,1.2067156348,,23,,1906
+1,M233,other meniscus derangements,1.0493179433,,20,,1906
+1,M651,other infective (teno)synovitis,0.8394543547,,16,,1906
+1,M712,synovial cyst of popliteal space [baker],0.8394543547,0,16,,1906
+1,M254,effusion of joint,0.629590766,0,12,,1906
+1,S724,fracture of lower end of femur,0.5771248688,,11,,1906
+1,M257,osteophyte,,0,,,1906
+1,M238,other internal derangements of knee,,,,,1906
+1,M112,other chondrocalcinosis,,,,,1906
+1,M932,osteochondritis dissecans,,,,,1906
+1,S821,fracture of upper end of tibia,,,,,1906
+1,M796,"pain in limb, hand, foot, fingers and toes",,,,,1906
+1,M125,traumatic arthropathy,,0,,,1906
+1,M173,unilateral post-traumatic osteoarthritis of knee,,0,,,1906
+1,M008,arthritis and polyarthritis due to other bacteria,,,,,1906
+1,M230,cystic meniscus,,,,,1906
+1,M246,ankylosis of joint,,,,,1906
+1,M949,"disorder of cartilage, unspecified",,0,,,1906
+1,M170,bilateral primary osteoarthritis of knee,,,,,1906
+1,M228,other disorders of patella,,,,,1906
+1,M190,primary osteoarthritis of other joints,,,,,1906
+1,M948,other specified disorders of cartilage,,,,,1906
+1,M794,hypertrophy of (infrapatellar) fat pad,,,,,1906
+1,M199,"osteoarthritis, unspecified site",,0,,,1906
+1,M236,other spontaneous disruption of ligament(s) of knee,,0,,,1906
+1,S830,subluxation and dislocation of patella,,0,,,1906
+1,M111,familial chondrocalcinosis,,,,,1906
+1,M241,other articular cartilage disorders,,0,,,1906
+1,M672,"synovial hypertrophy, not elsewhere classified",,0,,,1906
+1,M705,other bursitis of knee,,0,,,1906
+1,M765,patellar tendinitis,,0,,,1906
+1,Z966,presence of orthopedic joint implants,,0,,,1906
+1,M009,"pyogenic arthritis, unspecified",,,,,1906
+1,M222,patellofemoral disorders,,,,,1906
+1,M258,other specified joint disorders,,,,,1906
+1,M131,"monoarthritis, not elsewhere classified",,0,,,1906
+1,M223,other derangements of patella,,0,,,1906
+1,M235,chronic instability of knee,,0,,,1906
+1,M253,other instability of joint,,0,,,1906
+1,M958,oth acquired deformities of musculoskeletal system,,0,,,1906
+1,M245,contracture of joint,,,,,1906
+1,M625,"muscle wasting and atrophy, not elsewhere classified",,,,,1906
+1,M704,prepatellar bursitis,,,,,1906
+1,M843,stress fracture,,,,,1906
+1,M870,idiopathic aseptic necrosis of bone,,,,,1906
+1,S822,fracture of shaft of tibia,,,,,1906
+1,D212,"benign neoplasm of connctv/soft tiss of lower limb, inc hip",,0,,,1906
+1,M060,rheumatoid arthritis without rheumatoid factor,,0,,,1906
+1,M100,idiopathic gout,,0,,,1906
+1,M220,recurrent dislocation of patella,,0,,,1906
+1,M221,recurrent subluxation of patella,,0,,,1906
+1,M229,unspecified disorder of patella,,0,,,1906
+1,M256,"stiffness of joint, not elsewhere classified",,0,,,1906
+1,M478,other spondylosis,,0,,,1906
+1,M679,unspecified disorder of synovium and tendon,,0,,,1906
+1,M844,"pathological fracture, not elsewhere classified",,0,,,1906
+1,Q686,discoid meniscus,,0,,,1906
+1,S800,contusion of knee,,0,,,1906
+1,T844,"mech comp of internal orth devices, implants and grafts",,0,,,1906
+2,M942,chondromalacia,100,58.399209486,1012,591,1012
+2,M224,chondromalacia patellae,31.818181818,13.241106719,322,134,1012
+2,M232,derangement of meniscus due to old tear or injury,14.031620553,10.770750988,142,109,1012
+2,M234,loose body in knee,10.968379447,,111,,1012
+2,M233,other meniscus derangements,9.9802371542,4.4466403162,101,45,1012
+2,M171,unilateral primary osteoarthritis of knee,9.0909090909,2.6679841897,92,27,1012
+2,M675,plica syndrome,8.1027667984,,82,,1012
+2,M255,pain in joint,5.8300395257,1.8774703557,59,19,1012
+2,M658,other synovitis and tenosynovitis,4.0513833992,,41,,1012
+2,M673,transient synovitis,2.1739130435,,22,,1012
+2,M122,villonodular synovitis (pigmented),2.1739130435,,22,,1012
+2,M659,"synovitis and tenosynovitis, unspecified",1.976284585,,20,,1012
+2,M179,"osteoarthritis of knee, unspecified",1.3833992095,,14,,1012
+2,M245,contracture of joint,1.2845849802,0,13,,1012
+2,M238,other internal derangements of knee,1.185770751,,12,,1012
+2,M712,synovial cyst of popliteal space [baker],1.0869565217,,11,,1012
+2,M948,other specified disorders of cartilage,1.0869565217,0,11,,1012
+2,M246,ankylosis of joint,,,,,1012
+2,S821,fracture of upper end of tibia,,,,,1012
+2,M112,other chondrocalcinosis,,,,,1012
+2,M254,effusion of joint,,,,,1012
+2,M843,stress fracture,,,,,1012
+2,G891,"acute pain, not elsewhere classified",,0,,,1012
+2,M230,cystic meniscus,,0,,,1012
+2,M008,arthritis and polyarthritis due to other bacteria,,,,,1012
+2,S724,fracture of lower end of femur,,,,,1012
+2,M651,other infective (teno)synovitis,,0,,,1012
+2,M678,other specified disorders of synovium and tendon,,0,,,1012
+2,M765,patellar tendinitis,,,,,1012
+2,T845,infect/inflm reaction due to internal joint prosthesis,,,,,1012
+2,Z966,presence of orthopedic joint implants,,,,,1012
+2,M239,unspecified internal derangement of knee,,,,,1012
+2,M170,bilateral primary osteoarthritis of knee,,0,,,1012
+2,M236,other spontaneous disruption of ligament(s) of knee,,0,,,1012
+2,M241,other articular cartilage disorders,,0,,,1012
+2,M257,osteophyte,,0,,,1012
+2,M672,"synovial hypertrophy, not elsewhere classified",,0,,,1012
+2,M704,prepatellar bursitis,,0,,,1012
+2,M932,osteochondritis dissecans,,0,,,1012
+2,M844,"pathological fracture, not elsewhere classified",,,,,1012
+2,S833,"tear of articular cartilage of knee, current",,,,,1012
+2,D212,"benign neoplasm of connctv/soft tiss of lower limb, inc hip",,,,,1012
+2,M000,staphylococcal arthritis and polyarthritis,,0,,,1012
+2,M199,"osteoarthritis, unspecified site",,0,,,1012
+2,M235,chronic instability of knee,,0,,,1012
+2,M258,other specified joint disorders,,0,,,1012
+2,M705,other bursitis of knee,,0,,,1012
+2,M794,hypertrophy of (infrapatellar) fat pad,,0,,,1012
+2,M958,oth acquired deformities of musculoskeletal system,,0,,,1012
+2,S835,sprain of cruciate ligament of knee,,0,,,1012
+2,T848,oth complications of internal orthopedic prosth dev/grft,,0,,,1012
+2,M138,other specified arthritis,,,,,1012
+2,M173,unilateral post-traumatic osteoarthritis of knee,,,,,1012
+2,M244,recurrent dislocation of joint,,,,,1012
+2,M256,"stiffness of joint, not elsewhere classified",,,,,1012
+2,M764,tibial collateral bursitis [pellegrini-stieda],,,,,1012
+2,S721,pertrochanteric fracture,,,,,1012
+2,S830,subluxation and dislocation of patella,,,,,1012
+2,S831,subluxation and dislocation of knee,,,,,1012
+2,S899,unspecified injury of lower leg,,,,,1012
+2,M009,"pyogenic arthritis, unspecified",,0,,,1012
+2,M161,unilateral primary osteoarthritis of hip,,0,,,1012
+2,M222,patellofemoral disorders,,0,,,1012
+2,M228,other disorders of patella,,0,,,1012
+2,M250,hemarthrosis,,0,,,1012
+2,M893,hypertrophy of bone,,0,,,1012
+2,M898,other specified disorders of bone,,0,,,1012
+2,M949,"disorder of cartilage, unspecified",,0,,,1012
+2,S761,"injury of quadriceps muscle, fascia and tendon",,0,,,1012
+2,S800,contusion of knee,,0,,,1012
+2,T844,"mech comp of internal orth devices, implants and grafts",,0,,,1012
+3,M224,chondromalacia patellae,100,63.321799308,578,366,578
+3,M232,derangement of meniscus due to old tear or injury,23.183391003,14.186851211,134,82,578
+3,M171,unilateral primary osteoarthritis of knee,14.878892734,4.4982698962,86,26,578
+3,M233,other meniscus derangements,8.9965397924,3.8062283737,52,22,578
+3,M675,plica syndrome,6.7474048443,,39,,578
+3,M234,loose body in knee,6.0553633218,0,35,,578
+3,M255,pain in joint,3.8062283737,,22,,578
+3,M122,villonodular synovitis (pigmented),3.4602076125,,20,,578
+3,M658,other synovitis and tenosynovitis,2.9411764706,,17,,578
+3,M673,transient synovitis,2.4221453287,,14,,578
+3,M01X,direct infct of joint in infec/parastc dis classd elswhr,1.9031141869,1.9031141869,11,11,578
+3,M128,"other specific arthropathies, not elsewhere classified",1.9031141869,0,11,,578
+3,M659,"synovitis and tenosynovitis, unspecified",,,,,578
+3,M239,unspecified internal derangement of knee,,,,,578
+3,T848,oth complications of internal orthopedic prosth dev/grft,,,,,578
+3,M712,synovial cyst of popliteal space [baker],,,,,578
+3,M238,other internal derangements of knee,,,,,578
+3,M230,cystic meniscus,,,,,578
+3,M138,other specified arthritis,,,,,578
+3,M651,other infective (teno)synovitis,,,,,578
+3,M258,other specified joint disorders,,,,,578
+3,M843,stress fracture,,,,,578
+3,M246,ankylosis of joint,,,,,578
+3,M256,"stiffness of joint, not elsewhere classified",,,,,578
+3,M254,effusion of joint,,0,,,578
+3,M794,hypertrophy of (infrapatellar) fat pad,,0,,,578
+3,M932,osteochondritis dissecans,,,,,578
+3,M235,chronic instability of knee,,,,,578
+3,M236,other spontaneous disruption of ligament(s) of knee,,,,,578
+3,S820,fracture of patella,,,,,578
+3,S868,injury of other muscles and tendons at lower leg level,,,,,578
+3,M222,patellofemoral disorders,,0,,,578
+3,M257,osteophyte,,0,,,578
+3,M948,other specified disorders of cartilage,,0,,,578
+3,Z966,presence of orthopedic joint implants,,0,,,578
+3,M112,other chondrocalcinosis,,,,,578
+3,M844,"pathological fracture, not elsewhere classified",,,,,578
+3,S760,"injury of muscle, fascia and tendon of hip",,,,,578
+3,S821,fracture of upper end of tibia,,,,,578
+3,S833,"tear of articular cartilage of knee, current",,,,,578
+3,M870,idiopathic aseptic necrosis of bone,,,,,578
+3,M879,"osteonecrosis, unspecified",,,,,578
+3,S761,"injury of quadriceps muscle, fascia and tendon",,,,,578
+3,S835,sprain of cruciate ligament of knee,,,,,578
+3,L031,cellulitis and acute lymphangitis of other parts of limb,,,,,578
+3,M060,rheumatoid arthritis without rheumatoid factor,,,,,578
+3,M170,bilateral primary osteoarthritis of knee,,,,,578
+3,M173,unilateral post-traumatic osteoarthritis of knee,,,,,578
+3,M218,other specified acquired deformities of limbs,,,,,578
+3,M221,recurrent subluxation of patella,,,,,578
+3,M662,spontaneous rupture of extensor tendons,,,,,578
+3,M751,"rotator cuff tear or rupture, not specified as traumatic",,,,,578
+3,M868,other osteomyelitis,,,,,578
+3,S824,fracture of shaft of fibula,,,,,578
+3,S834,sprain of collateral ligament of knee,,,,,578
+3,M008,arthritis and polyarthritis due to other bacteria,,0,,,578
+3,M009,"pyogenic arthritis, unspecified",,0,,,578
+3,M179,"osteoarthritis of knee, unspecified",,0,,,578
+3,M190,primary osteoarthritis of other joints,,0,,,578
+3,M199,"osteoarthritis, unspecified site",,0,,,578
+3,M228,other disorders of patella,,0,,,578
+3,M245,contracture of joint,,0,,,578
+3,M705,other bursitis of knee,,0,,,578
+3,M752,bicipital tendinitis,,0,,,578
+3,M958,oth acquired deformities of musculoskeletal system,,0,,,578
+3,S724,fracture of lower end of femur,,0,,,578
+3,S830,subluxation and dislocation of patella,,0,,,578
+3,S839,sprain of unspecified site of knee,,0,,,578
+3,Z471,aftercare following joint replacement surgery,,0,,,578
+4,M171,unilateral primary osteoarthritis of knee,100,66.843971631,564,377,564
+4,M232,derangement of meniscus due to old tear or injury,23.404255319,13.120567376,132,74,564
+4,M233,other meniscus derangements,10.992907801,5.6737588652,62,32,564
+4,M234,loose body in knee,10.815602837,,61,,564
+4,M255,pain in joint,8.1560283688,2.304964539,46,13,564
+4,M675,plica syndrome,5.4964539007,,31,,564
+4,M794,hypertrophy of (infrapatellar) fat pad,2.6595744681,,15,,564
+4,M222,patellofemoral disorders,2.304964539,,13,,564
+4,M239,unspecified internal derangement of knee,1.9503546099,,11,,564
+4,M254,effusion of joint,,,,,564
+4,M658,other synovitis and tenosynovitis,,,,,564
+4,Z966,presence of orthopedic joint implants,,0,,,564
+4,M659,"synovitis and tenosynovitis, unspecified",,,,,564
+4,M122,villonodular synovitis (pigmented),,,,,564
+4,M238,other internal derangements of knee,,,,,564
+4,M948,other specified disorders of cartilage,,,,,564
+4,M230,cystic meniscus,,0,,,564
+4,M246,ankylosis of joint,,,,,564
+4,T848,oth complications of internal orthopedic prosth dev/grft,,,,,564
+4,M112,other chondrocalcinosis,,,,,564
+4,M712,synovial cyst of popliteal space [baker],,0,,,564
+4,M844,"pathological fracture, not elsewhere classified",,,,,564
+4,M672,"synovial hypertrophy, not elsewhere classified",,,,,564
+4,M008,arthritis and polyarthritis due to other bacteria,,,,,564
+4,M179,"osteoarthritis of knee, unspecified",,,,,564
+4,M190,primary osteoarthritis of other joints,,,,,564
+4,M250,hemarthrosis,,,,,564
+4,S821,fracture of upper end of tibia,,,,,564
+4,M257,osteophyte,,0,,,564
+4,M258,other specified joint disorders,,0,,,564
+4,M678,other specified disorders of synovium and tendon,,0,,,564
+4,M958,oth acquired deformities of musculoskeletal system,,0,,,564
+4,M218,other specified acquired deformities of limbs,,,,,564
+4,M843,stress fracture,,,,,564
+4,T845,infect/inflm reaction due to internal joint prosthesis,,,,,564
+4,M138,other specified arthritis,,,,,564
+4,M221,recurrent subluxation of patella,,,,,564
+4,M752,bicipital tendinitis,,,,,564
+4,M161,unilateral primary osteoarthritis of hip,,0,,,564
+4,M236,other spontaneous disruption of ligament(s) of knee,,0,,,564
+4,M673,transient synovitis,,0,,,564
+4,M898,other specified disorders of bone,,0,,,564
+4,Q686,discoid meniscus,,0,,,564
+4,S835,sprain of cruciate ligament of knee,,0,,,564
+4,T844,"mech comp of internal orth devices, implants and grafts",,0,,,564
+4,Z471,aftercare following joint replacement surgery,,0,,,564
+4,L089,"local infection of the skin and subcutaneous tissue, unsp",,,,,564
+4,M000,staphylococcal arthritis and polyarthritis,,,,,564
+4,M002,other streptococcal arthritis and polyarthritis,,,,,564
+4,M009,"pyogenic arthritis, unspecified",,,,,564
+4,M235,chronic instability of knee,,,,,564
+4,M478,other spondylosis,,,,,564
+4,S833,"tear of articular cartilage of knee, current",,,,,564
+4,S934,sprain of ankle,,,,,564
+4,M220,recurrent dislocation of patella,,0,,,564
+4,M223,other derangements of patella,,0,,,564
+4,M241,other articular cartilage disorders,,0,,,564
+4,M651,other infective (teno)synovitis,,0,,,564
+4,M751,"rotator cuff tear or rupture, not specified as traumatic",,0,,,564
+4,M765,patellar tendinitis,,0,,,564
+4,M768,"other specified enthesopathies of lower limb, excluding foot",,0,,,564
+4,M796,"pain in limb, hand, foot, fingers and toes",,0,,,564
+4,M932,osteochondritis dissecans,,0,,,564
+4,M949,"disorder of cartilage, unspecified",,0,,,564
+4,S724,fracture of lower end of femur,,0,,,564
+4,S761,"injury of quadriceps muscle, fascia and tendon",,0,,,564
+5,Z966,presence of orthopedic joint implants,100,,158,,158
+5,M246,ankylosis of joint,29.746835443,25.949367089,47,41,158
+5,M255,pain in joint,20.253164557,9.4936708861,32,15,158
+5,T848,oth complications of internal orthopedic prosth dev/grft,19.620253165,15.189873418,31,24,158
+5,M258,other specified joint disorders,16.455696203,13.291139241,26,21,158
+5,M238,other internal derangements of knee,9.4936708861,,15,,158
+5,M256,"stiffness of joint, not elsewhere classified",,,,,158
+5,M658,other synovitis and tenosynovitis,,,,,158
+5,M257,osteophyte,,,,,158
+5,L905,scar conditions and fibrosis of skin,,,,,158
+5,T840,mechanical complication of internal joint prosthesis,,,,,158
+5,M228,other disorders of patella,,,,,158
+5,M768,"other specified enthesopathies of lower limb, excluding foot",,,,,158
+5,M659,"synovitis and tenosynovitis, unspecified",,0,,,158
+5,M222,patellofemoral disorders,,,,,158
+5,M673,transient synovitis,,,,,158
+5,R298,oth symptoms and signs involving the nervous and ms systems,,,,,158
+5,M234,loose body in knee,,,,,158
+5,G891,"acute pain, not elsewhere classified",,0,,,158
+5,M254,effusion of joint,,0,,,158
+5,M229,unspecified disorder of patella,,,,,158
+5,Z471,aftercare following joint replacement surgery,,0,,,158
+5,M008,arthritis and polyarthritis due to other bacteria,,,,,158
+5,M233,other meniscus derangements,,,,,158
+5,M621,other rupture of muscle (nontraumatic),,,,,158
+5,M712,synovial cyst of popliteal space [baker],,,,,158
+5,M779,"enthesopathy, unspecified",,,,,158
+5,S800,contusion of knee,,,,,158
+5,T844,"mech comp of internal orth devices, implants and grafts",,,,,158
+5,T858,"oth complications of internal prosth dev/grft, nec",,,,,158
+5,M122,villonodular synovitis (pigmented),,0,,,158
+5,M128,"other specific arthropathies, not elsewhere classified",,0,,,158
+5,M678,other specified disorders of synovium and tendon,,0,,,158
+5,M898,other specified disorders of bone,,0,,,158
+5,M968,"oth intraop and postproc comp and disorders of ms sys, nec",,0,,,158
+5,S761,"injury of quadriceps muscle, fascia and tendon",,0,,,158
+5,T845,infect/inflm reaction due to internal joint prosthesis,,0,,,158
+6,M232,derangement of meniscus due to old tear or injury,100,78.431372549,102,80,102
+6,M238,other internal derangements of knee,,,,,102
+6,M255,pain in joint,,,,,102
+6,M234,loose body in knee,,0,,,102
+6,M658,other synovitis and tenosynovitis,,,,,102
+6,M673,transient synovitis,,0,,,102
+6,M179,"osteoarthritis of knee, unspecified",,,,,102
+6,M228,other disorders of patella,,,,,102
+6,M675,plica syndrome,,0,,,102
+6,M233,other meniscus derangements,,,,,102
+6,S820,fracture of patella,,,,,102
+6,M122,villonodular synovitis (pigmented),,0,,,102
+6,M170,bilateral primary osteoarthritis of knee,,0,,,102
+6,M246,ankylosis of joint,,0,,,102
+6,M659,"synovitis and tenosynovitis, unspecified",,0,,,102
+6,M199,"osteoarthritis, unspecified site",,,,,102
+6,M230,cystic meniscus,,,,,102
+6,M846,pathological fracture in other disease,,,,,102
+6,M870,idiopathic aseptic necrosis of bone,,,,,102
+6,M112,other chondrocalcinosis,,0,,,102
+6,M173,unilateral post-traumatic osteoarthritis of knee,,0,,,102
+6,M254,effusion of joint,,0,,,102
+6,M751,"rotator cuff tear or rupture, not specified as traumatic",,0,,,102
+6,M843,stress fracture,,0,,,102
+6,M932,osteochondritis dissecans,,0,,,102
+6,S800,contusion of knee,,0,,,102
+6,S821,fracture of upper end of tibia,,0,,,102
+6,S833,"tear of articular cartilage of knee, current",,0,,,102
+6,T814,infection following a procedure,,0,,,102
+7,M233,other meniscus derangements,100,74.242424242,66,49,66
+7,M179,"osteoarthritis of knee, unspecified",,,,,66
+7,M234,loose body in knee,,,,,66
+7,M125,traumatic arthropathy,,,,,66
+7,M658,other synovitis and tenosynovitis,,0,,,66
+7,M122,villonodular synovitis (pigmented),,,,,66
+7,M238,other internal derangements of knee,,,,,66
+7,M948,other specified disorders of cartilage,,,,,66
+7,M932,osteochondritis dissecans,,0,,,66
+7,M173,unilateral post-traumatic osteoarthritis of knee,,,,,66
+7,M949,"disorder of cartilage, unspecified",,,,,66
+7,M257,osteophyte,,,,,66
+7,M230,cystic meniscus,,0,,,66
+7,M675,plica syndrome,,0,,,66
+7,M712,synovial cyst of popliteal space [baker],,0,,,66
+7,M199,"osteoarthritis, unspecified site",,,,,66
+7,M239,unspecified internal derangement of knee,,,,,66
+7,M255,pain in joint,,,,,66
+7,S834,sprain of collateral ligament of knee,,,,,66
+7,M009,"pyogenic arthritis, unspecified",,0,,,66
+7,M138,other specified arthritis,,0,,,66
+7,M254,effusion of joint,,0,,,66
+7,M258,other specified joint disorders,,0,,,66
+7,M751,"rotator cuff tear or rupture, not specified as traumatic",,0,,,66
+7,M752,bicipital tendinitis,,0,,,66
+7,M794,hypertrophy of (infrapatellar) fat pad,,0,,,66
+7,S835,sprain of cruciate ligament of knee,,0,,,66
+8,M246,ankylosis of joint,100,82.692307692,52,43,52
+8,M258,other specified joint disorders,,0,,,52
+8,T848,oth complications of internal orthopedic prosth dev/grft,,,,,52
+8,M238,other internal derangements of knee,,0,,,52
+8,M702,olecranon bursitis,,,,,52
+8,M255,pain in joint,,,,,52
+8,M658,other synovitis and tenosynovitis,,,,,52
+8,M228,other disorders of patella,,0,,,52
+8,L905,scar conditions and fibrosis of skin,,,,,52
+8,M223,other derangements of patella,,,,,52
+8,Z471,aftercare following joint replacement surgery,,,,,52
+8,M100,idiopathic gout,,0,,,52
+8,M122,villonodular synovitis (pigmented),,0,,,52
+8,M199,"osteoarthritis, unspecified site",,0,,,52
+8,M234,loose body in knee,,0,,,52
+8,M254,effusion of joint,,0,,,52
+8,M712,synovial cyst of popliteal space [baker],,0,,,52
+9,M234,loose body in knee,100,48.076923077,52,25,52
+9,M179,"osteoarthritis of knee, unspecified",,,,,52
+9,M658,other synovitis and tenosynovitis,,,,,52
+9,T848,oth complications of internal orthopedic prosth dev/grft,,0,,,52
+9,M238,other internal derangements of knee,,,,,52
+9,M675,plica syndrome,,,,,52
+9,M255,pain in joint,,0,,,52
+9,M199,"osteoarthritis, unspecified site",,,,,52
+9,S835,sprain of cruciate ligament of knee,,,,,52
+9,M138,other specified arthritis,,,,,52
+9,M239,unspecified internal derangement of knee,,,,,52
+9,M257,osteophyte,,,,,52
+9,M948,other specified disorders of cartilage,,,,,52
+9,M254,effusion of joint,,0,,,52
+9,M659,"synovitis and tenosynovitis, unspecified",,0,,,52
+9,M112,other chondrocalcinosis,,,,,52
+9,M170,bilateral primary osteoarthritis of knee,,,,,52
+9,M235,chronic instability of knee,,,,,52
+9,M258,other specified joint disorders,,,,,52
+9,M932,osteochondritis dissecans,,,,,52
+9,S761,"injury of quadriceps muscle, fascia and tendon",,,,,52
+9,S833,"tear of articular cartilage of knee, current",,,,,52
+9,M672,"synovial hypertrophy, not elsewhere classified",,0,,,52
+9,M798,other specified soft tissue disorders,,0,,,52
+9,S830,subluxation and dislocation of patella,,0,,,52
+9,T844,"mech comp of internal orth devices, implants and grafts",,0,,,52
+10,M258,other specified joint disorders,100,69.76744186,43,30,43
+10,M255,pain in joint,,,,,43
+10,T848,oth complications of internal orthopedic prosth dev/grft,,0,,,43
+10,M241,other articular cartilage disorders,,,,,43
+10,M958,oth acquired deformities of musculoskeletal system,,,,,43
+10,M179,"osteoarthritis of knee, unspecified",,0,,,43
+10,M239,unspecified internal derangement of knee,,,,,43
+10,M257,osteophyte,,,,,43
+10,M705,other bursitis of knee,,,,,43
+10,S761,"injury of quadriceps muscle, fascia and tendon",,,,,43
+10,T840,mechanical complication of internal joint prosthesis,,,,,43
+10,Z471,aftercare following joint replacement surgery,,0,,,43
+11,M008,arthritis and polyarthritis due to other bacteria,100,91.891891892,37,34,37
+11,M100,idiopathic gout,,0,,,37
+11,M658,other synovitis and tenosynovitis,,0,,,37
+11,T814,infection following a procedure,,0,,,37
+11,M254,effusion of joint,,,,,37
+11,M255,pain in joint,,,,,37
+11,T845,infect/inflm reaction due to internal joint prosthesis,,,,,37
+11,S833,"tear of articular cartilage of knee, current",,0,,,37
+11,S835,sprain of cruciate ligament of knee,,0,,,37
+11,Z471,aftercare following joint replacement surgery,,0,,,37
+12,M239,unspecified internal derangement of knee,100,97.058823529,34,33,34
+12,M673,transient synovitis,,0,,,34
+12,M846,pathological fracture in other disease,,0,,,34
+12,S701,contusion of thigh,,,,,34
+12,M138,other specified arthritis,,0,,,34
+12,M255,pain in joint,,0,,,34
+12,M659,"synovitis and tenosynovitis, unspecified",,0,,,34
+12,M675,plica syndrome,,0,,,34
+12,M794,hypertrophy of (infrapatellar) fat pad,,0,,,34
+12,M949,"disorder of cartilage, unspecified",,0,,,34
+13,M238,other internal derangements of knee,100,84,25,21,25
+13,M658,other synovitis and tenosynovitis,,,,,25
+13,M255,pain in joint,,0,,,25
+13,M173,unilateral post-traumatic osteoarthritis of knee,,,,,25
+13,M712,synovial cyst of popliteal space [baker],,,,,25
+13,M752,bicipital tendinitis,,,,,25
+13,M190,primary osteoarthritis of other joints,,0,,,25
+13,M245,contracture of joint,,0,,,25
+13,M254,effusion of joint,,0,,,25
+13,M751,"rotator cuff tear or rupture, not specified as traumatic",,0,,,25
+13,M898,other specified disorders of bone,,0,,,25
+14,M948,other specified disorders of cartilage,100,82.608695652,23,19,23
+14,M675,plica syndrome,,,,,23
+14,M109,"gout, unspecified",,,,,23
+14,M179,"osteoarthritis of knee, unspecified",,,,,23
+14,M257,osteophyte,,,,,23
+14,M254,effusion of joint,,0,,,23
+14,M659,"synovitis and tenosynovitis, unspecified",,0,,,23
+14,M794,hypertrophy of (infrapatellar) fat pad,,0,,,23
+15,M179,"osteoarthritis of knee, unspecified",100,69.230769231,26,18,26
+15,M255,pain in joint,,,,,26
+15,M843,stress fracture,,,,,26
+15,M254,effusion of joint,,0,,,26
+15,M257,osteophyte,,0,,,26
+15,L031,cellulitis and acute lymphangitis of other parts of limb,,,,,26
+15,M230,cystic meniscus,,,,,26
+15,M122,villonodular synovitis (pigmented),,0,,,26
+15,M659,"synovitis and tenosynovitis, unspecified",,0,,,26
+15,M844,"pathological fracture, not elsewhere classified",,0,,,26
+16,T848,oth complications of internal orthopedic prosth dev/grft,100,88.235294118,17,15,17
+16,M658,other synovitis and tenosynovitis,,,,,17
+16,M255,pain in joint,,,,,17
+17,S821,fracture of upper end of tibia,100,100,18,18,18
+17,S800,contusion of knee,,0,,,18
+17,S839,sprain of unspecified site of knee,,0,,,18
+18,M009,"pyogenic arthritis, unspecified",100,88.235294118,17,15,17
+18,M128,"other specific arthropathies, not elsewhere classified",,0,,,17
+18,M138,other specified arthritis,,,,,17
+18,M254,effusion of joint,,,,,17
+18,S818,open wound of lower leg,,0,,,17
+19,M255,pain in joint,100,81.666666667,60,49,60
+19,M254,effusion of joint,,,,,60
+19,M230,cystic meniscus,,0,,,60
+19,G891,"acute pain, not elsewhere classified",,,,,60
+19,M000,staphylococcal arthritis and polyarthritis,,,,,60
+19,M245,contracture of joint,,,,,60
+19,M256,"stiffness of joint, not elsewhere classified",,,,,60
+19,M679,unspecified disorder of synovium and tendon,,,,,60
+19,M712,synovial cyst of popliteal space [baker],,,,,60
+19,M751,"rotator cuff tear or rupture, not specified as traumatic",,,,,60
+19,S820,fracture of patella,,,,,60
+19,L905,scar conditions and fibrosis of skin,,0,,,60
+19,M002,other streptococcal arthritis and polyarthritis,,0,,,60
+19,M190,primary osteoarthritis of other joints,,0,,,60
+19,M222,patellofemoral disorders,,0,,,60
+19,M658,other synovitis and tenosynovitis,,0,,,60
+19,M662,spontaneous rupture of extensor tendons,,0,,,60
+19,M765,patellar tendinitis,,0,,,60
+20,M658,other synovitis and tenosynovitis,100,,13,,13
+20,M112,other chondrocalcinosis,,,,,13
+20,M173,unilateral post-traumatic osteoarthritis of knee,,,,,13
+20,M245,contracture of joint,,,,,13
+20,M250,hemarthrosis,,,,,13
+20,M256,"stiffness of joint, not elsewhere classified",,,,,13
+20,M257,osteophyte,,,,,13
+20,M668,spontaneous rupture of other tendons,,,,,13
+20,M893,hypertrophy of bone,,,,,13
+20,M190,primary osteoarthritis of other joints,,0,,,13
+20,M222,patellofemoral disorders,,0,,,13
+20,M751,"rotator cuff tear or rupture, not specified as traumatic",,0,,,13
+21,M230,cystic meniscus,,,,,
+21,M932,osteochondritis dissecans,,0,,,
+22,M125,traumatic arthropathy,100,92.307692308,13,12,13
+22,M843,stress fracture,,,,,13
+23,M254,effusion of joint,,,,,
+23,M112,other chondrocalcinosis,,0,,,
+23,M673,transient synovitis,,0,,,
+24,M675,plica syndrome,,,,,
+24,M199,"osteoarthritis, unspecified site",,0,,,
+24,S839,sprain of unspecified site of knee,,0,,,
+24,M898,other specified disorders of bone,,,,,
+25,M958,oth acquired deformities of musculoskeletal system,,,,,
+25,M893,hypertrophy of bone,,,,,
+25,M659,"synovitis and tenosynovitis, unspecified",,0,,,
+25,M794,hypertrophy of (infrapatellar) fat pad,,0,,,
+26,M222,patellofemoral disorders,,,,,
+26,S830,subluxation and dislocation of patella,,,,,
+26,M932,osteochondritis dissecans,,0,,,
+27,S835,sprain of cruciate ligament of knee,,,,,
+28,M002,other streptococcal arthritis and polyarthritis,,,,,
+28,L031,cellulitis and acute lymphangitis of other parts of limb,,,,,
+28,M250,hemarthrosis,,,,,
+28,M704,prepatellar bursitis,,0,,,
+29,T845,infect/inflm reaction due to internal joint prosthesis,,,,,
+29,S800,contusion of knee,,,,,
+29,M712,synovial cyst of popliteal space [baker],,0,,,
+30,M257,osteophyte,,,,,
+30,M256,"stiffness of joint, not elsewhere classified",,0,,,
+30,M968,"oth intraop and postproc comp and disorders of ms sys, nec",,,,,
+31,M241,other articular cartilage disorders,,,,,
+31,S434,sprain of shoulder joint,,,,,
+32,M250,hemarthrosis,,,,,
+32,S800,contusion of knee,,,,,
+32,M798,other specified soft tissue disorders,,0,,,
+33,T844,"mech comp of internal orth devices, implants and grafts",,,,,
+34,S833,"tear of articular cartilage of knee, current",,,,,
+35,M122,villonodular synovitis (pigmented),,,,,
+35,M223,other derangements of patella,,,,,
+35,S724,fracture of lower end of femur,,0,,,
+36,S820,fracture of patella,,,,,
+37,M673,transient synovitis,,,,,
+38,M932,osteochondritis dissecans,,,,,
+38,M844,"pathological fracture, not elsewhere classified",,,,,
+38,S724,fracture of lower end of femur,,,,,
+39,M173,unilateral post-traumatic osteoarthritis of knee,,,,,
+39,M161,unilateral primary osteoarthritis of hip,,0,,,
+41,M223,other derangements of patella,,,,,
+42,M844,"pathological fracture, not elsewhere classified",,,,,
+42,S724,fracture of lower end of femur,,0,,,
+43,M704,prepatellar bursitis,,,,,
+44,M949,"disorder of cartilage, unspecified",,,,,
+45,M112,other chondrocalcinosis,,,,,
+46,M678,other specified disorders of synovium and tendon,,,,,
+47,M01X,direct infct of joint in infec/parastc dis classd elswhr,,,,,
+48,M651,other infective (teno)synovitis,,,,,
+49,M794,hypertrophy of (infrapatellar) fat pad,,,,,
+50,M128,"other specific arthropathies, not elsewhere classified",,,,,
+52,M245,contracture of joint,,,,,

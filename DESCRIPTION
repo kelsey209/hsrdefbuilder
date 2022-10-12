@@ -1,16 +1,16 @@
 Package: hsrdefbuilder
 Type: Package
 Title: Health Services Definition Builder
-Version: 0.1.0
+Version: 1.0.0
 Author: Kelsey Chalmers
 Maintainer: <kchalmers@lowninstitute.org>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT License
 Encoding: UTF-8
 LazyData: true
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5.0)
 Imports: 
     DT (>= 0.18),
     data.table (>= 1.14.0),

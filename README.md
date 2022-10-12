@@ -1,7 +1,5 @@
 # Health Services Research Definition Builder
 
-Update 2022-10-05: This package is currently under updates and may not work if downloaded using its current version. 
-
 ## Overview 
 
 This package is created for analysts starting a claims-based research project, requiring
@@ -37,3 +35,11 @@ The hsrdefbuilder shiny application can be run using the R function:
 ```
 hsrdefbuilder::runDefBuilder()
 ```
+
+## Minimum dataset related to publication
+
+The folder `minimum_dataset_paper` contains the output data from the SAS program for the services discussed in our submitted paper ([medRxiv link](https://doi.org/10.1101/2022.03.16.22272475)). 
+- Table 2 was compiled from results that were output from running `hsrdef_run.SAS`. 
+- Table 3 was based on the saved output data set from carrier claims with CPT code 29877: `results_table3_carrier29877.csv`.
+- Table 4 results were compiled using the SAS code `hsrdef_run_urinalysis_check.R`. The datasets containing the important diagnosis codes listed in the table are: `results_table4_carrier81001.csv`, `results_table4_carrier81003.csv`, `results_table4_outpatient81001.csv`, `results_table4_outpatient81003.csv`). 
+- Table 5 was created using the data set output from the SAS application with inpatient claims for procedure codes `0SG0x`: `results_table5_inpatient0SG0.csv`. 

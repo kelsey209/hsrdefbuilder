@@ -6,7 +6,7 @@
 #'
 #' @importFrom ggplot2 ggplot aes geom_bar scale_fill_manual labs theme_minimal theme geom_rect theme_void coord_flip element_blank
 #' @importFrom DT renderDataTable datatable
-#' @importFrom utils head write.csv
+#' @importFrom utils head write.csv data
 #' @importFrom shiny reactiveValues observeEvent reactive renderPlot downloadHandler
 #' @import data.table
 #'
@@ -19,6 +19,19 @@ server <- function(input,output,session){
 
   vals = reactiveValues()
   vals$PlotsActive = FALSE
+
+  # use default selection ---------------------------------------------------
+  observeEvent(input$load_example, {
+    data(exampledata)
+    outData = hsrdef_initialdata(input_data_select = exampledata,load_data = FALSE)
+    vals$Data = outData$Data
+    vals$FullData = outData$FullData
+    vals$CodeLevels = outData$CodeLevels
+    vals$PlotsActive = TRUE
+    vals$ExcludeCodes = vector(mode = "character")
+    vals$IncludeCodes = vector(mode = "character")
+  })
+
 
   # read in input data and create data frames ------------------------------
 
