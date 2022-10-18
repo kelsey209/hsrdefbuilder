@@ -141,11 +141,8 @@ server <- function(input,output,session){
   observeEvent(input$label_codes,{
     x = vals$Data
     x_lab = input$label_text
-    print(paste0('x_lab = ',x_lab))
     x_codes = x$Code[input$mytable_rows_selected]
-    print(x_codes)
     x$Labels[x$Code %in% x_codes] = x_lab
-    print(sum(x$Code %in% x_codes))
     vals$Data = x
   })
 

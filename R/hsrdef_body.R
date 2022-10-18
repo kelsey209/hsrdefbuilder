@@ -48,44 +48,51 @@ hsrdef_body <- function(){
   # create set of action buttons and data table
   fluidRow(column(7,
                   box(width = 12,
-                      helpText("Select rows by clicking on them, then select an action.",
-                               style = "text-align:center"),
+                      helpText("Please upload data using the options on the side panel. Users can then interact with the table below
+                               to develop their cohort criteria. Users can also add their own labels to selected codes for their later reference.",
+                               style = "text-align:left"),
                       fluidRow(
                         column(12,offset = 0,
                                # action button: remove all user selections
-                               column(2,actionButton("clear_codes","Clear criteria")),
+                               column(2,actionButton("clear_codes","Clear selections",
+                                                     style = "background-color: #F5B7B1")),
                                bsTooltip("clear_codes",
-                                         "Clear inclusion/exclusion selection",
-                                         "right",
-                                         options = list(container = "body")),
-                               column(2,
-                                      # action button: add excluded codes
-                                      actionButton("exclude_codes","Apply exclusions")),
-                               bsTooltip("exclude_codes",
-                                         "Creates an exclusion list from the selected row(s).",
-                                         "right",
-                                         options = list(container = "body")),
-                               column(2,offset = 0.2,
-                                      # action button: add included codes
-                                      actionButton("include_codes","Apply inclusions")),
-                               bsTooltip("include_codes",
-                                         "Creates an inclusion list from the selected row(s).",
+                                         "Clear inclusion/exclusion criteria",
                                          "right",
                                          options = list(container = "body")),
                                # action button: remove uninteresting rows
-                               column(2,actionButton("drop_rows","Hide codes")),
+                               column(2,actionButton("drop_rows","Hide codes",
+                                                     style = "background-color: #F5B7B1")),
                                bsTooltip("drop_rows","Hide selected row(s) - code not interesting.",
                                          "right",
                                          options = list(container = "body")),
-                               column(2,offset = 0.5,
+
+                               column(2,
+                                      # action button: add excluded codes
+                                      actionButton("exclude_codes","Exclude codes",
+                                                   style = "background-color: #AED6F1")),
+                               bsTooltip("exclude_codes",
+                                         "Use selected row(s) as exclusion criteria.",
+                                         "right",
+                                         options = list(container = "body")),
+                               column(2,
+                                      # action button: add included codes
+                                      actionButton("include_codes","Include codes",
+                                                   style = "background-color: #AED6F1")),
+                               bsTooltip("include_codes",
+                                         "Use selected row(s) as inclusion criteria.",
+                                         "right",
+                                         options = list(container = "body")),
+                               column(2,
                                       # let users create preliminary labels
                                       selectizeInput(inputId = "label_text",
-                                                     "Enter label",
+                                                     label = tags$span(style = "color: #DC7633;","Input label"),
                                                      width = '1000px',
                                                      choices = vector(mode = "character"),
                                                      options = list(create = TRUE))),
                                column(2,
-                                      actionButton("label_codes","Create label")),
+                                      actionButton("label_codes","Add label",
+                                                   style = "background-color: #EDBB99")),
                                bsTooltip("label_codes",
                                          "Add label to the selected row(s).",
                                          "right",
@@ -107,7 +114,7 @@ hsrdef_body <- function(){
                Numbers are not reported since these are counts based on a sample of claims."),
              p("Users can download their definitions and use on their own claims.
                Our code is available for users to run on Medicare claims, if they have access.
-               Alternatively, if you have a service you would like to collaborate on please contact us."),
+               Alternatively, please contact us if their is a service you would like to collaborate on."),
 
              # PLOT output: bar chart
              hr(),
@@ -118,8 +125,8 @@ hsrdef_body <- function(){
              column(12,plotOutput("plot1")),
              br(),
              h5("Total count of claims"),
-             helpText("This shows the approximate proportion of total claims that meet the user's
-                      definition. The Maybe category captures diagnosis combinations with masked counts."),
+             helpText("This shows the approximate proportion of total claims that met the user's
+                      criteria. The Maybe category captures diagnosis combinations with masked counts."),
              br(),
 
              # PLOT output: bar chart
@@ -132,7 +139,7 @@ hsrdef_body <- function(){
              hr(),
 
              # action buttons: let users upload previous data
-             p("Users can upload previously created definitions to apply to the current table."),
+             p("Upload previously selected criteria to apply to the current data:"),
              column(12,fileInput("uploadCodes",'Upload selections',
                                  multiple = FALSE)),
              bsTooltip("uploadCodes",
@@ -141,7 +148,7 @@ hsrdef_body <- function(){
                        options = list(container = "body")),
 
              # action buttons: let users download their data
-             p("Users can download their developed definitions."),
+             p("Download selected criteria:"),
              column(12,downloadLink('downloadData','Click here to save definition')),
              bsTooltip("downloadData",
                        "Save your code selections.",
