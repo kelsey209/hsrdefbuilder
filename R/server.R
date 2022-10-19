@@ -23,7 +23,8 @@ server <- function(input,output,session){
   # use default selection ---------------------------------------------------
   observeEvent(input$load_example, {
     data(exampledata)
-    outData = hsrdef_initialdata(input_data_select = exampledata,load_data = FALSE)
+    outData = hsrdef_initialdata(input_data_select = exampledata,
+                                 load_data = FALSE)
     vals$Data = outData$Data
     vals$FullData = outData$FullData
     vals$CodeLevels = outData$CodeLevels
@@ -84,8 +85,8 @@ server <- function(input,output,session){
     x$Include[input$mytable_rows_selected] = gsub(pattern = 'checked="checked"',
                                                   replacement = '',
                                                   x = x$Include[input$mytable_rows_selected])
-    y = unique(c(y,x$Code[input$mytable_rows_selected]))
-    z = z[!z %in% x$Code[input$mytable_rows_selected]]
+    y = unique(c(y,x$ID[input$mytable_rows_selected]))
+    z = z[!z %in% x$ID[input$mytable_rows_selected]]
     vals$Data = x
     vals$ExcludeCodes = y
     vals$IncludeCodes = z
@@ -116,8 +117,8 @@ server <- function(input,output,session){
     x$Exclude[input$mytable_rows_selected] = gsub(pattern = 'checked="checked"',
                                                   replacement = '',
                                                   x = x$Exclude[input$mytable_rows_selected])
-    y = unique(c(y,x$Code[input$mytable_rows_selected]))
-    z = z[!z %in% x$Code[input$mytable_rows_selected]]
+    y = unique(c(y,x$ID[input$mytable_rows_selected]))
+    z = z[!z %in% x$ID[input$mytable_rows_selected]]
     vals$Data = x
     vals$IncludeCodes = y
     vals$ExcludeCodes = z
@@ -141,8 +142,8 @@ server <- function(input,output,session){
   observeEvent(input$label_codes,{
     x = vals$Data
     x_lab = input$label_text
-    x_codes = x$Code[input$mytable_rows_selected]
-    x$Labels[x$Code %in% x_codes] = x_lab
+    x_codes = x$ID[input$mytable_rows_selected]
+    x$Labels[x$ID %in% x_codes] = x_lab
     vals$Data = x
   })
 
@@ -178,7 +179,7 @@ server <- function(input,output,session){
 
   output$plot1 = renderPlot({
     if (vals$PlotsActive == TRUE) {
-      ggplot(local_df(),aes(y = Code,x = value,fill = name)) +
+      ggplot(local_df(),aes(y = code,x = value,fill = name)) +
         geom_bar(stat = "identity", position = "stack",colour = "black") +
         scale_fill_manual(labels = c("Excluded","Maybe","Included"),
                           values = c('#c5ff7f', '#56b63f','#006b09')) +
@@ -209,8 +210,8 @@ server <- function(input,output,session){
     outData = hsrdef_uploaddata(file = input$uploadCodes,old_data = x)
 
     vals$Data = outData
-    vals$ExcludeCodes = outData$Code[outData$ExcludeCode == 1]
-    vals$IncludeCodes = outData$Code[outData$IncludeCode == 1]
+    vals$ExcludeCodes = outData$ID[outData$ExcludeCode == 1]
+    vals$IncludeCodes = outData$ID[outData$IncludeCode == 1]
   }
   )
 
@@ -222,9 +223,9 @@ server <- function(input,output,session){
     },
     content = function(file) {
       x = copy(vals$Data)
-      x[,ExcludeCode := fifelse(x$Code %in% vals$ExcludeCodes,1,0)]
-      x[,IncludeCode := fifelse(x$Code %in% vals$IncludeCodes,1,0)]
-      write.csv(x[,c("Code","Description","ExcludeCode","IncludeCode","Labels")],
+      x[,ExcludeCode := fifelse(x$ID %in% vals$ExcludeCodes,1,0)]
+      x[,IncludeCode := fifelse(x$ID %in% vals$IncludeCodes,1,0)]
+      write.csv(x[,c("ID","Code","Description","ExcludeCode","IncludeCode","Labels")],
                 file, row.names = FALSE, na = "")
     }
   )

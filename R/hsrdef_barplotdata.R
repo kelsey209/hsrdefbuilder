@@ -16,11 +16,11 @@ hsrdef_barplotdata <- function(x,data,code_levels,include_codes,exclude_codes){
     x <- x[in_data == 1]
   }
 
-  data <- data.table::merge.data.table(data,x[,c("Code")],
-                           by.x = "Code", by.y = "Code")
+  data <- data.table::merge.data.table(data,x[,c("ID","Code")],
+                                       by.x = "code", by.y = "Code")
 
   # include codes: where user input == I ------------------------------------
-  include_sub <- data[Code %in% include_codes]
+  include_sub <- data[ID %in% include_codes]
   include_sub[,`:=`(all_cnt_low = fifelse(is.na(all_cnt),1,all_cnt),
                     all_cnt_up = fifelse(is.na(all_cnt),10,all_cnt))]
 
@@ -34,9 +34,9 @@ hsrdef_barplotdata <- function(x,data,code_levels,include_codes,exclude_codes){
 
   # exclude codes: where user input == E ------------------------------------
 
-  exclude_sub <- data[Code %in% exclude_codes]
+  exclude_sub <- data[ID %in% exclude_codes]
   exclude_sub[,`:=`(all_cnt_low = fifelse(is.na(all_cnt),1,all_cnt),
-                   all_cnt_up = fifelse(is.na(all_cnt),10,all_cnt))]
+                    all_cnt_up = fifelse(is.na(all_cnt),10,all_cnt))]
 
   # the minimum to exclude is the maximum across the all count lowest values,
   # since we are assuming this overlaps with the other claim counts in the leaf
@@ -83,11 +83,13 @@ hsrdef_barplotdata <- function(x,data,code_levels,include_codes,exclude_codes){
   df[,DefExclude := apply(.SD, 1, max), .SDcols = c("E1","E3")]
   df[,GreyZone := leaf_total - Potential - DefExclude]
 
-  df <- df[,c("_Leaf_","Code","Potential","GreyZone","DefExclude")]
+  df <- df[,c("_Leaf_","code","Potential","GreyZone","DefExclude")]
 
-  df <- melt(df,id.vars = c("_Leaf_","Code"),measure.vars = c("Potential","GreyZone","DefExclude"),variable.name = "name")
+  df <- melt(df,id.vars = c("_Leaf_","code"),
+             measure.vars = c("Potential","GreyZone","DefExclude"),
+             variable.name = "name")
 
-  df[,Code := factor(Code,levels = rev(unlist(code_levels)))]
+  df[,code := factor(code,levels = rev(unlist(code_levels)))]
 
   df[,name := factor(name,levels = c("DefExclude","GreyZone","Potential"))]
 
@@ -96,15 +98,15 @@ hsrdef_barplotdata <- function(x,data,code_levels,include_codes,exclude_codes){
   if (0 %in% data$`_Leaf_` && !is.na(data$leaf_total[data$`_Leaf_` == 0][1])) {
     df <- rbindlist(list(df,
                          data.table(`_Leaf_` = 0,
-                                    Code = "-",
+                                    code = "-",
                                     name = "GreyZone",
                                     value = data$leaf_total[data$`_Leaf_` == 0][1])))
 
-    df[,Code := factor(Code,levels = rev(c("-",unlist(code_levels))))]
+    df[,code := factor(code,levels = rev(c("-",unlist(code_levels))))]
   }
 
   # remove missing code level counts -- fail safe
-  df <- df[is.na(Code) == FALSE]
+  df <- df[is.na(code) == FALSE]
 
   return(df)
 
